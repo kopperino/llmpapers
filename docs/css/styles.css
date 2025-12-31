@@ -911,10 +911,13 @@ button {
   display: flex;
   gap: 0.5rem;
   margin-top: 0.75rem;
+  align-items: center;
+  width: 100%;
 }
 
 .keyword-input {
   flex: 1;
+  min-width: 0;
   padding: 0.5rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -930,24 +933,52 @@ button {
 }
 
 .btn-add-keyword {
-  padding: 0.5rem 1rem;
+  flex-shrink: 0;
+  padding: 0.5rem 0.75rem;
   background: var(--secondary-color);
   border: none;
   border-radius: var(--radius-sm);
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
   transition: var(--transition);
+  line-height: 1;
 }
 
 .btn-add-keyword:hover {
   background: #059669;
-  transform: scale(1.05);
 }
 
 .btn-add-keyword:active {
   transform: scale(0.95);
+}
+
+/* Removable keyword styling */
+.keyword-tag.removable {
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.keyword-tag.removable:hover {
+  background: var(--danger-color);
+  border-color: var(--danger-color);
+  color: white;
+}
+
+.keyword-remove {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.7rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.keyword-tag.removable:hover .keyword-remove {
+  opacity: 1;
 }
 
 /* New Category Form */

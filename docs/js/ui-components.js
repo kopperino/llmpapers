@@ -375,10 +375,10 @@ export function showNoResults(show, element) {
  * @param {Object} customKeywords - Custom keywords map {categoryId: [keywords]}
  * @param {Array} customCategories - Array of custom category definitions
  * @param {HTMLElement} container - Container element
- * @param {Object} callbacks - {onAddKeyword, onAddCategory, onDeleteCategory}
+ * @param {Object} callbacks - {onAddKeyword, onRemoveKeyword, onAddCategory, onDeleteCategory}
  */
 export function renderCategoryLegend(categories, customKeywords, customCategories, container, callbacks) {
-  const { onAddKeyword, onAddCategory, onDeleteCategory } = callbacks;
+  const { onAddKeyword, onRemoveKeyword, onAddCategory, onDeleteCategory } = callbacks;
 
   // Combine default and custom categories
   const allCategories = [
@@ -396,13 +396,16 @@ export function renderCategoryLegend(categories, customKeywords, customCategorie
         <div class="legend-category ${cat.isCustom ? 'custom-category' : ''}">
           <div class="legend-category-header">
             <span class="category-tag ${cat.id}">${cat.name}</span>
-            ${cat.isCustom ? `<button class="btn-delete-category" data-category="${cat.id}" title="Delete category">×</button>` : ''}
+            ${cat.isCustom ? `<button class="btn-delete-category" data-category="${cat.id}" title="Delete category">x</button>` : ''}
           </div>
           <p class="legend-description">${cat.description || 'Custom category'}</p>
           <div class="legend-keywords">
             ${allKeywords.length > 0 ? allKeywords.map(kw => {
               const isCustom = custom.includes(kw) || cat.isCustom;
-              return `<span class="keyword-tag ${isCustom ? 'custom' : ''}" title="${isCustom ? 'Custom keyword' : 'Default keyword'}">${kw}</span>`;
+              if (isCustom) {
+                return `<span class="keyword-tag custom removable" data-category="${cat.id}" data-keyword="${kw}" title="Click to remove">${kw}<span class="keyword-remove">x</span></span>`;
+              }
+              return `<span class="keyword-tag" title="Default keyword (cannot remove)">${kw}</span>`;
             }).join('') : '<span class="no-keywords">No keywords yet</span>'}
           </div>
           <div class="add-keyword-form">
@@ -496,6 +499,17 @@ export function renderCategoryLegend(categories, customKeywords, customCategorie
           onAddKeyword(categoryId, keyword);
           e.target.value = '';
         }
+      }
+    });
+  });
+
+  // Attach event listeners to removable keywords
+  container.querySelectorAll('.keyword-tag.removable').forEach(tag => {
+    tag.addEventListener('click', (e) => {
+      const categoryId = tag.dataset.category;
+      const keyword = tag.dataset.keyword;
+      if (onRemoveKeyword) {
+        onRemoveKeyword(categoryId, keyword);
       }
     });
   });

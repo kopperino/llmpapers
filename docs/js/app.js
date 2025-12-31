@@ -311,6 +311,7 @@ class App {
       this.elements.categoryLegend,
       {
         onAddKeyword: (categoryId, keyword) => this.addKeyword(categoryId, keyword),
+        onRemoveKeyword: (categoryId, keyword) => this.removeKeyword(categoryId, keyword),
         onAddCategory: (name, keywords) => this.addCategory(name, keywords),
         onDeleteCategory: (categoryId) => this.deleteCategory(categoryId)
       }
@@ -347,6 +348,66 @@ class App {
     this.applyFiltersAndRender();
 
     showToast(`Added "${keyword}" - ${updatedCount} new category assignments`, 'success');
+  }
+
+  /**
+   * Remove keyword from category
+   * @param {string} categoryId - Category ID
+   * @param {string} keyword - Keyword to remove
+   */
+  removeKeyword(categoryId, keyword) {
+    // Check if it's a custom category
+    const isCustomCategory = this.customCategories.some(cat => cat.id === categoryId);
+
+    if (isCustomCategory) {
+      // Remove from custom category's keywords
+      const category = this.customCategories.find(cat => cat.id === categoryId);
+      if (category) {
+        const index = category.keywords.indexOf(keyword);
+        if (index !== -1) {
+          category.keywords.splice(index, 1);
+          this.saveCustomCategories();
+        }
+      }
+      // Also check customKeywords
+      if (this.customKeywords[categoryId]) {
+        const kwIndex = this.customKeywords[categoryId].indexOf(keyword);
+        if (kwIndex !== -1) {
+          this.customKeywords[categoryId].splice(kwIndex, 1);
+          this.saveCustomKeywords();
+        }
+      }
+    } else {
+      // Remove from customKeywords for default category
+      if (!this.customKeywords[categoryId]) {
+        showToast('Cannot remove default keywords', 'info');
+        return;
+      }
+
+      const index = this.customKeywords[categoryId].indexOf(keyword);
+      if (index === -1) {
+        showToast('Cannot remove default keywords', 'info');
+        return;
+      }
+
+      this.customKeywords[categoryId].splice(index, 1);
+      if (this.customKeywords[categoryId].length === 0) {
+        delete this.customKeywords[categoryId];
+      }
+      this.saveCustomKeywords();
+    }
+
+    // Remove the category from papers that only matched this keyword
+    // Re-categorize all papers to update
+    const updatedCount = this.searchFilter.recategorizePapers(this.categories, this.customKeywords, this.customCategories);
+
+    // Re-render legend
+    this.renderLegend();
+
+    // Re-apply filters to update the view
+    this.applyFiltersAndRender();
+
+    showToast(`Removed "${keyword}"`, 'success');
   }
 
   /**
