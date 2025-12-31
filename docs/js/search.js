@@ -402,7 +402,7 @@ class SearchFilter {
 
     let updatedCount = 0;
 
-    // Re-categorize each paper
+    // Re-categorize each paper (matches original categorize-papers.js logic)
     for (const paper of this.papers) {
       if (!paper.abstract && !paper.title) continue;
 
@@ -415,8 +415,8 @@ class SearchFilter {
           searchText.includes(kw.toLowerCase())
         ).length;
 
-        // Add category if 2+ keywords match and not already present
-        if (matchCount >= 2 && !newCategories.has(categoryId)) {
+        // Add category if 1+ keywords match (same as MIN_KEYWORD_MATCHES in categorize-papers.js)
+        if (matchCount >= 1 && !newCategories.has(categoryId)) {
           newCategories.add(categoryId);
           updatedCount++;
         }
