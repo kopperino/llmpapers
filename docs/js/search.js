@@ -385,19 +385,26 @@ class SearchFilter {
   }
 
   /**
-   * Re-categorize papers with custom keywords
+   * Re-categorize papers with custom keywords and custom categories
    * @param {Object} categoriesData - Categories with default keywords
    * @param {Object} customKeywords - Custom keywords map {categoryId: [keywords]}
+   * @param {Array} customCategories - Array of custom category definitions
    */
-  recategorizePapers(categoriesData, customKeywords) {
-    console.log('Re-categorizing papers with custom keywords...');
+  recategorizePapers(categoriesData, customKeywords, customCategories = []) {
+    console.log('Re-categorizing papers with custom keywords and categories...');
 
-    // Build combined keyword map
+    // Build combined keyword map from default categories
     const keywordMap = {};
     for (const category of categoriesData.categories) {
       const defaultKeywords = category.keywords || [];
       const custom = customKeywords[category.id] || [];
       keywordMap[category.id] = [...defaultKeywords, ...custom];
+    }
+
+    // Add custom categories to keyword map
+    for (const customCat of customCategories) {
+      const existingCustom = customKeywords[customCat.id] || [];
+      keywordMap[customCat.id] = [...customCat.keywords, ...existingCustom];
     }
 
     let updatedCount = 0;

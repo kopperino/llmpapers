@@ -26,6 +26,7 @@ class App {
     this.filteredPapers = [];
     this.categories = null;
     this.customKeywords = this.loadCustomKeywords();
+    this.customCategories = this.loadCustomCategories();
 
     // DOM elements
     this.elements = {
@@ -103,10 +104,10 @@ class App {
     // Initialize search
     this.searchFilter.initializeSearch(index.papers);
 
-    // Apply custom keywords if they exist
-    if (Object.keys(this.customKeywords).length > 0) {
-      console.log('Applying saved custom keywords...');
-      this.searchFilter.recategorizePapers(this.categories, this.customKeywords);
+    // Apply custom keywords and categories if they exist
+    if (Object.keys(this.customKeywords).length > 0 || this.customCategories.length > 0) {
+      console.log('Applying saved custom keywords and categories...');
+      this.searchFilter.recategorizePapers(this.categories, this.customKeywords, this.customCategories);
     }
 
     // Update header stats
@@ -246,6 +247,30 @@ class App {
   }
 
   /**
+   * Load custom categories from localStorage
+   */
+  loadCustomCategories() {
+    try {
+      const categories = JSON.parse(localStorage.getItem('customCategories') || '[]');
+      return categories;
+    } catch (error) {
+      console.error('Error loading custom categories:', error);
+      return [];
+    }
+  }
+
+  /**
+   * Save custom categories to localStorage
+   */
+  saveCustomCategories() {
+    try {
+      localStorage.setItem('customCategories', JSON.stringify(this.customCategories));
+    } catch (error) {
+      console.error('Error saving custom categories:', error);
+    }
+  }
+
+  /**
    * Toggle category legend visibility
    */
   toggleCategoryLegend() {
@@ -282,8 +307,13 @@ class App {
     renderCategoryLegend(
       this.categories,
       this.customKeywords,
+      this.customCategories,
       this.elements.categoryLegend,
-      (categoryId, keyword) => this.addKeyword(categoryId, keyword)
+      {
+        onAddKeyword: (categoryId, keyword) => this.addKeyword(categoryId, keyword),
+        onAddCategory: (name, keywords) => this.addCategory(name, keywords),
+        onDeleteCategory: (categoryId) => this.deleteCategory(categoryId)
+      }
     );
   }
 
@@ -308,7 +338,7 @@ class App {
 
     // Re-categorize all papers with the new keyword
     showToast('Re-categorizing papers...', 'info');
-    const updatedCount = this.searchFilter.recategorizePapers(this.categories, this.customKeywords);
+    const updatedCount = this.searchFilter.recategorizePapers(this.categories, this.customKeywords, this.customCategories);
 
     // Re-render legend
     this.renderLegend();
@@ -317,6 +347,92 @@ class App {
     this.applyFiltersAndRender();
 
     showToast(`Added "${keyword}" - ${updatedCount} new category assignments`, 'success');
+  }
+
+  /**
+   * Add a new custom category
+   * @param {string} name - Category display name
+   * @param {Array} keywords - Array of keywords for the category
+   */
+  addCategory(name, keywords) {
+    // Generate ID from name (lowercase, hyphenated)
+    const id = name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+
+    // Check if category already exists
+    const exists = this.customCategories.some(cat => cat.id === id) ||
+                   this.categories.categories.some(cat => cat.id === id);
+    if (exists) {
+      showToast('Category already exists', 'info');
+      return;
+    }
+
+    // Create new category
+    const newCategory = {
+      id,
+      name,
+      keywords,
+      description: `Custom category for ${name}`
+    };
+
+    this.customCategories.push(newCategory);
+    this.saveCustomCategories();
+
+    // Re-categorize all papers
+    showToast('Re-categorizing papers...', 'info');
+    const updatedCount = this.searchFilter.recategorizePapers(this.categories, this.customKeywords, this.customCategories);
+
+    // Re-render legend
+    this.renderLegend();
+
+    // Re-apply filters to update the view
+    this.applyFiltersAndRender();
+
+    showToast(`Created "${name}" - ${updatedCount} papers categorized`, 'success');
+  }
+
+  /**
+   * Delete a custom category
+   * @param {string} categoryId - Category ID to delete
+   */
+  deleteCategory(categoryId) {
+    // Find the category
+    const index = this.customCategories.findIndex(cat => cat.id === categoryId);
+    if (index === -1) {
+      showToast('Cannot delete default categories', 'info');
+      return;
+    }
+
+    const categoryName = this.customCategories[index].name;
+
+    if (!confirm(`Delete category "${categoryName}"? Papers will no longer be tagged with this category.`)) {
+      return;
+    }
+
+    // Remove the category
+    this.customCategories.splice(index, 1);
+    this.saveCustomCategories();
+
+    // Remove any custom keywords for this category
+    if (this.customKeywords[categoryId]) {
+      delete this.customKeywords[categoryId];
+      this.saveCustomKeywords();
+    }
+
+    // Remove category from all papers
+    for (const paper of this.searchFilter.papers) {
+      const catIndex = paper.categories.indexOf(categoryId);
+      if (catIndex !== -1) {
+        paper.categories.splice(catIndex, 1);
+      }
+    }
+
+    // Re-render legend
+    this.renderLegend();
+
+    // Re-apply filters to update the view
+    this.applyFiltersAndRender();
+
+    showToast(`Deleted "${categoryName}"`, 'success');
   }
 
   /**
@@ -368,10 +484,16 @@ class App {
     // Apply filters
     this.filteredPapers = this.searchFilter.applyFilters();
 
-    // Render category filters
+    // Render category filters (combine default + custom categories)
     const categoryCounts = this.searchFilter.getCategoryCounts();
+    const allCategoriesForFilter = {
+      categories: [
+        ...this.categories.categories,
+        ...this.customCategories
+      ]
+    };
     renderCategoryFilters(
-      this.categories,
+      allCategoriesForFilter,
       categoryCounts,
       this.searchFilter.filters.categories,
       this.elements.categoryFilters,

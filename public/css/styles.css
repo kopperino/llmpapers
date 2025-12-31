@@ -950,6 +950,104 @@ button {
   transform: scale(0.95);
 }
 
+/* New Category Form */
+.new-category-form {
+  padding: 1rem;
+  background: var(--surface-elevated);
+  border-radius: var(--radius-sm);
+  border: 2px dashed var(--primary-color);
+  margin-bottom: 0;
+}
+
+.new-category-form h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+.new-category-input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  transition: var(--transition);
+}
+
+.new-category-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.new-category-input::placeholder {
+  color: var(--text-secondary);
+}
+
+.btn-create-category {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  background: var(--primary-color);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-create-category:hover {
+  background: var(--primary-dark);
+}
+
+.legend-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 1rem 0;
+}
+
+/* Custom Category Styling */
+.legend-category.custom-category {
+  border-color: var(--primary-color);
+  border-style: dashed;
+}
+
+.legend-category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.btn-delete-category {
+  background: transparent;
+  border: 1px solid var(--danger-color);
+  border-radius: var(--radius-sm);
+  color: var(--danger-color);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.1rem 0.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+  line-height: 1;
+}
+
+.btn-delete-category:hover {
+  background: var(--danger-color);
+  color: white;
+}
+
+.no-keywords {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
 /* Utility Classes */
 .hidden {
   display: none !important;

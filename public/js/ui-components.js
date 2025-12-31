@@ -373,27 +373,37 @@ export function showNoResults(show, element) {
  * Render category legend with keywords
  * @param {Object} categories - Categories data
  * @param {Object} customKeywords - Custom keywords map {categoryId: [keywords]}
+ * @param {Array} customCategories - Array of custom category definitions
  * @param {HTMLElement} container - Container element
- * @param {Function} onAddKeyword - Callback when keyword is added
+ * @param {Object} callbacks - {onAddKeyword, onAddCategory, onDeleteCategory}
  */
-export function renderCategoryLegend(categories, customKeywords, container, onAddKeyword) {
-  const html = categories.categories
+export function renderCategoryLegend(categories, customKeywords, customCategories, container, callbacks) {
+  const { onAddKeyword, onAddCategory, onDeleteCategory } = callbacks;
+
+  // Combine default and custom categories
+  const allCategories = [
+    ...categories.categories.map(cat => ({ ...cat, isCustom: false })),
+    ...customCategories.map(cat => ({ ...cat, isCustom: true }))
+  ];
+
+  const categoriesHtml = allCategories
     .map(cat => {
       const defaultKeywords = cat.keywords || [];
       const custom = customKeywords[cat.id] || [];
       const allKeywords = [...defaultKeywords, ...custom];
 
       return `
-        <div class="legend-category">
+        <div class="legend-category ${cat.isCustom ? 'custom-category' : ''}">
           <div class="legend-category-header">
             <span class="category-tag ${cat.id}">${cat.name}</span>
+            ${cat.isCustom ? `<button class="btn-delete-category" data-category="${cat.id}" title="Delete category">×</button>` : ''}
           </div>
-          <p class="legend-description">${cat.description}</p>
+          <p class="legend-description">${cat.description || 'Custom category'}</p>
           <div class="legend-keywords">
-            ${allKeywords.map(kw => {
-              const isCustom = custom.includes(kw);
+            ${allKeywords.length > 0 ? allKeywords.map(kw => {
+              const isCustom = custom.includes(kw) || cat.isCustom;
               return `<span class="keyword-tag ${isCustom ? 'custom' : ''}" title="${isCustom ? 'Custom keyword' : 'Default keyword'}">${kw}</span>`;
-            }).join('')}
+            }).join('') : '<span class="no-keywords">No keywords yet</span>'}
           </div>
           <div class="add-keyword-form">
             <input
@@ -409,7 +419,57 @@ export function renderCategoryLegend(categories, customKeywords, container, onAd
     })
     .join('');
 
-  container.innerHTML = html;
+  // Add new category form at the top
+  const newCategoryForm = `
+    <div class="new-category-form">
+      <h4>Create New Category</h4>
+      <input
+        type="text"
+        id="new-category-name"
+        class="new-category-input"
+        placeholder="Category name (e.g., 'Vision Models')"
+      >
+      <input
+        type="text"
+        id="new-category-keywords"
+        class="new-category-input"
+        placeholder="Keywords (comma-separated, e.g., 'vision, image, visual')"
+      >
+      <button id="btn-create-category" class="btn-create-category">Create Category</button>
+    </div>
+    <div class="legend-divider"></div>
+  `;
+
+  container.innerHTML = newCategoryForm + categoriesHtml;
+
+  // Attach event listener for creating new category
+  const createBtn = container.querySelector('#btn-create-category');
+  createBtn.addEventListener('click', () => {
+    const nameInput = container.querySelector('#new-category-name');
+    const keywordsInput = container.querySelector('#new-category-keywords');
+
+    const name = nameInput.value.trim();
+    const keywordsStr = keywordsInput.value.trim();
+
+    if (name && keywordsStr && onAddCategory) {
+      const keywords = keywordsStr.split(',').map(k => k.trim().toLowerCase()).filter(k => k);
+      if (keywords.length > 0) {
+        onAddCategory(name, keywords);
+        nameInput.value = '';
+        keywordsInput.value = '';
+      }
+    }
+  });
+
+  // Attach event listeners to delete category buttons
+  container.querySelectorAll('.btn-delete-category').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const categoryId = e.target.dataset.category;
+      if (onDeleteCategory) {
+        onDeleteCategory(categoryId);
+      }
+    });
+  });
 
   // Attach event listeners to add keyword buttons
   container.querySelectorAll('.btn-add-keyword').forEach(btn => {
