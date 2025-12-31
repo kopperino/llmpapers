@@ -22,7 +22,7 @@ class DataLoader {
 
     try {
       console.log('Loading index...');
-      const response = await fetch('../data/index.json');
+      const response = await fetch('./data/index.json');
 
       if (!response.ok) {
         throw new Error(`Failed to load index: ${response.status}`);
@@ -48,7 +48,7 @@ class DataLoader {
     }
 
     try {
-      const response = await fetch('../data/categories.json');
+      const response = await fetch('./data/categories.json');
 
       if (!response.ok) {
         throw new Error(`Failed to load categories: ${response.status}`);
@@ -75,7 +75,7 @@ class DataLoader {
 
     try {
       console.log(`Loading year ${year}...`);
-      const response = await fetch(`../data/papers/${year}.json`);
+      const response = await fetch(`./data/papers/${year}.json`);
 
       if (!response.ok) {
         throw new Error(`Failed to load year ${year}: ${response.status}`);
