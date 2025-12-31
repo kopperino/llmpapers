@@ -1,0 +1,5949 @@
+{
+  "meta": {
+    "lastUpdated": "2025-12-31T13:40:31.087Z",
+    "totalPapers": 294,
+    "categories": [
+      "agents",
+      "code-generation",
+      "evaluation",
+      "multi-agent",
+      "planning",
+      "prompting",
+      "rag",
+      "reasoning",
+      "robotics",
+      "tool-use"
+    ],
+    "years": [
+      2025,
+      2024
+    ]
+  },
+  "papers": [
+    {
+      "id": "2512.23701",
+      "title": "Eliciting Behaviors in Multi-Turn Conversations",
+      "authors": [
+        "Jing Huang",
+        "Shujian Zhang",
+        "Lun Wang",
+        "Andrew Hard",
+        "Rajiv Mathews",
+        "John Lambert"
+      ],
+      "publishedDate": "2025-12-29T18:57:10Z",
+      "categories": [
+        "evaluation",
+        "rag",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23611",
+      "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+      "authors": [
+        "Yuwen Li",
+        "Wei Zhang",
+        "Zelong Huang",
+        "Mason Yang",
+        "Jiajun Wu",
+        "Shawn Guo",
+        "Huahao Hu",
+        "Lingyi Sun",
+        "Jian Yang",
+        "Mingjie Tang",
+        "Byran Dai"
+      ],
+      "publishedDate": "2025-12-29T17:12:39Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23511",
+      "title": "Beyond Correctness: Exposing LLM-generated Logical Flaws in Reasoning via Multi-step Automated Theorem Proving",
+      "authors": [
+        "Xinyi Zheng",
+        "Ningke Li",
+        "Xiaokun Luan",
+        "Kailong Wang",
+        "Ling Shi",
+        "Meng Sun",
+        "Haoyu Wang"
+      ],
+      "publishedDate": "2025-12-29T14:48:15Z",
+      "categories": [
+        "reasoning",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23471",
+      "title": "Semantic Tree Inference on Text Corpa using a Nested Density Approach together with Large Language Model Embeddings",
+      "authors": [
+        "Thomas Haschka",
+        "Joseph Bakarji"
+      ],
+      "publishedDate": "2025-12-29T13:55:23Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23461",
+      "title": "Eliminating Inductive Bias in Reward Models with Information-Theoretic Guidance",
+      "authors": [
+        "Zhuo Li",
+        "Pengyu Cheng",
+        "Zhechao Yu",
+        "Feifei Tong",
+        "Anningzhe Gao",
+        "Tsung-Hui Chang",
+        "Xiang Wan",
+        "Erchao Zhao",
+        "Xiaoxi Jiang",
+        "Guanjun Jiang"
+      ],
+      "publishedDate": "2025-12-29T13:39:41Z",
+      "categories": [
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23385",
+      "title": "Securing the AI Supply Chain: What Can We Learn From Developer-Reported Security Issues and Solutions of AI Projects?",
+      "authors": [
+        "The Anh Nguyen",
+        "Triet Huynh Minh Le",
+        "M. Ali Babar"
+      ],
+      "publishedDate": "2025-12-29T11:22:11Z",
+      "categories": [
+        "tool-use",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23365",
+      "title": "SpatialMosaic: A Multiview VLM Dataset for Partial Visibility",
+      "authors": [
+        "Kanghee Lee",
+        "Injae Lee",
+        "Minseok Kwak",
+        "Kwonyoung Ryu",
+        "Jungi Hong",
+        "Jaesik Park"
+      ],
+      "publishedDate": "2025-12-29T10:48:54Z",
+      "categories": [
+        "tool-use",
+        "reasoning",
+        "rag",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23356",
+      "title": "A Stepwise-Enhanced Reasoning Framework for Large Language Models Based on External Subgraph Generation",
+      "authors": [
+        "Xin Zhang",
+        "Yang Cao",
+        "Baoxing Wu",
+        "Xinyi Chen",
+        "Kai Song",
+        "Siying Li"
+      ],
+      "publishedDate": "2025-12-29T10:35:53Z",
+      "categories": [
+        "reasoning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23328",
+      "title": "CubeBench: Diagnosing Interactive, Long-Horizon Spatial Reasoning Under Partial Observations",
+      "authors": [
+        "Huan-ang Gao",
+        "Zikang Zhang",
+        "Tianwei Luo",
+        "Kaisen Yang",
+        "Xinzhe Juan",
+        "Jiahao Qiu",
+        "Tianxing Chen",
+        "Bingxiang He",
+        "Hao Zhao",
+        "Hao Zhou",
+        "Shilong Liu",
+        "Mengdi Wang"
+      ],
+      "publishedDate": "2025-12-29T09:25:56Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "planning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23294",
+      "title": "Agentic AI-Enhanced Semantic Communications: Foundations, Architecture, and Applications",
+      "authors": [
+        "Haixiao Gao",
+        "Mengying Sun",
+        "Ruichen Zhang",
+        "Yanhan Wang",
+        "Xiaodong Xu",
+        "Nan Ma",
+        "Dusit Niyato",
+        "Ping Zhang"
+      ],
+      "publishedDate": "2025-12-29T08:28:43Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "multi-agent",
+        "code-generation",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23219",
+      "title": "MM-UAVBench: How Well Do Multimodal Large Language Models See, Think, and Plan in Low-Altitude UAV Scenarios?",
+      "authors": [
+        "Shiqi Dai",
+        "Zizhi Ma",
+        "Zhicong Luo",
+        "Xuesong Yang",
+        "Yibin Huang",
+        "Wanyue Zhang",
+        "Chi Chen",
+        "Zonghao Guo",
+        "Wang Xu",
+        "Yufei Sun",
+        "Maosong Sun"
+      ],
+      "publishedDate": "2025-12-29T05:49:54Z",
+      "categories": [
+        "evaluation",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23217",
+      "title": "TCEval: Using Thermal Comfort to Assess Cognitive and Perceptual Abilities of AI",
+      "authors": [
+        "Jingming Li"
+      ],
+      "publishedDate": "2025-12-29T05:41:25Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "reasoning",
+        "rag",
+        "robotics"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23184",
+      "title": "From Model Choice to Model Belief: Establishing a New Measure for LLM-Based Research",
+      "authors": [
+        "Hongshen Sun",
+        "Juanjuan Zhang"
+      ],
+      "publishedDate": "2025-12-29T03:50:40Z",
+      "categories": [],
+      "year": 2025
+    },
+    {
+      "id": "2512.23167",
+      "title": "SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search",
+      "authors": [
+        "Yifan Zhang",
+        "Giridhar Ganapavarapu",
+        "Srideepika Jayaraman",
+        "Bhavna Agrawal",
+        "Dhaval Patel",
+        "Achille Fokoue"
+      ],
+      "publishedDate": "2025-12-29T03:19:42Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "planning",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.23090",
+      "title": "Benchmark Success, Clinical Failure: When Reinforcement Learning Optimizes for Benchmarks, Not Patients",
+      "authors": [
+        "Armin Berger",
+        "Manuela Bergau",
+        "Helen Schneider",
+        "Saad Ahmad",
+        "Tom Anglim Lagones",
+        "Gianluca Brugnara",
+        "Martha Foltyn-Dumitru",
+        "Kai Schlamp",
+        "Philipp Vollmuth",
+        "Rafet Sifa"
+      ],
+      "publishedDate": "2025-12-28T21:57:42Z",
+      "categories": [
+        "evaluation",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22925",
+      "title": "Argus: Token Aware Distributed LLM Inference Optimization",
+      "authors": [
+        "Panlong Wu",
+        "Yifei Zhong",
+        "Danyang Chen",
+        "Ting Wang",
+        "Fangxin Wang"
+      ],
+      "publishedDate": "2025-12-28T13:38:38Z",
+      "categories": [
+        "code-generation",
+        "tool-use",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22883",
+      "title": "Agentic AI for Cyber Resilience: A New Security Paradigm and Its System-Theoretic Foundations",
+      "authors": [
+        "Tao Li",
+        "Quanyan Zhu"
+      ],
+      "publishedDate": "2025-12-28T11:17:36Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22827",
+      "title": "FasterPy: An LLM-based Code Execution Efficiency Optimization Framework",
+      "authors": [
+        "Yue Wu",
+        "Minghao Han",
+        "Ruiyin Li",
+        "Peng Liang",
+        "Amjed Tahir",
+        "Zengyang Li",
+        "Qiong Feng",
+        "Mojtaba Shahin"
+      ],
+      "publishedDate": "2025-12-28T07:43:08Z",
+      "categories": [
+        "rag",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22795",
+      "title": "CNSight: Evaluation of Clinical Note Segmentation Tools",
+      "authors": [
+        "Risha Surana",
+        "Adrian Law",
+        "Sunwoo Kim",
+        "Rishab Sridhar",
+        "Angxiao Han",
+        "Peiyu Hong"
+      ],
+      "publishedDate": "2025-12-28T05:40:15Z",
+      "categories": [
+        "tool-use",
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22742",
+      "title": "Robust LLM-based Column Type Annotation via Prompt Augmentation with LoRA Tuning",
+      "authors": [
+        "Hanze Meng",
+        "Jianhao Cao",
+        "Rachel Pottinger"
+      ],
+      "publishedDate": "2025-12-28T02:04:17Z",
+      "categories": [
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22741",
+      "title": "Text-Routed Sparse Mixture-of-Experts Model with Explanation and Temporal Alignment for Multi-Modal Sentiment Analysis",
+      "authors": [
+        "Dongning Rao",
+        "Yunbiao Zeng",
+        "Zhihua Jiang",
+        "Jujian Lv"
+      ],
+      "publishedDate": "2025-12-28T01:58:30Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22738",
+      "title": "Harnessing Large Language Models for Biomedical Named Entity Recognition",
+      "authors": [
+        "Jian Chen",
+        "Leilei Su",
+        "Cong Sun"
+      ],
+      "publishedDate": "2025-12-28T01:34:23Z",
+      "categories": [
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22721",
+      "title": "Cyber Resilience in Next-Generation Networks: Threat Landscape, Theoretical Foundations, and Design Paradigms",
+      "authors": [
+        "Junaid Farooq",
+        "Quanyan Zhu"
+      ],
+      "publishedDate": "2025-12-27T23:00:04Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22716",
+      "title": "Memento-II: Learning by Stateful Reflective Memory",
+      "authors": [
+        "Jun Wang"
+      ],
+      "publishedDate": "2025-12-27T22:15:03Z",
+      "categories": [
+        "agents",
+        "rag",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22695",
+      "title": "Modality Inflation: Energy Characterization and Optimization Opportunities for MLLM Inference",
+      "authors": [
+        "Mona Moghadampanah",
+        "Adib Rezaei Shahmirzadi",
+        "Farhana Amin",
+        "Dimitrios S. Nikolopoulos"
+      ],
+      "publishedDate": "2025-12-27T19:49:21Z",
+      "categories": [
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22673",
+      "title": "TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning",
+      "authors": [
+        "Xiang Cheng",
+        "Yulan Hu",
+        "Xiangwen Zhang",
+        "Lu Xu",
+        "Zheng Pan",
+        "Xin Li",
+        "Yong Liu"
+      ],
+      "publishedDate": "2025-12-27T18:25:14Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "evaluation",
+        "planning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22650",
+      "title": "Scaling Unverifiable Rewards: A Case Study on Visual Insights",
+      "authors": [
+        "Shuyu Gan",
+        "James Mooney",
+        "Pan Hao",
+        "Renxiang Wang",
+        "Mingyi Hong",
+        "Qianwen Wang",
+        "Dongyeop Kang"
+      ],
+      "publishedDate": "2025-12-27T17:01:38Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22443",
+      "title": "Exploring the Vertical-Domain Reasoning Capabilities of Large Language Models",
+      "authors": [
+        "Jie Zhou",
+        "Xin Chen",
+        "Jie Zhang",
+        "Zhe Li"
+      ],
+      "publishedDate": "2025-12-27T02:39:34Z",
+      "categories": [
+        "prompting",
+        "evaluation",
+        "tool-use",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22431",
+      "title": "Monadic Context Engineering",
+      "authors": [
+        "Yifan Zhang",
+        "Mengdi Wang"
+      ],
+      "publishedDate": "2025-12-27T01:52:06Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22351",
+      "title": "VULCAN: Tool-Augmented Multi Agents for Iterative 3D Object Arrangement",
+      "authors": [
+        "Zhengfei Kuang",
+        "Rui Lin",
+        "Long Zhao",
+        "Gordon Wetzstein",
+        "Saining Xie",
+        "Sanghyun Woo"
+      ],
+      "publishedDate": "2025-12-26T19:22:39Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "tool-use",
+        "planning",
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21964",
+      "title": "Perceive and Calibrate: Analyzing and Enhancing Robustness of Medical Multi-Modal Large Language Models",
+      "authors": [
+        "Dunyuan XU",
+        "Xikai Yang",
+        "Yaoqian Li",
+        "Juzheng Miao",
+        "Jinpeng Li",
+        "Pheng-Ann Heng"
+      ],
+      "publishedDate": "2025-12-26T10:23:30Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "rag",
+        "multi-agent",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21915",
+      "title": "Exploring the Heterogeneity of Tabular Data: A Diversity-aware Data Generator via LLMs",
+      "authors": [
+        "Yafeng Tang",
+        "Xiaoou Ding",
+        "Jianzhuo Du",
+        "Zishuo Yan",
+        "Zhuang Ma",
+        "Zheng Liang",
+        "Zekai Qian",
+        "Hongzhi Wang"
+      ],
+      "publishedDate": "2025-12-26T08:02:51Z",
+      "categories": [
+        "reasoning",
+        "rag",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21835",
+      "title": "LIME:Accelerating Collaborative Lossless LLM Inference on Memory-Constrained Edge Devices",
+      "authors": [
+        "Mingyu Sun",
+        "Xiao Zhang",
+        "Shen Qu",
+        "Yan Li",
+        "Mengbai Xiao",
+        "Yuan Yuan",
+        "Dongxiao Yu"
+      ],
+      "publishedDate": "2025-12-26T02:41:18Z",
+      "categories": [
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21799",
+      "title": "KG20C & KG20C-QA: Scholarly Knowledge Graph Benchmarks for Link Prediction and Question Answering",
+      "authors": [
+        "Hung-Nghiep Tran",
+        "Atsuhiro Takasu"
+      ],
+      "publishedDate": "2025-12-25T22:29:54Z",
+      "categories": [
+        "evaluation",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21782",
+      "title": "Accelerating Scientific Discovery with Autonomous Goal-evolving Agents",
+      "authors": [
+        "Yuanqi Du",
+        "Botao Yu",
+        "Tianyu Liu",
+        "Tony Shen",
+        "Junwu Chen",
+        "Jan G. Rittig",
+        "Kunyang Sun",
+        "Yikun Zhang",
+        "Zhangde Song",
+        "Bo Zhou",
+        "Cassandra Masschelein",
+        "Yingze Wang",
+        "Haorui Wang",
+        "Haojun Jia",
+        "Chao Zhang",
+        "Hongyu Zhao",
+        "Martin Ester",
+        "Teresa Head-Gordon",
+        "Carla P. Gomes",
+        "Huan Sun",
+        "Chenru Duan",
+        "Philippe Schwaller",
+        "Wengong Jin"
+      ],
+      "publishedDate": "2025-12-25T20:54:41Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21709",
+      "title": "Detecting AI-Generated Paraphrases in Bengali: A Comparative Study of Zero-Shot and Fine-Tuned Transformers",
+      "authors": [
+        "Md. Rakibul Islam",
+        "Most. Sharmin Sultana Samu",
+        "Md. Zahid Hossain",
+        "Farhad Uz Zaman",
+        "Md. Kamrozzaman Bhuiyan"
+      ],
+      "publishedDate": "2025-12-25T15:04:29Z",
+      "categories": [
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21699",
+      "title": "Towards Responsible and Explainable AI Agents with Consensus-Driven Reasoning",
+      "authors": [
+        "Eranga Bandara",
+        "Tharaka Hewa",
+        "Ross Gore",
+        "Sachin Shetty",
+        "Ravi Mukkamala",
+        "Peter Foytik",
+        "Abdul Rahman",
+        "Safdar H. Bouk",
+        "Xueping Liang",
+        "Amin Hass",
+        "Sachini Rajapakse",
+        "Ng Wee Keong",
+        "Kasun De Zoysa",
+        "Aruna Withanage",
+        "Nilaan Loganathan"
+      ],
+      "publishedDate": "2025-12-25T14:49:25Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21635",
+      "title": "Heaven-Sent or Hell-Bent? Benchmarking the Intelligence and Defectiveness of LLM Hallucinations",
+      "authors": [
+        "Chengxu Yang",
+        "Jingling Yuan",
+        "Siqi Cai",
+        "Jiawei Jiang",
+        "Chuang Hu"
+      ],
+      "publishedDate": "2025-12-25T11:33:46Z",
+      "categories": [
+        "evaluation",
+        "rag",
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21582",
+      "title": "LLM-Free Image Captioning Evaluation in Reference-Flexible Settings",
+      "authors": [
+        "Shinnosuke Hirano",
+        "Yuiga Wada",
+        "Kazuki Matsuda",
+        "Seitaro Otsuki",
+        "Komei Sugiura"
+      ],
+      "publishedDate": "2025-12-25T08:59:57Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22275",
+      "title": "The Illusion of Clinical Reasoning: A Benchmark Reveals the Pervasive Gap in Vision-Language Models for Clinical Competency",
+      "authors": [
+        "Dingyu Wang",
+        "Zimu Yuan",
+        "Jiajun Liu",
+        "Shanggui Liu",
+        "Nan Zhou",
+        "Tianxing Xu",
+        "Di Huang",
+        "Dong Jiang"
+      ],
+      "publishedDate": "2025-12-25T03:33:22Z",
+      "categories": [
+        "evaluation",
+        "tool-use",
+        "reasoning",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21440",
+      "title": "Fuzzwise: Intelligent Initial Corpus Generation for Fuzzing",
+      "authors": [
+        "Hridya Dhulipala",
+        "Xiaokai Rong",
+        "Aashish Yadavally",
+        "Tien N. Nguyen"
+      ],
+      "publishedDate": "2025-12-24T22:17:29Z",
+      "categories": [
+        "agents",
+        "rag",
+        "multi-agent",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22266",
+      "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs",
+      "authors": [
+        "Bing Hao",
+        "Minglai Shao",
+        "Zengyi Wo",
+        "Yunlong Chu",
+        "Yuhang Liu",
+        "Ruijie Wang"
+      ],
+      "publishedDate": "2025-12-24T18:10:29Z",
+      "categories": [
+        "agents",
+        "prompting",
+        "evaluation",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21243",
+      "title": "LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation",
+      "authors": [
+        "Anatoly O. Onishchenko",
+        "Alexey K. Kovalev",
+        "Aleksandr I. Panov"
+      ],
+      "publishedDate": "2025-12-24T15:36:21Z",
+      "categories": [
+        "robotics",
+        "agents",
+        "planning",
+        "rag",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21236",
+      "title": "Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking",
+      "authors": [
+        "Yifan Huang",
+        "Xiaojun Jia",
+        "Wenbo Guo",
+        "Yuqiang Sun",
+        "Yihao Huang",
+        "Chong Wang",
+        "Yang Liu"
+      ],
+      "publishedDate": "2025-12-24T15:25:31Z",
+      "categories": [
+        "code-generation",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21135",
+      "title": "TGC-Net: A Structure-Aware and Semantically-Aligned Framework for Text-Guided Medical Image Segmentation",
+      "authors": [
+        "Gaoren Lin",
+        "Huangxuan Zhao",
+        "Yuan Xiong",
+        "Lefei Zhang",
+        "Bo Du",
+        "Wentao Zhu"
+      ],
+      "publishedDate": "2025-12-24T12:06:26Z",
+      "categories": [
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21066",
+      "title": "Agentic Explainable Artificial Intelligence (Agentic XAI) Approach To Explore Better Explanation",
+      "authors": [
+        "Tomoaki Yamaguchi",
+        "Yutong Zhou",
+        "Masahiro Ryo",
+        "Keisuke Katsura"
+      ],
+      "publishedDate": "2025-12-24T09:19:15Z",
+      "categories": [
+        "agents",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21373",
+      "title": "AInsteinBench: Benchmarking Coding Agents on Scientific Repositories",
+      "authors": [
+        "Titouan Duston",
+        "Shuo Xin",
+        "Yang Sun",
+        "Daoguang Zan",
+        "Aoyan Li",
+        "Shulin Xin",
+        "Kai Shen",
+        "Yixiao Chen",
+        "Qiming Sun",
+        "Ge Zhang",
+        "Jiashuo Liu",
+        "Huan Zhou",
+        "Jingkai Liu",
+        "Zhichen Pu",
+        "Yuanheng Wang",
+        "Bo-Xuan Ge",
+        "Xin Tong",
+        "Fei Ye",
+        "Zhi-Chao Zhao",
+        "Wen-Biao Han",
+        "Zhoujian Cao",
+        "Yueran Zhao",
+        "Weiluo Ren",
+        "Qingshen Long",
+        "Yuxiao Liu",
+        "Anni Huang",
+        "Yidi Du",
+        "Yuanyuan Rong",
+        "Jiahao Peng"
+      ],
+      "publishedDate": "2025-12-24T08:11:11Z",
+      "categories": [
+        "code-generation",
+        "evaluation",
+        "agents",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20997",
+      "title": "LLM-Empowered Agentic AI for QoE-Aware Network Slicing Management in Industrial IoT",
+      "authors": [
+        "Xudong Wang",
+        "Lei Feng",
+        "Ruichen Zhang",
+        "Fanqin Zhou",
+        "Hongyang Du",
+        "Wenjing Li",
+        "Dusit Niyato",
+        "Abbas Jamalipour",
+        "Ping Zhang"
+      ],
+      "publishedDate": "2025-12-24T06:49:43Z",
+      "categories": [
+        "rag",
+        "agents",
+        "reasoning",
+        "planning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20986",
+      "title": "AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs",
+      "authors": [
+        "Yihan Wang",
+        "Huanqi Yang",
+        "Shantanu Pal",
+        "Weitao Xu"
+      ],
+      "publishedDate": "2025-12-24T06:29:24Z",
+      "categories": [
+        "agents",
+        "prompting",
+        "reasoning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20975",
+      "title": "SPOT!: Map-Guided LLM Agent for Unsupervised Multi-CCTV Dynamic Object Tracking",
+      "authors": [
+        "Yujin Noh",
+        "Inho Jake Park",
+        "Chigon Hwang"
+      ],
+      "publishedDate": "2025-12-24T06:04:58Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20973",
+      "title": "DAO-Agent: Zero Knowledge-Verified Incentives for Decentralized Multi-Agent Coordination",
+      "authors": [
+        "Yihan Xia",
+        "Taotao Wang",
+        "Wenxin Xu",
+        "Shengli Zhang"
+      ],
+      "publishedDate": "2025-12-24T06:00:39Z",
+      "categories": [
+        "agents",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20957",
+      "title": "One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents",
+      "authors": [
+        "Zhaoxi Zhang",
+        "Yitong Duan",
+        "Yanzhi Zhang",
+        "Yiming Xu",
+        "Jiyan He",
+        "Yunfang Wu"
+      ],
+      "publishedDate": "2025-12-24T05:27:53Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20954",
+      "title": "Reflection Pretraining Enables Token-Level Self-Correction in Biological Sequence Models",
+      "authors": [
+        "Xiang Zhang",
+        "Jiaqi Wei",
+        "Yuejin Yang",
+        "Zijie Qiu",
+        "Yuhan Chen",
+        "Zhiqiang Gao",
+        "Muhammad Abdul-Mageed",
+        "Laks V. S. Lakshmanan",
+        "Wanli Ouyang",
+        "Chenyu You",
+        "Siqi Sun"
+      ],
+      "publishedDate": "2025-12-24T05:25:17Z",
+      "categories": [
+        "reasoning",
+        "prompting",
+        "planning",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20949",
+      "title": "Neural Probe-Based Hallucination Detection for Large Language Models",
+      "authors": [
+        "Shize Liang",
+        "Hongzhi Wang"
+      ],
+      "publishedDate": "2025-12-24T05:10:19Z",
+      "categories": [
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22250",
+      "title": "Hallucination Detection for LLM-based Text-to-SQL Generation via Two-Stage Metamorphic Testing",
+      "authors": [
+        "Bo Yang",
+        "Yinfen Xia",
+        "Weisong Sun",
+        "Yang Liu"
+      ],
+      "publishedDate": "2025-12-24T04:04:26Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20916",
+      "title": "MMSRARec: Summarization and Retrieval Augumented Sequential Recommendation Based on Multimodal Large Language Model",
+      "authors": [
+        "Haoyu Wang",
+        "Yitong Wang",
+        "Jining Wang"
+      ],
+      "publishedDate": "2025-12-24T03:44:25Z",
+      "categories": [
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20845",
+      "title": "MAR:Multi-Agent Reflexion Improves Reasoning Abilities in LLMs",
+      "authors": [
+        "Onat Ozer",
+        "Grace Wu",
+        "Yuchen Wang",
+        "Daniel Dosti",
+        "Honghao Zhang",
+        "Vivi De La Rue"
+      ],
+      "publishedDate": "2025-12-23T23:47:31Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "multi-agent",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20520",
+      "title": "Benchmarking LLMs for Predictive Applications in the Intensive Care Units",
+      "authors": [
+        "Chehak Malhotra",
+        "Mehak Gopal",
+        "Akshaya Devadiga",
+        "Pradeep Singh",
+        "Ridam Pal",
+        "Ritwik Kashyap",
+        "Tavpritesh Sethi"
+      ],
+      "publishedDate": "2025-12-23T17:08:31Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20362",
+      "title": "CRAFT: Continuous Reasoning and Agentic Feedback Tuning for Multimodal Text-to-Image Generation",
+      "authors": [
+        "V. Kovalev",
+        "A. Kuvshinov",
+        "A. Buzovkin",
+        "D. Pokidov",
+        "D. Timonin"
+      ],
+      "publishedDate": "2025-12-23T13:44:41Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "reasoning",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20312",
+      "title": "TableGPT-R1: Advancing Tabular Reasoning Through Reinforcement Learning",
+      "authors": [
+        "Saisai Yang",
+        "Qingyi Huang",
+        "Jing Yuan",
+        "Liangyu Zha",
+        "Kai Tang",
+        "Yuhang Yang",
+        "Ning Wang",
+        "Yucheng Wei",
+        "Liyao Li",
+        "Wentao Ye",
+        "Hao Chen",
+        "Tao Zhang",
+        "Junlin Zhou",
+        "Haobo Wang",
+        "Gang Chen",
+        "Junbo Zhao"
+      ],
+      "publishedDate": "2025-12-23T12:30:37Z",
+      "categories": [
+        "reasoning",
+        "evaluation",
+        "agents",
+        "tool-use",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20275",
+      "title": "Graph-Symbolic Policy Enforcement and Control (G-SPEC): A Neuro-Symbolic Framework for Safe Agentic AI in 5G Autonomous Networks",
+      "authors": [
+        "Divya Vijay",
+        "Vignesh Ethiraj"
+      ],
+      "publishedDate": "2025-12-23T11:27:17Z",
+      "categories": [
+        "agents",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20237",
+      "title": "MemR$^3$: Memory Retrieval via Reflective Reasoning for LLM Agents",
+      "authors": [
+        "Xingbo Du",
+        "Loka Li",
+        "Duzhen Zhang",
+        "Le Song"
+      ],
+      "publishedDate": "2025-12-23T10:49:42Z",
+      "categories": [
+        "agents",
+        "rag",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20206",
+      "title": "TongSIM: A General Platform for Simulating Intelligent Machines",
+      "authors": [
+        "Zhe Sun",
+        "Kunlun Wu",
+        "Chuanjian Fu",
+        "Zeming Song",
+        "Langyong Shi",
+        "Zihe Xue",
+        "Bohan Jing",
+        "Ying Yang",
+        "Xiaomeng Gao",
+        "Aijia Li",
+        "Tianyu Guo",
+        "Huiying Li",
+        "Xueyuan Yang",
+        "Rongkai Liu",
+        "Xinyi He",
+        "Yuxi Wang",
+        "Yue Li",
+        "Mingyuan Liu",
+        "Yujie Lu",
+        "Hongzhao Xie",
+        "Shiyun Zhao",
+        "Bo Dai",
+        "Wei Wang",
+        "Tao Yuan",
+        "Song-Chun Zhu",
+        "Yujia Peng",
+        "Zhenliang Zhang"
+      ],
+      "publishedDate": "2025-12-23T10:00:43Z",
+      "categories": [
+        "robotics",
+        "evaluation",
+        "multi-agent",
+        "agents",
+        "tool-use",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20182",
+      "title": "FaithLens: Detecting and Explaining Faithfulness Hallucination",
+      "authors": [
+        "Shuzheng Si",
+        "Qingyi Wang",
+        "Haozhe Zhao",
+        "Yuzhuo Bai",
+        "Guanqiao Chen",
+        "Kangyang Luo",
+        "Gang Chen",
+        "Fanchao Qi",
+        "Minjia Zhang",
+        "Baobao Chang",
+        "Maosong Sun"
+      ],
+      "publishedDate": "2025-12-23T09:20:32Z",
+      "categories": [
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20164",
+      "title": "AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications",
+      "authors": [
+        "Honglin Mu",
+        "Jinghao Liu",
+        "Kaiyang Wan",
+        "Rui Xing",
+        "Xiuying Chen",
+        "Timothy Baldwin",
+        "Wanxiang Che"
+      ],
+      "publishedDate": "2025-12-23T08:42:09Z",
+      "categories": [
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20135",
+      "title": "MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization",
+      "authors": [
+        "Zhuo Yang",
+        "Yeyun Chen",
+        "Jiaqing Xie",
+        "Ben Gao",
+        "Shuaike Shen",
+        "Wanhao Liu",
+        "Liujia Yang",
+        "Beilun Wang",
+        "Tianfan Fu",
+        "Yuqiang Li"
+      ],
+      "publishedDate": "2025-12-23T07:53:57Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20111",
+      "title": "ABBEL: LLM Agents Acting through Belief Bottlenecks Expressed in Language",
+      "authors": [
+        "Aly Lidayan",
+        "Jakob Bjorner",
+        "Satvik Golechha",
+        "Kartik Goyal",
+        "Alane Suhr"
+      ],
+      "publishedDate": "2025-12-23T07:11:26Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20084",
+      "title": "QE-Catalytic: A Graph-Language Multimodal Base Model for Relaxed-Energy Prediction in Catalytic Adsorption",
+      "authors": [
+        "Yanjie Li",
+        "Jian Xu",
+        "Xueqing Chen",
+        "Lina Yu",
+        "Shiming Xiang",
+        "Weijun Li",
+        "Cheng-lin Liu"
+      ],
+      "publishedDate": "2025-12-23T06:27:30Z",
+      "categories": [
+        "evaluation",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.20002",
+      "title": "LoFT-LLM: Low-Frequency Time-Series Forecasting with Large Language Models",
+      "authors": [
+        "Jiacheng You",
+        "Jingcheng Yang",
+        "Yuhang Xie",
+        "Zhongxuan Wu",
+        "Xiucheng Li",
+        "Feng Li",
+        "Pengjie Wang",
+        "Jian Xu",
+        "Bo Zheng",
+        "Xinyang Chen"
+      ],
+      "publishedDate": "2025-12-23T02:55:04Z",
+      "categories": [
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19864",
+      "title": "HARMON-E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data",
+      "authors": [
+        "Shashi Kant Gupta",
+        "Arijeet Pramanik",
+        "Jerrin John Thomas",
+        "Regina Schwind",
+        "Lauren Wiener",
+        "Avi Raju",
+        "Jeremy Kornbluth",
+        "Yanshan Wang",
+        "Zhaohui Su",
+        "Hrituraj Singh"
+      ],
+      "publishedDate": "2025-12-22T20:38:30Z",
+      "categories": [
+        "agents",
+        "rag",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19682",
+      "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
+      "authors": [
+        "Jiacheng Guo",
+        "Ling Yang",
+        "Peter Chen",
+        "Qixin Xiao",
+        "Yinjie Wang",
+        "Xinzhe Juan",
+        "Jiahao Qiu",
+        "Ke Shen",
+        "Mengdi Wang"
+      ],
+      "publishedDate": "2025-12-22T18:57:13Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19651",
+      "title": "Exploring Zero-Shot ACSA with Unified Meaning Representation in Chain-of-Thought Prompting",
+      "authors": [
+        "Filippos Ventirozos",
+        "Peter Appleby",
+        "Matthew Shardlow"
+      ],
+      "publishedDate": "2025-12-22T18:23:37Z",
+      "categories": [
+        "prompting",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19458",
+      "title": "An Agentic Framework for Autonomous Materials Computation",
+      "authors": [
+        "Zeyu Xia",
+        "Jinzhe Ma",
+        "Congjie Zheng",
+        "Shufei Zhang",
+        "Yuqiang Li",
+        "Hang Su",
+        "P. Hu",
+        "Changshui Zhang",
+        "Xingao Gong",
+        "Wanli Ouyang",
+        "Lei Bai",
+        "Dongzhan Zhou",
+        "Mao Su"
+      ],
+      "publishedDate": "2025-12-22T15:03:57Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19247",
+      "title": "Auto-Prompting with Retrieval Guidance for Frame Detection in Logistics",
+      "authors": [
+        "Do Minh Duc",
+        "Quan Xuan Truong",
+        "Nguyen Tat Dat",
+        "Nguyen Van Vinh"
+      ],
+      "publishedDate": "2025-12-22T10:29:51Z",
+      "categories": [
+        "prompting",
+        "reasoning",
+        "rag",
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19228",
+      "title": "Generation of Programmatic Rules for Document Forgery Detection Using Large Language Models",
+      "authors": [
+        "Valentin Schmidberger",
+        "Manuel Eberhardinger",
+        "Setareh Maghsudi",
+        "Johannes Maucher"
+      ],
+      "publishedDate": "2025-12-22T10:08:25Z",
+      "categories": [
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19084",
+      "title": "$γ(3,4)$ `Attention' in Cognitive Agents: Ontology-Free Knowledge Representations With Promise Theoretic Semantics",
+      "authors": [
+        "Mark Burgess"
+      ],
+      "publishedDate": "2025-12-22T06:48:53Z",
+      "categories": [
+        "agents",
+        "robotics",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19769",
+      "title": "A Declarative Language for Building And Orchestrating LLM-Powered Agent Workflows",
+      "authors": [
+        "Ivan Daunis"
+      ],
+      "publishedDate": "2025-12-22T05:03:37Z",
+      "categories": [
+        "agents",
+        "rag",
+        "code-generation",
+        "tool-use",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19016",
+      "title": "DREAM: Dynamic Red-teaming across Environments for AI Models",
+      "authors": [
+        "Liming Lu",
+        "Xiang Gu",
+        "Junyu Huang",
+        "Jiawei Du",
+        "Yunhuai Liu",
+        "Yongbin Zhou",
+        "Shuchao Pang"
+      ],
+      "publishedDate": "2025-12-22T04:11:57Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "rag",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19011",
+      "title": "Efficient Jailbreak Mitigation Using Semantic Linear Classification in a Multi-Staged Pipeline",
+      "authors": [
+        "Akshaj Prashanth Rao",
+        "Advait Singh",
+        "Saumya Kumaar Saksena",
+        "Dhruv Kumar"
+      ],
+      "publishedDate": "2025-12-22T04:00:35Z",
+      "categories": [
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22208",
+      "title": "Open-Source Multimodal Moxin Models with Moxin-VLM and Moxin-VLA",
+      "authors": [
+        "Pu Zhao",
+        "Xuan Shen",
+        "Zhenglun Kong",
+        "Yixin Shen",
+        "Sung-En Chang",
+        "Arash Akbari",
+        "Timothy Rupprecht",
+        "Lei Lu",
+        "Enfu Nan",
+        "Changdi Yang",
+        "Yumei He",
+        "Weiyan Shi",
+        "Xingchen Xu",
+        "Yu Huang",
+        "Wei Jiang",
+        "Wei Wang",
+        "Yue Chen",
+        "Yong He",
+        "Yanzhi Wang"
+      ],
+      "publishedDate": "2025-12-22T02:36:42Z",
+      "categories": [
+        "tool-use",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18966",
+      "title": "Scrum Sprint Planning: LLM-based and algorithmic solutions",
+      "authors": [
+        "Yuwon Yoon",
+        "Kevin Iwan",
+        "Madeleine Zwart",
+        "Xiaohan Qin",
+        "Hina Lee",
+        "Maria Spichkova"
+      ],
+      "publishedDate": "2025-12-22T02:26:11Z",
+      "categories": [
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21354",
+      "title": "Reflection-Driven Control for Trustworthy Code Agents",
+      "authors": [
+        "Bin Wang",
+        "Jiazheng Quan",
+        "Xingrui Yu",
+        "Hansen Hu",
+        "Yuhao",
+        "Ivor Tsang"
+      ],
+      "publishedDate": "2025-12-22T00:27:38Z",
+      "categories": [
+        "code-generation",
+        "agents",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18857",
+      "title": "CORE: Concept-Oriented Reinforcement for Bridging the Definition-Application Gap in Mathematical Reasoning",
+      "authors": [
+        "Zijun Gao",
+        "Zhikun Xu",
+        "Xiao Ye",
+        "Ben Zhou"
+      ],
+      "publishedDate": "2025-12-21T19:01:35Z",
+      "categories": [
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18733",
+      "title": "Explainable and Fine-Grained Safeguarding of LLM Multi-Agent Systems via Bi-Level Graph Anomaly Detection",
+      "authors": [
+        "Junjun Pan",
+        "Yixin Liu",
+        "Rui Miao",
+        "Kaize Ding",
+        "Yu Zheng",
+        "Quoc Viet Hung Nguyen",
+        "Alan Wee-Chung Liew",
+        "Shirui Pan"
+      ],
+      "publishedDate": "2025-12-21T13:46:36Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18671",
+      "title": "SmartSight: Mitigating Hallucination in Video-LLMs Without Compromising Video Understanding via Temporal Attention Collapse",
+      "authors": [
+        "Yiming Sun",
+        "Mi Zhang",
+        "Feifei Li",
+        "Geng Hong",
+        "Min Yang"
+      ],
+      "publishedDate": "2025-12-21T10:25:02Z",
+      "categories": [
+        "tool-use",
+        "reasoning",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18623",
+      "title": "LLM-CAS: Dynamic Neuron Perturbation for Real-Time Hallucination Correction",
+      "authors": [
+        "Jensen Zhang",
+        "Ningyuan Liu",
+        "Yijia Fan",
+        "Zihao Huang",
+        "Qinglin Zeng",
+        "Kaitong Cai",
+        "Jian Wang",
+        "Keze Wang"
+      ],
+      "publishedDate": "2025-12-21T06:54:34Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18599",
+      "title": "SimpleCall: A Lightweight Image Restoration Agent in Label-Free Environments with MLLM Perceptual Feedback",
+      "authors": [
+        "Jianglin Lu",
+        "Yuanwei Wu",
+        "Ziyi Zhao",
+        "Hongcheng Wang",
+        "Felix Jimenez",
+        "Abrar Majeedi",
+        "Yun Fu"
+      ],
+      "publishedDate": "2025-12-21T05:12:25Z",
+      "categories": [
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18582",
+      "title": "Wireless Copilot: An AI-Powered Partner for Navigating Next-Generation Wireless Complexity",
+      "authors": [
+        "Haoxiang Luo",
+        "Ruichen Zhang",
+        "Yinqiu Liu",
+        "Gang Sun",
+        "Hongfang Yu",
+        "Dusit Niyato",
+        "Shiwen Mao",
+        "Dong In Kim"
+      ],
+      "publishedDate": "2025-12-21T03:58:34Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21352",
+      "title": "Multi-Agent LLM Committees for Autonomous Software Beta Testing",
+      "authors": [
+        "Sumanth Bharadwaj Hachalli Karanam",
+        "Dhiwahar Adhithya Kennady"
+      ],
+      "publishedDate": "2025-12-21T02:06:53Z",
+      "categories": [
+        "agents",
+        "rag",
+        "multi-agent",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18552",
+      "title": "Toward Training Superintelligent Software Agents through Self-Play SWE-RL",
+      "authors": [
+        "Yuxiang Wei",
+        "Zhiqing Sun",
+        "Emily McMilin",
+        "Jonas Gehring",
+        "David Zhang",
+        "Gabriel Synnaeve",
+        "Daniel Fried",
+        "Lingming Zhang",
+        "Sida Wang"
+      ],
+      "publishedDate": "2025-12-21T00:49:40Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.21351",
+      "title": "CosmoCore-Evo: Evolutionary Dream-Replay Reinforcement Learning for Adaptive Code Generation",
+      "authors": [
+        "Santhosh Kumar Ravindran"
+      ],
+      "publishedDate": "2025-12-20T22:12:09Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "evaluation",
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18436",
+      "title": "VeruSAGE: A Study of Agent-Based Verification for Rust Systems",
+      "authors": [
+        "Chenyuan Yang",
+        "Natalie Neamtu",
+        "Chris Hawblitzel",
+        "Jacob R. Lorch",
+        "Shan Lu"
+      ],
+      "publishedDate": "2025-12-20T17:22:52Z",
+      "categories": [
+        "code-generation",
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18371",
+      "title": "Phoneme-based speech recognition driven by large language models and sampling marginalization",
+      "authors": [
+        "Te Ma",
+        "Nanjie Li",
+        "Hao Huang",
+        "Zhijian Ou"
+      ],
+      "publishedDate": "2025-12-20T14:13:28Z",
+      "categories": [
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18360",
+      "title": "LLM Agents Implement an NLG System from Scratch: Building Interpretable Rule-Based RDF-to-Text Generators",
+      "authors": [
+        "Mateusz Lango",
+        "Ondřej Dušek"
+      ],
+      "publishedDate": "2025-12-20T13:16:51Z",
+      "categories": [
+        "agents",
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18352",
+      "title": "LLM-based Few-Shot Early Rumor Detection with Imitation Agent",
+      "authors": [
+        "Fengzhu Zeng",
+        "Qian Shao",
+        "Ling Cheng",
+        "Wei Gao",
+        "Shih-Fen Cheng",
+        "Jing Ma",
+        "Cheng Niu"
+      ],
+      "publishedDate": "2025-12-20T12:42:27Z",
+      "categories": [
+        "agents",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18292",
+      "title": "Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy",
+      "authors": [
+        "Wenkai Li",
+        "Lynnette Hui Xian Ng",
+        "Andy Liu",
+        "Daniel Fried"
+      ],
+      "publishedDate": "2025-12-20T09:33:55Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.18265",
+      "title": "Intelligent Human-Machine Partnership for Manufacturing: Enhancing Warehouse Planning through Simulation-Driven Knowledge Graphs and LLM Collaboration",
+      "authors": [
+        "Himabindu Thogaru",
+        "Saisubramaniam Gopalakrishnan",
+        "Zishan Ahmad",
+        "Anirudh Deodhar"
+      ],
+      "publishedDate": "2025-12-20T08:09:24Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "planning",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.17756",
+      "title": "AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora",
+      "authors": [
+        "Zhihan Zhou",
+        "Daqian Shi",
+        "Rui Song",
+        "Lida Shi",
+        "Xiaolei Diao",
+        "Hao Xu"
+      ],
+      "publishedDate": "2025-12-19T16:28:57Z",
+      "categories": [
+        "evaluation",
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.17321",
+      "title": "Neuro-Symbolic Control with Large Language Models for Language-Guided Spatial Tasks",
+      "authors": [
+        "Momina Liaqat Ali",
+        "Muhammad Abid"
+      ],
+      "publishedDate": "2025-12-19T08:08:40Z",
+      "categories": [
+        "reasoning",
+        "rag",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.17172",
+      "title": "PILAR: Personalizing Augmented Reality Interactions with LLM-based Human-Centric and Trustworthy Explanations for Daily Use Cases",
+      "authors": [
+        "Ripan Kumar Kundu",
+        "Istiak Ahmed",
+        "Khaza Anuarul Hoque"
+      ],
+      "publishedDate": "2025-12-19T02:19:38Z",
+      "categories": [
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.17164",
+      "title": "TCDE: Topic-Centric Dual Expansion of Queries and Documents with Large Language Models for Information Retrieval",
+      "authors": [
+        "Yu Yang",
+        "Feng Tian",
+        "Ping Chen"
+      ],
+      "publishedDate": "2025-12-19T01:57:17Z",
+      "categories": [
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19753",
+      "title": "QMBench: A Research Level Benchmark for Quantum Materials Research",
+      "authors": [
+        "Yanzhen Wang",
+        "Yiyang Jiang",
+        "Diana Golovanova",
+        "Kamal Das",
+        "Hyeonhu Bae",
+        "Yufei Zhao",
+        "Huu-Thong Le",
+        "Abhinava Chatterjee",
+        "Yunzhe Liu",
+        "Chao-Xing Liu",
+        "Felipe H. da Jornada",
+        "Binghai Yan",
+        "Xiao-Liang Qi"
+      ],
+      "publishedDate": "2025-12-19T00:57:43Z",
+      "categories": [
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.17146",
+      "title": "Biosecurity-Aware AI: Agentic Risk Auditing of Soft Prompt Attacks on ESM-Based Variant Predictors",
+      "authors": [
+        "Huixin Zhan"
+      ],
+      "publishedDate": "2025-12-19T00:51:11Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.17060",
+      "title": "On the Role of Contextual Information and Ego States in LLM Agent Behavior for Transactional Analysis Dialogues",
+      "authors": [
+        "Monika Zamojska",
+        "Jarosław A. Chudziak"
+      ],
+      "publishedDate": "2025-12-18T20:53:31Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.17008",
+      "title": "Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs",
+      "authors": [
+        "Junbo Li",
+        "Peng Zhou",
+        "Rui Meng",
+        "Meet P. Vadera",
+        "Lihong Li",
+        "Yang Li"
+      ],
+      "publishedDate": "2025-12-18T19:07:25Z",
+      "categories": [
+        "agents",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16901",
+      "title": "Impacts of Racial Bias in Historical Training Data for News AI",
+      "authors": [
+        "Rahul Bhargava",
+        "Malene Hornstrup Jespersen",
+        "Emily Boardman Ndulue",
+        "Vivica Dsouza"
+      ],
+      "publishedDate": "2025-12-18T18:56:11Z",
+      "categories": [
+        "code-generation",
+        "tool-use",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16848",
+      "title": "Meta-RL Induces Exploration in Language Agents",
+      "authors": [
+        "Yulun Jiang",
+        "Liangze Jiang",
+        "Damien Teney",
+        "Michael Moor",
+        "Maria Brbic"
+      ],
+      "publishedDate": "2025-12-18T18:22:17Z",
+      "categories": [
+        "agents",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16650",
+      "title": "Prefix Probing: Lightweight Harmful Content Detection for Large Language Models",
+      "authors": [
+        "Jirui Yang",
+        "Hengqi Guo",
+        "Zhihui Lu",
+        "Yi Zhao",
+        "Yuansen Zhang",
+        "Shijing Hu",
+        "Qiang Duan",
+        "Yinggui Wang",
+        "Tao Wei"
+      ],
+      "publishedDate": "2025-12-18T15:22:14Z",
+      "categories": [
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16530",
+      "title": "Plain language adaptations of biomedical text using LLMs: Comparision of evaluation metrics",
+      "authors": [
+        "Primoz Kocbek",
+        "Leon Kopitar",
+        "Gregor Stiglic"
+      ],
+      "publishedDate": "2025-12-18T13:37:58Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16970",
+      "title": "PAACE: A Plan-Aware Automated Agent Context Engineering Framework",
+      "authors": [
+        "Kamer Ali Yuksel"
+      ],
+      "publishedDate": "2025-12-18T12:54:56Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "planning",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16453",
+      "title": "TimeSeries2Report prompting enables adaptive large language model management of lithium-ion batteries",
+      "authors": [
+        "Jiayang Yang",
+        "Chunhui Zhao",
+        "Martin Guay",
+        "Zhixing Cao"
+      ],
+      "publishedDate": "2025-12-18T12:15:52Z",
+      "categories": [
+        "prompting",
+        "evaluation",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16381",
+      "title": "A Network Arena for Benchmarking AI Agents on Network Troubleshooting",
+      "authors": [
+        "Zhihao Wang",
+        "Alessandro Cornacchia",
+        "Alessio Sacco",
+        "Franco Galante",
+        "Marco Canini",
+        "Dingde Jiang"
+      ],
+      "publishedDate": "2025-12-18T10:22:59Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16310",
+      "title": "Agent Tools Orchestration Leaks More: Dataset, Benchmark, and Mitigation",
+      "authors": [
+        "Yuxuan Qiao",
+        "Dongqin Liu",
+        "Hongchang Yang",
+        "Wei Zhou",
+        "Songlin Hu"
+      ],
+      "publishedDate": "2025-12-18T08:50:57Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16962",
+      "title": "MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
+      "authors": [
+        "Saksham Sahai Srivastava",
+        "Haoyu He"
+      ],
+      "publishedDate": "2025-12-18T08:34:40Z",
+      "categories": [
+        "agents",
+        "rag",
+        "reasoning",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16297",
+      "title": "Feature-Selective Representation Misdirection for Machine Unlearning",
+      "authors": [
+        "Taozhao Chen",
+        "Linghan Huang",
+        "Kim-Kwang Raymond Choo",
+        "Huaming Chen"
+      ],
+      "publishedDate": "2025-12-18T08:31:50Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16280",
+      "title": "Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams",
+      "authors": [
+        "Gilad Gressel",
+        "Rahul Pankajakshan",
+        "Shir Rozenfeld",
+        "Ling Li",
+        "Ivan Franceschini",
+        "Krishnashree Achuthan",
+        "Yisroel Mirsky"
+      ],
+      "publishedDate": "2025-12-18T07:59:15Z",
+      "categories": [
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16250",
+      "title": "AMUSE: Audio-Visual Benchmark and Alignment Framework for Agentic Multi-Speaker Understanding",
+      "authors": [
+        "Sanjoy Chowdhury",
+        "Karren D. Yang",
+        "Xudong Liu",
+        "Fartash Faghri",
+        "Pavan Kumar Anasosalu Vasu",
+        "Oncel Tuzel",
+        "Dinesh Manocha",
+        "Chun-Liang Li",
+        "Raviteja Vemulapalli"
+      ],
+      "publishedDate": "2025-12-18T07:01:47Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "reasoning",
+        "planning",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16244",
+      "title": "Coarse-to-Fine Open-Set Graph Node Classification with Large Language Models",
+      "authors": [
+        "Xueqi Ma",
+        "Xingjun Ma",
+        "Sarah Monazam Erfani",
+        "Danilo Mandic",
+        "James Bailey"
+      ],
+      "publishedDate": "2025-12-18T06:50:13Z",
+      "categories": [
+        "rag",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16227",
+      "title": "An Information-Theoretic Framework for Robust Large Language Model Editing",
+      "authors": [
+        "Qizhou Chen",
+        "Chengyu Wang",
+        "Taolin Zhang",
+        "Xiaofeng He"
+      ],
+      "publishedDate": "2025-12-18T06:21:17Z",
+      "categories": [
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16182",
+      "title": "DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack",
+      "authors": [
+        "Hao Li",
+        "Yubing Ren",
+        "Yanan Cao",
+        "Yingjie Li",
+        "Fang Fang",
+        "Shi Wang",
+        "Li Guo"
+      ],
+      "publishedDate": "2025-12-18T05:08:19Z",
+      "categories": [
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16167",
+      "title": "Ev-Trust: A Strategy Equilibrium Trust Mechanism for Evolutionary Games in LLM-Based Multi-Agent Services",
+      "authors": [
+        "Shiduo Yang",
+        "Jiye Wang",
+        "Jiayu Qin",
+        "Jianbin Li",
+        "Yu Wang",
+        "Yuanhe Zhao",
+        "Kenan Guo"
+      ],
+      "publishedDate": "2025-12-18T04:39:13Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "tool-use",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16063",
+      "title": "A Multi-Agent Large Language Model Framework for Automated Qualitative Analysis",
+      "authors": [
+        "Qidi Xu",
+        "Nuzha Amjad",
+        "Grace Giles",
+        "Alexa Cumming",
+        "De'angelo Hermesky",
+        "Alexander Wen",
+        "Min Ji Kwak",
+        "Yejin Kim"
+      ],
+      "publishedDate": "2025-12-18T01:13:31Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "reasoning",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16056",
+      "title": "MultiPath Transfer Engine: Breaking GPU and Host-Memory Bandwidth Bottlenecks in LLM Services",
+      "authors": [
+        "Lingfeng Tang",
+        "Daoping Zhang",
+        "Junjie Chen",
+        "Peihao Huang",
+        "Feng Jin",
+        "Chengguang Xu",
+        "Yuxin Chen",
+        "Feiqiang Sun",
+        "Guo Chen"
+      ],
+      "publishedDate": "2025-12-18T00:45:00Z",
+      "categories": [
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16036",
+      "title": "Topic Discovery and Classification for Responsible Generative AI Adaptation in Higher Education",
+      "authors": [
+        "Diane Myung-kyung Woodbridge",
+        "Allyson Seba",
+        "Freddie Seba",
+        "Aydin Schwartz"
+      ],
+      "publishedDate": "2025-12-17T23:39:19Z",
+      "categories": [],
+      "year": 2025
+    },
+    {
+      "id": "2512.16022",
+      "title": "Conversational Time Series Foundation Models: Towards Explainable and Effective Forecasting",
+      "authors": [
+        "Defu Cao",
+        "Michael Gee",
+        "Jinbo Liu",
+        "Hengxuan Wang",
+        "Wei Yang",
+        "Rui Wang",
+        "Yan Liu"
+      ],
+      "publishedDate": "2025-12-17T23:14:38Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.16019",
+      "title": "Few-Shot Inference of Human Perceptions of Robot Performance in Social Navigation Scenarios",
+      "authors": [
+        "Qiping Zhang",
+        "Nathan Tsoi",
+        "Mofeed Nagib",
+        "Hao-Tien Lewis Chiang",
+        "Marynel Vázquez"
+      ],
+      "publishedDate": "2025-12-17T23:06:36Z",
+      "categories": [
+        "prompting",
+        "rag",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.19742",
+      "title": "On-device Large Multi-modal Agent for Human Activity Recognition",
+      "authors": [
+        "Md Shakhrul Iman Siam",
+        "Ishtiaque Ahmed Showmik",
+        "Guanqun Song",
+        "Ting Zhu"
+      ],
+      "publishedDate": "2025-12-17T22:05:05Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15959",
+      "title": "BRAID: Bounded Reasoning for Autonomous Inference and Decisions",
+      "authors": [
+        "Armağan Amcalar",
+        "Eyup Cinar"
+      ],
+      "publishedDate": "2025-12-17T20:46:44Z",
+      "categories": [
+        "prompting",
+        "agents",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15943",
+      "title": "Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning",
+      "authors": [
+        "Polaris Jhandi",
+        "Owais Kazi",
+        "Shreyas Subramanian",
+        "Neel Sendas"
+      ],
+      "publishedDate": "2025-12-17T20:12:06Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15892",
+      "title": "VET Your Agent: Towards Host-Independent Autonomy via Verifiable Execution Traces",
+      "authors": [
+        "Artem Grigor",
+        "Christian Schroeder de Witt",
+        "Simon Birnbach",
+        "Ivan Martinovic"
+      ],
+      "publishedDate": "2025-12-17T19:05:37Z",
+      "categories": [
+        "agents",
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15867",
+      "title": "HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency",
+      "authors": [
+        "Tony Menzo",
+        "Alexander Roman",
+        "Sergei Gleyzer",
+        "Konstantin Matchev",
+        "George T. Fleming",
+        "Stefan Höche",
+        "Stephen Mrenna",
+        "Prasanth Shyamsundar"
+      ],
+      "publishedDate": "2025-12-17T19:00:03Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "planning",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15614",
+      "title": "Behavior Tokens Speak Louder: Disentangled Explainable Recommendation with Behavior Vocabulary",
+      "authors": [
+        "Xinshun Feng",
+        "Mingzhe Liu",
+        "Yi Qiao",
+        "Tongyu Zhu",
+        "Leilei Sun",
+        "Shuai Wang"
+      ],
+      "publishedDate": "2025-12-17T17:24:24Z",
+      "categories": [
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15374",
+      "title": "SCOPE: Prompt Evolution for Enhancing Agent Effectiveness",
+      "authors": [
+        "Zehua Pei",
+        "Hui-Ling Zhen",
+        "Shixiong Kai",
+        "Sinno Jialin Pan",
+        "Yunhe Wang",
+        "Mingxuan Yuan",
+        "Bei Yu"
+      ],
+      "publishedDate": "2025-12-17T12:25:05Z",
+      "categories": [
+        "agents",
+        "rag",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15365",
+      "title": "ArcBERT: An LLM-based Search Engine for Exploring Integrated Multi-Omics Metadata",
+      "authors": [
+        "Gajendra Doniparthi",
+        "Shashank Balu Pandhare",
+        "Stefan Deßloch",
+        "Timo Mühlhaus"
+      ],
+      "publishedDate": "2025-12-17T12:11:14Z",
+      "categories": [],
+      "year": 2025
+    },
+    {
+      "id": "2512.15275",
+      "title": "Bounty Hunter: Autonomous, Comprehensive Emulation of Multi-Faceted Adversaries",
+      "authors": [
+        "Louis Hackländer-Jansen",
+        "Rafael Uetz",
+        "Martin Henze"
+      ],
+      "publishedDate": "2025-12-17T10:27:11Z",
+      "categories": [
+        "agents",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15231",
+      "title": "CangLing-KnowFlow: A Unified Knowledge-and-Flow-fused Agent for Comprehensive Remote Sensing Applications",
+      "authors": [
+        "Zhengchao Chen",
+        "Haoran Wang",
+        "Jing Yao",
+        "Pedram Ghamisi",
+        "Jun Zhou",
+        "Peter M. Atkinson",
+        "Bing Zhang"
+      ],
+      "publishedDate": "2025-12-17T09:31:57Z",
+      "categories": [
+        "agents",
+        "rag",
+        "planning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.22165",
+      "title": "Marco-ASR: A Principled and Metric-Driven Framework for Fine-Tuning Large-Scale ASR Models for Domain Adaptation",
+      "authors": [
+        "Xuanfan Ni",
+        "Fei Yang",
+        "Fengping Tian",
+        "Qingjuan Li",
+        "Chenyang Lyu",
+        "Yichao Du",
+        "Longyue Wang",
+        "Weihua Luo",
+        "Kaifu Zhang"
+      ],
+      "publishedDate": "2025-12-17T07:31:34Z",
+      "categories": [
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15098",
+      "title": "Uni-Parser Technical Report",
+      "authors": [
+        "Xi Fang",
+        "Haoyi Tao",
+        "Shuwen Yang",
+        "Suyang Zhong",
+        "Haocheng Lu",
+        "Han Lyu",
+        "Chaozheng Huang",
+        "Xinyu Li",
+        "Linfeng Zhang",
+        "Guolin Ke"
+      ],
+      "publishedDate": "2025-12-17T05:41:40Z",
+      "categories": [
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15053",
+      "title": "The Meta-Prompting Protocol: Orchestrating LLMs via Adversarial Feedback Loops",
+      "authors": [
+        "Fanzhe Fu"
+      ],
+      "publishedDate": "2025-12-17T03:32:21Z",
+      "categories": [
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15000",
+      "title": "DreamPRM-Code: Function-as-Step Process Reward Model with Label Correction for LLM Coding",
+      "authors": [
+        "Ruiyi Zhang",
+        "Peijia Qin",
+        "Qi Cao",
+        "Pengtao Xie"
+      ],
+      "publishedDate": "2025-12-17T01:11:35Z",
+      "categories": [
+        "code-generation",
+        "prompting",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14896",
+      "title": "DrugRAG: Enhancing Pharmacy LLM Performance Through A Novel Retrieval-Augmented Generation Pipeline",
+      "authors": [
+        "Houman Kazemzadeh",
+        "Kiarash Mokhtari Dizaji",
+        "Seyed Reza Tavakoli",
+        "Farbod Davoodi",
+        "MohammadReza KarimiNejad",
+        "Parham Abed Azad",
+        "Ali Sabzi",
+        "Armin Khosravi",
+        "Siavash Ahmadi",
+        "Mohammad Hossein Rohban",
+        "Glolamali Aminian",
+        "Tahereh Javaheri"
+      ],
+      "publishedDate": "2025-12-16T20:19:23Z",
+      "categories": [
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14895",
+      "title": "Imitation Learning for Multi-turn LM Agents via On-policy Expert Corrections",
+      "authors": [
+        "Niklas Lauffer",
+        "Xiang Deng",
+        "Srivatsa Kundurthy",
+        "Brad Kenstler",
+        "Jeff Da"
+      ],
+      "publishedDate": "2025-12-16T20:19:07Z",
+      "categories": [
+        "agents",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14846",
+      "title": "MALCDF: A Distributed Multi-Agent LLM Framework for Real-Time Cyber",
+      "authors": [
+        "Arth Bhardwaj",
+        "Sia Godika",
+        "Yuvam Loonker"
+      ],
+      "publishedDate": "2025-12-16T19:08:12Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14600",
+      "title": "PerProb: Indirectly Evaluating Memorization in Large Language Models",
+      "authors": [
+        "Yihan Liao",
+        "Jacky Keung",
+        "Xiaoxue Ma",
+        "Jingyu Zhang",
+        "Yicheng Sun"
+      ],
+      "publishedDate": "2025-12-16T17:10:01Z",
+      "categories": [
+        "tool-use",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14565",
+      "title": "Pairwise Comparison for Bias Identification and Quantification",
+      "authors": [
+        "Fabian Haak",
+        "Philipp Schaer"
+      ],
+      "publishedDate": "2025-12-16T16:36:55Z",
+      "categories": [
+        "evaluation",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14448",
+      "title": "Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space",
+      "authors": [
+        "Xingfu Zhou",
+        "Pengfei Wang"
+      ],
+      "publishedDate": "2025-12-16T14:34:10Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14429",
+      "title": "Seismology modeling agent: A smart assistant for geophysical researchers",
+      "authors": [
+        "Yukun Ren",
+        "Siwei Yu",
+        "Kai Chen",
+        "Jianwei Ma"
+      ],
+      "publishedDate": "2025-12-16T14:18:26Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14321",
+      "title": "Multi-Agent Medical Decision Consensus Matrix System: An Intelligent Collaborative Framework for Oncology MDT Consultations",
+      "authors": [
+        "Xudong Han",
+        "Xianglun Gao",
+        "Xiaoyi Qu",
+        "Zhenyu Yu"
+      ],
+      "publishedDate": "2025-12-16T11:35:09Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "evaluation",
+        "tool-use",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14244",
+      "title": "From Context to EDUs: Faithful and Structured Context Compression via Elementary Discourse Unit Decomposition",
+      "authors": [
+        "Yiqing Zhou",
+        "Yu Lei",
+        "Shuzheng Si",
+        "Qingyan Sun",
+        "Wei Wang",
+        "Yifei Wu",
+        "Hao Wen",
+        "Gang Chen",
+        "Fanchao Qi",
+        "Maosong Sun"
+      ],
+      "publishedDate": "2025-12-16T09:52:58Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14233",
+      "title": "PentestEval: Benchmarking LLM-based Penetration Testing with Modular and Stage-Level Design",
+      "authors": [
+        "Ruozhao Yang",
+        "Mingfei Cheng",
+        "Gelei Deng",
+        "Tianwei Zhang",
+        "Junjie Wang",
+        "Xiaofei Xie"
+      ],
+      "publishedDate": "2025-12-16T09:37:21Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "prompting",
+        "reasoning",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14166",
+      "title": "IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol",
+      "authors": [
+        "Yunhao Yao",
+        "Zhiqiang Wang",
+        "Haoran Cheng",
+        "Yihang Cheng",
+        "Haohua Du",
+        "Xiang-Yang Li"
+      ],
+      "publishedDate": "2025-12-16T07:52:55Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15790",
+      "title": "Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT)",
+      "authors": [
+        "Akhil Sharma",
+        "Shaikh Yaser Arafat",
+        "Jai Kumar Sharma",
+        "Ken Huang"
+      ],
+      "publishedDate": "2025-12-15T23:04:48Z",
+      "categories": [
+        "rag",
+        "agents",
+        "evaluation",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14762",
+      "title": "Workflows vs Agents for Code Translation",
+      "authors": [
+        "Henry Gray",
+        "Tom Yotam",
+        "Octavian Udrea"
+      ],
+      "publishedDate": "2025-12-15T20:35:11Z",
+      "categories": [
+        "agents",
+        "rag",
+        "tool-use",
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.13438",
+      "title": "From User Interface to Agent Interface: Efficiency Optimization of UI Representations for LLM Agents",
+      "authors": [
+        "Dezhi Ran",
+        "Zhi Gong",
+        "Yuzhe Guo",
+        "Mengzhou Wu",
+        "Yuan Cao",
+        "Haochuan Lu",
+        "Hengyu Zhang",
+        "Xia Zeng",
+        "Gang Cao",
+        "Liangchao Yao",
+        "Yuetang Deng",
+        "Wei Yang",
+        "Tao Xie"
+      ],
+      "publishedDate": "2025-12-15T15:34:06Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.15784",
+      "title": "Beyond Training: Enabling Self-Evolution of Agents with MOBIMEM",
+      "authors": [
+        "Zibin Liu",
+        "Cheng Zhang",
+        "Xi Zhao",
+        "Yunfei Feng",
+        "Bingyu Bai",
+        "Dahu Feng",
+        "Erhu Feng",
+        "Yubin Xia",
+        "Haibo Chen"
+      ],
+      "publishedDate": "2025-12-15T12:38:43Z",
+      "categories": [
+        "rag",
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.13278",
+      "title": "AutoTool: Dynamic Tool Selection and Integration for Agentic Reasoning",
+      "authors": [
+        "Jiaru Zou",
+        "Ling Yang",
+        "Yunzhe Qi",
+        "Sirui Chen",
+        "Mengting Ai",
+        "Ke Shen",
+        "Jingrui He",
+        "Mengdi Wang"
+      ],
+      "publishedDate": "2025-12-15T12:38:04Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "tool-use",
+        "reasoning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.12806",
+      "title": "Fault-Tolerant Sandboxing for AI Coding Agents: A Transactional Approach to Safe Autonomous Execution",
+      "authors": [
+        "Boyang Yan"
+      ],
+      "publishedDate": "2025-12-14T19:03:59Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.12791",
+      "title": "Beyond Task Completion: An Assessment Framework for Evaluating Agentic AI Systems",
+      "authors": [
+        "Sreemaee Akshathala",
+        "Bassam Adnan",
+        "Mahisha Ramesh",
+        "Karthik Vaidhyanathan",
+        "Basil Muhammed",
+        "Kannan Parthasarathy"
+      ],
+      "publishedDate": "2025-12-14T18:17:40Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "multi-agent",
+        "reasoning",
+        "planning",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.12716",
+      "title": "CoDA: A Context-Decoupled Hierarchical Agent with Reinforcement Learning",
+      "authors": [
+        "Xuanzhang Liu",
+        "Jianglun Feng",
+        "Zhuoran Zhuang",
+        "Junzhe Zhao",
+        "Maofei Que",
+        "Jieting Li",
+        "Dianlei Wang",
+        "Hao Tong",
+        "Ye Chen",
+        "Pan Li"
+      ],
+      "publishedDate": "2025-12-14T14:41:29Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "planning",
+        "multi-agent",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.12597",
+      "title": "AgentSHAP: Interpreting LLM Agent Tool Importance with Monte Carlo Shapley Value Estimation",
+      "authors": [
+        "Miriam Horovicz"
+      ],
+      "publishedDate": "2025-12-14T08:31:43Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.11689",
+      "title": "Evaluating Cooperative Resilience in Multiagent Systems: A Comparison Between Humans and LLMs",
+      "authors": [
+        "Manuela Chacon-Chamorro",
+        "Juan Sebastián Pinzón",
+        "Rubén Manrique",
+        "Luis Felipe Giraldo",
+        "Nicanor Quijano"
+      ],
+      "publishedDate": "2025-12-12T16:11:47Z",
+      "categories": [
+        "agents",
+        "rag",
+        "multi-agent",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.11303",
+      "title": "Unifying Dynamic Tool Creation and Cross-Task Experience Sharing through Cognitive Memory Architecture",
+      "authors": [
+        "Jiarun Liu",
+        "Shiyue Xu",
+        "Yang Li",
+        "Shangkun Liu",
+        "Yongli Yu",
+        "Peng Cao"
+      ],
+      "publishedDate": "2025-12-12T06:00:11Z",
+      "categories": [
+        "agents",
+        "rag",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.11143",
+      "title": "Automated Penetration Testing with LLM Agents and Classical Planning",
+      "authors": [
+        "Lingzhi Wang",
+        "Xinyi Shi",
+        "Ziyu Li",
+        "Yi Jiang",
+        "Shiyu Tan",
+        "Yuhao Jiang",
+        "Junjie Cheng",
+        "Wenyuan Chen",
+        "Xiangmin Shen",
+        "Zhenyuan LI",
+        "Yan Chen"
+      ],
+      "publishedDate": "2025-12-11T22:04:39Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "reasoning",
+        "planning",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.10931",
+      "title": "Asynchronous Reasoning: Training-Free Interactive Thinking LLMs",
+      "authors": [
+        "George Yakushev",
+        "Nataliia Babina",
+        "Masoud Vahid Dastgerdi",
+        "Vyacheslav Zhdanovskiy",
+        "Alina Shutova",
+        "Denis Kuznedelev"
+      ],
+      "publishedDate": "2025-12-11T18:57:02Z",
+      "categories": [
+        "agents",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.10696",
+      "title": "Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution",
+      "authors": [
+        "Zouying Cao",
+        "Jiaji Deng",
+        "Li Yu",
+        "Weikang Zhou",
+        "Zhaoyang Liu",
+        "Bolin Ding",
+        "Hai Zhao"
+      ],
+      "publishedDate": "2025-12-11T14:40:01Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.10534",
+      "title": "Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning",
+      "authors": [
+        "Haiteng Zhao",
+        "Junhao Shen",
+        "Yiming Zhang",
+        "Songyang Gao",
+        "Kuikun Liu",
+        "Tianyou Ma",
+        "Fan Zheng",
+        "Dahua Lin",
+        "Wenwei Zhang",
+        "Kai Chen"
+      ],
+      "publishedDate": "2025-12-11T11:05:04Z",
+      "categories": [
+        "agents",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.10501",
+      "title": "Zero-shot 3D Map Generation with LLM Agents: A Dual-Agent Architecture for Procedural Content Generation",
+      "authors": [
+        "Lim Chien Her",
+        "Ming Yan",
+        "Yunshu Bai",
+        "Ruihao Li",
+        "Hao Zhang"
+      ],
+      "publishedDate": "2025-12-11T10:22:02Z",
+      "categories": [
+        "agents",
+        "prompting",
+        "reasoning",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.10393",
+      "title": "Cross-modal Retrieval Models for Stripped Binary Analysis",
+      "authors": [
+        "Guoqiang Chen",
+        "Lingyun Ying",
+        "Ziyang Song",
+        "Daguang Liu",
+        "Qiang Wang",
+        "Zhiqi Wang",
+        "Li Hu",
+        "Shaoyin Cheng",
+        "Weiming Zhang",
+        "Nenghai Yu"
+      ],
+      "publishedDate": "2025-12-11T07:58:10Z",
+      "categories": [
+        "code-generation",
+        "evaluation",
+        "agents",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.10195",
+      "title": "AutoMedic: An Automated Evaluation Framework for Clinical Conversational Agents with Medical Dataset Grounding",
+      "authors": [
+        "Gyutaek Oh",
+        "Sangjoon Park",
+        "Byung-Hoon Kim"
+      ],
+      "publishedDate": "2025-12-11T01:25:36Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.11907",
+      "title": "Structured Personalization: Modeling Constraints as Matroids for Data-Minimal LLM Agents",
+      "authors": [
+        "Daniel Platnick",
+        "Marjan Alirezaie",
+        "Hossein Rahnama"
+      ],
+      "publishedDate": "2025-12-10T20:22:26Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.11001",
+      "title": "Query Optimization Beyond Data Systems: The Case for Multi-Agent Systems",
+      "authors": [
+        "Zoi Kaoudi",
+        "Ioana Giurgiu"
+      ],
+      "publishedDate": "2025-12-10T20:16:20Z",
+      "categories": [
+        "agents",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.09543",
+      "title": "SWEnergy: An Empirical Study on Energy Efficiency in Agentic Issue Resolution Frameworks with SLMs",
+      "authors": [
+        "Arihant Tripathy",
+        "Ch Pavan Harshit",
+        "Karthik Vaidhyanathan"
+      ],
+      "publishedDate": "2025-12-10T11:28:48Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "evaluation",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.09440",
+      "title": "Knowledge-Augmented Large Language Model Agents for Explainable Financial Decision-Making",
+      "authors": [
+        "Qingyuan Zhang",
+        "Yuxi Wang",
+        "Cancan Hua",
+        "Yulin Huang",
+        "Ning Lyu"
+      ],
+      "publishedDate": "2025-12-10T09:08:33Z",
+      "categories": [
+        "rag",
+        "agents",
+        "reasoning",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.09254",
+      "title": "The Illusion of Rationality: Tacit Bias and Strategic Dominance in Frontier LLM Negotiation Games",
+      "authors": [
+        "Manuel S. Ríos",
+        "Ruben F. Manrique",
+        "Nicanor Quijano",
+        "Luis F. Giraldo"
+      ],
+      "publishedDate": "2025-12-10T02:17:28Z",
+      "categories": [
+        "agents",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.09108",
+      "title": "Evolving Excellence: Automated Optimization of LLM-based Agents",
+      "authors": [
+        "Paul Brookes",
+        "Vardan Voskanyan",
+        "Rafail Giavrimis",
+        "Matthew Truscott",
+        "Mina Ilieva",
+        "Chrystalla Pavlou",
+        "Alexandru Staicu",
+        "Manal Adham",
+        "Will Evers- Hood",
+        "Jingzhi Gong",
+        "Kejia Zhang",
+        "Matvey Fedoseev",
+        "Vishal Sharma",
+        "Roman Bauer",
+        "Zheng Wang",
+        "Hema Nair",
+        "Wei Jie",
+        "Tianhua Xu",
+        "Aurora Constantin",
+        "Leslie Kanthan",
+        "Michail Basios"
+      ],
+      "publishedDate": "2025-12-09T20:48:45Z",
+      "categories": [
+        "code-generation",
+        "agents",
+        "evaluation",
+        "reasoning",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.08870",
+      "title": "Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents",
+      "authors": [
+        "Xiang Chen",
+        "Yuling Shi",
+        "Qizhen Lan",
+        "Yuchao Qiu",
+        "Xiaodong Gu"
+      ],
+      "publishedDate": "2025-12-09T18:04:41Z",
+      "categories": [
+        "agents",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.08737",
+      "title": "Insured Agents: A Decentralized Trust Insurance Mechanism for Agentic Economy",
+      "authors": [
+        "Botao 'Amber' Hu",
+        "Bangdao Chen"
+      ],
+      "publishedDate": "2025-12-09T15:47:16Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "multi-agent",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.08483",
+      "title": "NeurIDA: Dynamic Modeling for Effective In-Database Analytics",
+      "authors": [
+        "Lingze Zeng",
+        "Naili Xing",
+        "Shaofeng Cai",
+        "Peng Lu",
+        "Gang Chen",
+        "Jian Pei",
+        "Beng Chin Ooi"
+      ],
+      "publishedDate": "2025-12-09T11:01:06Z",
+      "categories": [
+        "agents",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.08476",
+      "title": "A Multi-Agent LLM Framework for Design Space Exploration in Autonomous Driving Systems",
+      "authors": [
+        "Po-An Shih",
+        "Shao-Hua Wang",
+        "Yung-Che Li",
+        "Chia-Heng Tu",
+        "Chih-Han Chang"
+      ],
+      "publishedDate": "2025-12-09T10:50:19Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "multi-agent",
+        "code-generation",
+        "robotics"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.08366",
+      "title": "Reflecting with Two Voices: A Co-Adaptive Dual-Strategy Framework for LLM-Based Agent Decision Making",
+      "authors": [
+        "Wentao Zhang",
+        "Qunbo Wang",
+        "Tao Zhang",
+        "Junsheng Wu",
+        "Hongping Gan",
+        "Yang Liu",
+        "Ling Dai",
+        "Shizhuang Deng",
+        "Shuntong Sun"
+      ],
+      "publishedDate": "2025-12-09T08:44:59Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "planning",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.14720",
+      "title": "SoMe: A Realistic Benchmark for LLM-based Social Media Agents",
+      "authors": [
+        "Dizhan Xue",
+        "Jing Cui",
+        "Shengsheng Qian",
+        "Chuanrui Hu",
+        "Changsheng Xu"
+      ],
+      "publishedDate": "2025-12-09T08:36:09Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "tool-use",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.08290",
+      "title": "Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem",
+      "authors": [
+        "Shiva Gaire",
+        "Srijan Gyawali",
+        "Saroj Mishra",
+        "Suman Niroula",
+        "Dilip Thakur",
+        "Umesh Yadav"
+      ],
+      "publishedDate": "2025-12-09T06:39:21Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.08145",
+      "title": "Chat with UAV -- Human-UAV Interaction Based on Large Language Models",
+      "authors": [
+        "Haoran Wang",
+        "Zhuohang Chen",
+        "Guang Li",
+        "Bo Ma",
+        "Chuanghuang Li"
+      ],
+      "publishedDate": "2025-12-09T00:55:40Z",
+      "categories": [
+        "agents",
+        "planning",
+        "prompting",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.07785",
+      "title": "Automating High Energy Physics Data Analysis with LLM-Powered Agents",
+      "authors": [
+        "Eli Gendreau-Distler",
+        "Joshua Ho",
+        "Dongwon Kim",
+        "Luc Tomas Le Pottier",
+        "Haichen Wang",
+        "Chengxi Yang"
+      ],
+      "publishedDate": "2025-12-08T18:13:13Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "tool-use",
+        "reasoning",
+        "rag",
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.07665",
+      "title": "Reliable agent engineering should integrate machine-compatible organizational principles",
+      "authors": [
+        "R. Patrick Xian",
+        "Garry A. Gabison",
+        "Ahmed Alaa",
+        "Christoph Riedl",
+        "Grigorios G. Chrysos"
+      ],
+      "publishedDate": "2025-12-08T15:58:55Z",
+      "categories": [
+        "agents",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.07497",
+      "title": "How Do LLMs Fail In Agentic Scenarios? A Qualitative Analysis of Success and Failure Scenarios of Various LLMs in Agentic Simulations",
+      "authors": [
+        "JV Roig"
+      ],
+      "publishedDate": "2025-12-08T12:27:15Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.07287",
+      "title": "SIT-Graph: State Integrated Tool Graph for Multi-Turn Agents",
+      "authors": [
+        "Sijia Li",
+        "Yuchen Huang",
+        "Zifan Liu",
+        "Zijian Li",
+        "Jingjing fu",
+        "Lei Song",
+        "Jiang Bian",
+        "Jun Zhang",
+        "Rui Wang"
+      ],
+      "publishedDate": "2025-12-08T08:27:24Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.13713",
+      "title": "LoopBench: Discovering Emergent Symmetry Breaking Strategies with LLM Swarms",
+      "authors": [
+        "Ali Parsaee",
+        "Yashar Talebirad",
+        "Csongor Szepesvári",
+        "Vishwajeet Ohal",
+        "Eden Redman"
+      ],
+      "publishedDate": "2025-12-07T22:26:40Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.06914",
+      "title": "SoK: Trust-Authorization Mismatch in LLM Agent Interactions",
+      "authors": [
+        "Guanquan Shi",
+        "Haohua Du",
+        "Zhiqiang Wang",
+        "Xiaoyu Liang",
+        "Weiwenpei Liu",
+        "Song Bian",
+        "Zhenyu Guan"
+      ],
+      "publishedDate": "2025-12-07T16:41:02Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "rag",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.06721",
+      "title": "ProAgent: Harnessing On-Demand Sensory Contexts for Proactive LLM Agent Systems",
+      "authors": [
+        "Bufang Yang",
+        "Lilin Xu",
+        "Liekang Zeng",
+        "Yunqi Guo",
+        "Siyang Jiang",
+        "Wenrui Lu",
+        "Kaiwei Liu",
+        "Hancheng Xiang",
+        "Xiaofan Jiang",
+        "Guoliang Xing",
+        "Zhenyu Yan"
+      ],
+      "publishedDate": "2025-12-07T08:21:07Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.06716",
+      "title": "Cognitive Control Architecture (CCA): A Lifecycle Supervision Framework for Robustly Aligned AI Agents",
+      "authors": [
+        "Zhibo Liang",
+        "Tianze Hu",
+        "Zaiye Chen",
+        "Mingjie Tang"
+      ],
+      "publishedDate": "2025-12-07T08:11:19Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.06590",
+      "title": "Towards Efficient Hypergraph and Multi-LLM Agent Recommender Systems",
+      "authors": [
+        "Tendai Mukande",
+        "Esraa Ali",
+        "Annalina Caputo",
+        "Ruihai Dong",
+        "Noel OConnor"
+      ],
+      "publishedDate": "2025-12-06T23:04:49Z",
+      "categories": [
+        "agents",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.06227",
+      "title": "Automated Data Enrichment using Confidence-Aware Fine-Grained Debate among Open-Source LLMs for Mental Health and Online Safety",
+      "authors": [
+        "Junyu Mao",
+        "Anthony Hills",
+        "Talia Tseriotou",
+        "Maria Liakata",
+        "Aya Shamir",
+        "Dan Sayda",
+        "Dana Atzil-Slonim",
+        "Natalie Djohari",
+        "Arpan Mandal",
+        "Silke Roth",
+        "Pamela Ugwudike",
+        "Mahesan Niranjan",
+        "Stuart E. Middleton"
+      ],
+      "publishedDate": "2025-12-06T00:21:29Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.06060",
+      "title": "Reinforcement Learning Integrated Agentic RAG for Software Test Cases Authoring",
+      "authors": [
+        "Mohanakrishnan Hariharan"
+      ],
+      "publishedDate": "2025-12-05T17:52:26Z",
+      "categories": [
+        "agents",
+        "rag",
+        "evaluation",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.05462",
+      "title": "Model Gateway: Model Management Platform for Model-Driven Drug Discovery",
+      "authors": [
+        "Yan-Shiun Wu",
+        "Nathan A. Morin"
+      ],
+      "publishedDate": "2025-12-05T06:39:37Z",
+      "categories": [
+        "agents",
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.05374",
+      "title": "Please Don't Kill My Vibe: Empowering Agents with Data Flow Control",
+      "authors": [
+        "Charlie Summers",
+        "Haneen Mohammed",
+        "Eugene Wu"
+      ],
+      "publishedDate": "2025-12-05T02:24:27Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.04988",
+      "title": "Strategic Self-Improvement for Competitive Agents in AI Labour Markets",
+      "authors": [
+        "Christopher Chiu",
+        "Simpson Zhang",
+        "Mihaela van der Schaar"
+      ],
+      "publishedDate": "2025-12-04T16:57:28Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "planning",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.04987",
+      "title": "Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction",
+      "authors": [
+        "Nex-AGI Team",
+        ":",
+        "Yuxuan Cai",
+        "Lu Chen",
+        "Qiaoling Chen",
+        "Yuyang Ding",
+        "Liwen Fan",
+        "Wenjie Fu",
+        "Yufei Gao",
+        "Honglin Guo",
+        "Pinxue Guo",
+        "Zhenhua Han",
+        "Zhengfu He",
+        "Hanglei Hu",
+        "Kai Hu",
+        "Shengjia Hua",
+        "Tianyu Huai",
+        "Baodai Huang",
+        "Li Ji",
+        "Zhen Jiang",
+        "Zhikai Lei",
+        "Bufan Li",
+        "Jiahang Lin",
+        "Lizhi Lin",
+        "Jinxiu Liu",
+        "Shichun Liu",
+        "Ziming Liu",
+        "Yuchen Ni",
+        "Pengfang Qian",
+        "Yujiong Shen",
+        "Qingyun Shi",
+        "Wentao Shu",
+        "Peng Sun",
+        "Yiran Suo",
+        "Tian Tang",
+        "Boyu Tian",
+        "Guoteng Wang",
+        "Junzhe Wang",
+        "Peixin Wang",
+        "Zhiheng Xi",
+        "Hang Yan",
+        "Jie Yang",
+        "Zhixiong Yang",
+        "Tianchu Yao",
+        "Guangze Ye",
+        "Qianxi Yu",
+        "Shuo Zhang",
+        "Xinyue Zhang",
+        "Yiqi Zhang",
+        "Jiarong Zhao",
+        "Miao Zheng",
+        "Rui Zheng",
+        "Enyu Zhou",
+        "Jiazheng Zhou",
+        "Maosen Zhou",
+        "Yuhao Zhou",
+        "Tao Gui",
+        "Yining Zheng",
+        "Xinchi Chen",
+        "Jie Zhou",
+        "Siyuan Feng",
+        "Qin Chen",
+        "Liang He",
+        "Qi Zhang",
+        "Xuanjing Huang",
+        "Xipeng Qiu"
+      ],
+      "publishedDate": "2025-12-04T16:57:02Z",
+      "categories": [
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.04785",
+      "title": "ASTRIDE: A Security Threat Modeling Platform for Agentic-AI Applications",
+      "authors": [
+        "Eranga Bandara",
+        "Amin Hass",
+        "Ross Gore",
+        "Sachin Shetty",
+        "Ravi Mukkamala",
+        "Safdar H. Bouk",
+        "Xueping Liang",
+        "Ng Wee Keong",
+        "Kasun De Zoysa",
+        "Aruna Withanage",
+        "Nilaan Loganathan"
+      ],
+      "publishedDate": "2025-12-04T13:32:40Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "multi-agent",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.04691",
+      "title": "Towards Ethical Multi-Agent Systems of Large Language Models: A Mechanistic Interpretability Perspective",
+      "authors": [
+        "Jae Hee Lee",
+        "Anne Lauscher",
+        "Stefano V. Albrecht"
+      ],
+      "publishedDate": "2025-12-04T11:41:44Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.04601",
+      "title": "Natural Language Actor-Critic: Scalable Off-Policy Learning in Language Space",
+      "authors": [
+        "Joey Hong",
+        "Kang Liu",
+        "Zhan Ling",
+        "Jiecao Chen",
+        "Sergey Levine"
+      ],
+      "publishedDate": "2025-12-04T09:21:44Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.04535",
+      "title": "GTM: Simulating the World of Tools for AI Agents",
+      "authors": [
+        "Zhenzhen Ren",
+        "Xinpeng Zhang",
+        "Zhenxing Qian",
+        "Yan Gao",
+        "Yu Shi",
+        "Shuxin Zheng",
+        "Jiyan He"
+      ],
+      "publishedDate": "2025-12-04T07:33:04Z",
+      "categories": [
+        "robotics",
+        "agents",
+        "tool-use",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.03466",
+      "title": "AsymPuzl: An Asymmetric Puzzle for multi-agent cooperation",
+      "authors": [
+        "Xavier Cadet",
+        "Edward Koh",
+        "Peter Chin"
+      ],
+      "publishedDate": "2025-12-03T05:42:01Z",
+      "categories": [
+        "multi-agent",
+        "evaluation",
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.03318",
+      "title": "Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia",
+      "authors": [
+        "Chandler Smith",
+        "Marwa Abdulhai",
+        "Manfred Diaz",
+        "Marko Tesic",
+        "Rakshit S. Trivedi",
+        "Alexander Sasha Vezhnevets",
+        "Lewis Hammond",
+        "Jesse Clifton",
+        "Minsuk Chang",
+        "Edgar A. Duéñez-Guzmán",
+        "John P. Agapiou",
+        "Jayd Matyas",
+        "Danny Karmon",
+        "Akash Kundu",
+        "Aliaksei Korshuk",
+        "Ananya Ananya",
+        "Arrasy Rahman",
+        "Avinaash Anand Kulandaivel",
+        "Bain McHale",
+        "Beining Zhang",
+        "Buyantuev Alexander",
+        "Carlos Saith Rodriguez Rojas",
+        "Caroline Wang",
+        "Chetan Talele",
+        "Chenao Liu",
+        "Chichen Lin",
+        "Diana Riazi",
+        "Di Yang Shi",
+        "Emanuel Tewolde",
+        "Elizaveta Tennant",
+        "Fangwei Zhong",
+        "Fuyang Cui",
+        "Gang Zhao",
+        "Gema Parreño Piqueras",
+        "Hyeonggeun Yun",
+        "Ilya Makarov",
+        "Jiaxun Cui",
+        "Jebish Purbey",
+        "Jim Dilkes",
+        "Jord Nguyen",
+        "Lingyun Xiao",
+        "Luis Felipe Giraldo",
+        "Manuela Chacon-Chamorro",
+        "Manuel Sebastian Rios Beltran",
+        "Marta Emili García Segura",
+        "Mengmeng Wang",
+        "Mogtaba Alim",
+        "Nicanor Quijano",
+        "Nico Schiavone",
+        "Olivia Macmillan-Scott",
+        "Oswaldo Peña",
+        "Peter Stone",
+        "Ram Mohan Rao Kadiyala",
+        "Rolando Fernandez",
+        "Ruben Manrique",
+        "Sunjia Lu",
+        "Sheila A. McIlraith",
+        "Shamika Dhuri",
+        "Shuqing Shi",
+        "Siddhant Gupta",
+        "Sneheel Sarangi",
+        "Sriram Ganapathi Subramanian",
+        "Taehun Cha",
+        "Toryn Q. Klassen",
+        "Wenming Tu",
+        "Weijian Fan",
+        "Wu Ruiyang",
+        "Xue Feng",
+        "Yali Du",
+        "Yang Liu",
+        "Yiding Wang",
+        "Yipeng Kang",
+        "Yoonchang Sung",
+        "Yuxuan Chen",
+        "Zhaowei Zhang",
+        "Zhihan Wang",
+        "Zhiqiang Wu",
+        "Ziang Chen",
+        "Zilong Zheng",
+        "Zixia Jia",
+        "Ziyan Wang",
+        "Dylan Hadfield-Menell",
+        "Natasha Jaques",
+        "Tim Baarslag",
+        "Jose Hernandez-Orallo",
+        "Joel Z. Leibo"
+      ],
+      "publishedDate": "2025-12-03T00:11:05Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.03262",
+      "title": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks",
+      "authors": [
+        "Songwen Zhao",
+        "Danqing Wang",
+        "Kexun Zhang",
+        "Jiaxuan Luo",
+        "Zhuo Li",
+        "Lei Li"
+      ],
+      "publishedDate": "2025-12-02T22:11:56Z",
+      "categories": [
+        "code-generation",
+        "evaluation",
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.02543",
+      "title": "In-Context Distillation with Self-Consistency Cascades: A Simple, Training-Free Way to Reduce LLM Agent Costs",
+      "authors": [
+        "Vishnu Sarukkai",
+        "Asanshay Gupta",
+        "James Hong",
+        "Michaël Gharbi",
+        "Kayvon Fatahalian"
+      ],
+      "publishedDate": "2025-12-02T09:11:05Z",
+      "categories": [
+        "prompting",
+        "agents",
+        "tool-use",
+        "reasoning",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.02445",
+      "title": "When Refusals Fail: Unstable Safety Mechanisms in Long-Context LLM Agents",
+      "authors": [
+        "Tsimur Hadeliya",
+        "Mohammad Ali Jauhar",
+        "Nidhi Sakpal",
+        "Diogo Cruz"
+      ],
+      "publishedDate": "2025-12-02T06:12:02Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "tool-use",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.02410",
+      "title": "Decentralized Multi-Agent System with Trust-Aware Communication",
+      "authors": [
+        "Yepeng Ding",
+        "Ahmed Twabi",
+        "Junwei Yu",
+        "Lingfeng Zhang",
+        "Tohru Kondo",
+        "Hiroyuki Sato"
+      ],
+      "publishedDate": "2025-12-02T04:39:12Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.02329",
+      "title": "Towards autonomous normative multi-agent systems for Human-AI software engineering teams",
+      "authors": [
+        "Hoa Khanh Dam",
+        "Geeta Mahala",
+        "Rashina Hoda",
+        "Xi Zheng",
+        "Cristina Conati"
+      ],
+      "publishedDate": "2025-12-02T01:57:17Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "reasoning",
+        "code-generation",
+        "robotics"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.02289",
+      "title": "Multi-Objective Agentic Rewrites for Unstructured Data Processing",
+      "authors": [
+        "Lindsey Linxi Wei",
+        "Shreya Shankar",
+        "Sepanta Zeighami",
+        "Yeounoh Chung",
+        "Fatma Ozcan",
+        "Aditya G. Parameswaran"
+      ],
+      "publishedDate": "2025-12-02T00:08:24Z",
+      "categories": [
+        "agents",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.02230",
+      "title": "Benchmarking LLM Agents for Wealth-Management Workflows",
+      "authors": [
+        "Rory Milsom"
+      ],
+      "publishedDate": "2025-12-01T21:56:21Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "reasoning",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.02228",
+      "title": "STRIDE: A Systematic Framework for Selecting AI Modalities -- Agentic AI, AI Assistants, or LLM Calls",
+      "authors": [
+        "Shubhi Asthana",
+        "Bing Zhang",
+        "Chad DeLuca",
+        "Ruchi Mahindru",
+        "Hima Patel"
+      ],
+      "publishedDate": "2025-12-01T21:54:07Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "tool-use",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.01945",
+      "title": "Agentic Policy Optimization via Instruction-Policy Co-Evolution",
+      "authors": [
+        "Han Zhou",
+        "Xingchen Wan",
+        "Ivan Vulić",
+        "Anna Korhonen"
+      ],
+      "publishedDate": "2025-12-01T17:56:29Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.01270",
+      "title": "Egent: An Autonomous Agent for Equivalent Width Measurement",
+      "authors": [
+        "Yuan-Sen Ting",
+        "Serat Mahmud Saad",
+        "Fan Liu",
+        "Yuting Shen"
+      ],
+      "publishedDate": "2025-12-01T04:32:25Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.10971",
+      "title": "AI-Trader: Benchmarking Autonomous Agents in Real-Time Financial Markets",
+      "authors": [
+        "Tianyu Fan",
+        "Yuhao Yang",
+        "Yangqin Jiang",
+        "Yifei Zhang",
+        "Yuxuan Chen",
+        "Chao Huang"
+      ],
+      "publishedDate": "2025-12-01T04:25:36Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "reasoning",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.01078",
+      "title": "SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds",
+      "authors": [
+        "Jiawei Ren",
+        "Yan Zhuang",
+        "Xiaokang Ye",
+        "Lingjun Mao",
+        "Xuhong He",
+        "Jianzhi Shen",
+        "Mrinaal Dogra",
+        "Yiming Liang",
+        "Ruixuan Zhang",
+        "Tianai Yue",
+        "Yiqing Yang",
+        "Eric Liu",
+        "Ryan Wu",
+        "Kevin Benavente",
+        "Rajiv Mandya Nagaraju",
+        "Muhammad Faayez",
+        "Xiyan Zhang",
+        "Dhruv Vivek Sharma",
+        "Xianrui Zhong",
+        "Ziqiao Ma",
+        "Tianmin Shu",
+        "Zhiting Hu",
+        "Lianhui Qin"
+      ],
+      "publishedDate": "2025-11-30T20:58:13Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "multi-agent",
+        "code-generation",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.00831",
+      "title": "ReJump: A Tree-Jump Representation for Analyzing and Improving LLM Reasoning",
+      "authors": [
+        "Yuchen Zeng",
+        "Shuibai Zhang",
+        "Wonjun Kang",
+        "Shutong Wu",
+        "Lynnix Zou",
+        "Ying Fan",
+        "Heeju Kim",
+        "Ziqian Lin",
+        "Jungtaek Kim",
+        "Hyung Il Koo",
+        "Dimitris Papailiopoulos",
+        "Kangwook Lee"
+      ],
+      "publishedDate": "2025-11-30T10:39:53Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "code-generation",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.00617",
+      "title": "ART: Adaptive Response Tuning Framework -- A Multi-Agent Tournament-Based Approach to LLM Response Optimization",
+      "authors": [
+        "Omer Jauhar Khan"
+      ],
+      "publishedDate": "2025-11-29T20:16:11Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "reasoning",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.00520",
+      "title": "Toward a Safe Internet of Agents",
+      "authors": [
+        "Juan A. Wibowo",
+        "George C. Polyzos"
+      ],
+      "publishedDate": "2025-11-29T15:31:16Z",
+      "categories": [
+        "agents",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.00491",
+      "title": "Smart-TCP: An Agentic AI-based Autonomous and Adaptive TCP Protocol",
+      "authors": [
+        "Yule Han",
+        "Kezhi Wang",
+        "Kun Yang"
+      ],
+      "publishedDate": "2025-11-29T13:55:10Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "tool-use",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.00417",
+      "title": "CryptoBench: A Dynamic Benchmark for Expert-Level Evaluation of LLM Agents in Cryptocurrency",
+      "authors": [
+        "Jiacheng Guo",
+        "Suozhi Huang",
+        "Zixin Yao",
+        "Yifan Zhang",
+        "Yifu Lu",
+        "Jiashuo Liu",
+        "Zihao Li",
+        "Nicholas Deng",
+        "Qixin Xiao",
+        "Jia Tian",
+        "Kanghong Zhan",
+        "Tianyi Li",
+        "Xiaochen Liu",
+        "Jason Ge",
+        "Chaoyang He",
+        "Kaixuan Huang",
+        "Lin Yang",
+        "Wenhao Huang",
+        "Mengdi Wang"
+      ],
+      "publishedDate": "2025-11-29T09:52:34Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.00371",
+      "title": "Evaluating LLMs in Open-Source Games",
+      "authors": [
+        "Swadesh Sistla",
+        "Max Kleiman-Weiner"
+      ],
+      "publishedDate": "2025-11-29T07:46:25Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2512.11819",
+      "title": "A Modular LLM-Agent System for Transparent Multi-Parameter Weather Interpretation",
+      "authors": [
+        "Daniil Sukhorukov",
+        "Andrei Zakharov",
+        "Nikita Glazkov",
+        "Katsiaryna Yanchanka",
+        "Vladimir Kirilin",
+        "Maxim Dubovitsky",
+        "Roman Sultimov",
+        "Yuri Maksimov",
+        "Ilya Makarov"
+      ],
+      "publishedDate": "2025-11-28T22:24:40Z",
+      "categories": [
+        "prompting",
+        "agents",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.23476",
+      "title": "Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction",
+      "authors": [
+        "Bao Shu",
+        "Yan Cai",
+        "Jianjian Sun",
+        "Chunrui Han",
+        "En Yu",
+        "Liang Zhao",
+        "Jingcheng Hu",
+        "Yinmin Zhang",
+        "Haoran Lv",
+        "Yuang Peng",
+        "Zheng Ge",
+        "Xiangyu Zhang",
+        "Daxin Jiang",
+        "Xiangyu Yue"
+      ],
+      "publishedDate": "2025-11-28T18:59:47Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.23387",
+      "title": "Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting",
+      "authors": [
+        "Daniil Sukhorukov",
+        "Andrei Zakharov",
+        "Nikita Glazkov",
+        "Katsiaryna Yanchanka",
+        "Vladimir Kirilin",
+        "Maxim Dubovitsky",
+        "Roman Sultimov",
+        "Yuri Maksimov",
+        "Ilya Makarov"
+      ],
+      "publishedDate": "2025-11-28T17:27:06Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.23281",
+      "title": "MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web (Technical Report)",
+      "authors": [
+        "Aaron Steiner",
+        "Ralph Peeters",
+        "Christian Bizer"
+      ],
+      "publishedDate": "2025-11-28T15:32:15Z",
+      "categories": [
+        "agents",
+        "rag",
+        "tool-use",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.22138",
+      "title": "TinyLLM: Evaluation and Optimization of Small Language Models for Agentic Tasks on Edge Devices",
+      "authors": [
+        "Mohd Ariful Haque",
+        "Fahad Rahman",
+        "Kishor Datta Gupta",
+        "Khalil Shujaee",
+        "Roy George"
+      ],
+      "publishedDate": "2025-11-27T06:09:54Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.21572",
+      "title": "BAMAS: Structuring Budget-Aware Multi-Agent Systems",
+      "authors": [
+        "Liming Yang",
+        "Junyu Luo",
+        "Xuanzhe Liu",
+        "Yiling Lou",
+        "Zhenpeng Chen"
+      ],
+      "publishedDate": "2025-11-26T16:48:18Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.19368",
+      "title": "LLM-Driven Stationarity-Aware Expert Demonstrations for Multi-Agent Reinforcement Learning in Mobile Systems",
+      "authors": [
+        "Tianyang Duan",
+        "Zongyuan Zhang",
+        "Zheng Lin",
+        "Songxiao Guo",
+        "Xiuxian Guan",
+        "Guangyu Wu",
+        "Zihan Fang",
+        "Haotian Meng",
+        "Xia Du",
+        "Ji-Zhe Zhou",
+        "Heming Cui",
+        "Jun Luo",
+        "Yue Gao"
+      ],
+      "publishedDate": "2025-11-24T18:03:59Z",
+      "categories": [
+        "agents",
+        "rag",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.19536",
+      "title": "AttackPilot: Autonomous Inference Attacks Against ML Services With LLM-Based Agents",
+      "authors": [
+        "Yixin Wu",
+        "Rui Wen",
+        "Chi Cui",
+        "Michael Backes",
+        "Yang Zhang"
+      ],
+      "publishedDate": "2025-11-24T10:14:14Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "rag",
+        "multi-agent",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.18114",
+      "title": "ASTRA: Agentic Steerability and Risk Assessment Framework",
+      "authors": [
+        "Itay Hazan",
+        "Yael Mathov",
+        "Guy Shtar",
+        "Ron Bitton",
+        "Itsik Mantin"
+      ],
+      "publishedDate": "2025-11-22T16:32:29Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "planning",
+        "rag",
+        "prompting",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.17190",
+      "title": "AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale",
+      "authors": [
+        "Ziyang Wang",
+        "Yuanlei Zheng",
+        "Zhenbiao Cao",
+        "Xiaojin Zhang",
+        "Zhongyu Wei",
+        "Pei Fu",
+        "Zhenbo Luo",
+        "Wei Chen",
+        "Xiang Bai"
+      ],
+      "publishedDate": "2025-11-21T12:12:17Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.16709",
+      "title": "AutoBackdoor: Automating Backdoor Attacks via LLM Agents",
+      "authors": [
+        "Yige Li",
+        "Zhe Li",
+        "Wei Zhao",
+        "Nay Myat Min",
+        "Hanxun Huang",
+        "Xingjun Ma",
+        "Jun Sun"
+      ],
+      "publishedDate": "2025-11-20T03:58:54Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.13998",
+      "title": "LoCoBench-Agent: An Interactive Benchmark for LLM Agents in Long-Context Software Engineering",
+      "authors": [
+        "Jielin Qiu",
+        "Zuxin Liu",
+        "Zhiwei Liu",
+        "Rithesh Murthy",
+        "Jianguo Zhang",
+        "Haolin Chen",
+        "Shiyu Wang",
+        "Ming Zhu",
+        "Liangwei Yang",
+        "Juntao Tan",
+        "Roshan Ram",
+        "Akshara Prabhakar",
+        "Tulika Awalgaonkar",
+        "Zixiang Chen",
+        "Zhepeng Cen",
+        "Cheng Qian",
+        "Shelby Heinecke",
+        "Weiran Yao",
+        "Silvio Savarese",
+        "Caiming Xiong",
+        "Huan Wang"
+      ],
+      "publishedDate": "2025-11-17T23:57:24Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "code-generation",
+        "tool-use",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.13087",
+      "title": "MEGA-GUI: Multi-stage Enhanced Grounding Agents for GUI Elements",
+      "authors": [
+        "SeokJoo Kwak",
+        "Jihoon Kim",
+        "Boyoun Kim",
+        "Jung Jae Yoon",
+        "Wooseok Jang",
+        "Jeonghoon Hong",
+        "Jaeho Yang",
+        "Yeong-Dae Kwon"
+      ],
+      "publishedDate": "2025-11-17T07:38:05Z",
+      "categories": [
+        "agents",
+        "rag",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.10395",
+      "title": "AgentEvolver: Towards Efficient Self-Evolving Agent System",
+      "authors": [
+        "Yunpeng Zhai",
+        "Shuchang Tao",
+        "Cheng Chen",
+        "Anni Zou",
+        "Ziqian Chen",
+        "Qingxu Fu",
+        "Shinji Mai",
+        "Li Yu",
+        "Jiaji Deng",
+        "Zouying Cao",
+        "Zhaoyang Liu",
+        "Bolin Ding",
+        "Jingren Zhou"
+      ],
+      "publishedDate": "2025-11-13T15:14:47Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.08649",
+      "title": "Bio AI Agent: A Multi-Agent Artificial Intelligence System for Autonomous CAR-T Cell Therapy Development with Integrated Target Discovery, Toxicity Prediction, and Rational Molecular Design",
+      "authors": [
+        "Yi Ni",
+        "Liwei Zhu",
+        "Shuai Li"
+      ],
+      "publishedDate": "2025-11-11T02:41:08Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "evaluation",
+        "tool-use",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.06449",
+      "title": "FLEX: Continuous Agent Evolution via Forward Learning from Experience",
+      "authors": [
+        "Zhicheng Cai",
+        "Xinyuan Guo",
+        "Yu Pei",
+        "Jiangtao Feng",
+        "Jinsong Su",
+        "Jiangjie Chen",
+        "Ya-Qin Zhang",
+        "Wei-Ying Ma",
+        "Mingxuan Wang",
+        "Hao Zhou"
+      ],
+      "publishedDate": "2025-11-09T16:31:39Z",
+      "categories": [
+        "agents",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.05359",
+      "title": "ConVerse: Benchmarking Contextual Safety in Agent-to-Agent Conversations",
+      "authors": [
+        "Amr Gomaa",
+        "Ahmed Salem",
+        "Sahar Abdelnabi"
+      ],
+      "publishedDate": "2025-11-07T15:49:49Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "evaluation",
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.05269",
+      "title": "TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems",
+      "authors": [
+        "Ishan Kavathekar",
+        "Hemang Jain",
+        "Ameya Rathod",
+        "Ponnurangam Kumaraguru",
+        "Tanuja Ganu"
+      ],
+      "publishedDate": "2025-11-07T14:30:26Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "tool-use",
+        "planning",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2511.02424",
+      "title": "ReAcTree: Hierarchical LLM Agent Trees with Control Flow for Long-Horizon Task Planning",
+      "authors": [
+        "Jae-Woo Choi",
+        "Hyungmin Kim",
+        "Hyobin Ong",
+        "Minsu Jang",
+        "Dohyung Kim",
+        "Jaehong Kim",
+        "Youngwoo Yoon"
+      ],
+      "publishedDate": "2025-11-04T09:55:40Z",
+      "categories": [
+        "agents",
+        "planning",
+        "reasoning",
+        "robotics"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.25320",
+      "title": "GAP: Graph-Based Agent Planning with Parallel Tool Use and Reinforcement Learning",
+      "authors": [
+        "Jiaqi Wu",
+        "Qinlao Zhao",
+        "Zefeng Chen",
+        "Kai Qin",
+        "Yifei Zhao",
+        "Xueqian Wang",
+        "Yuhang Yao"
+      ],
+      "publishedDate": "2025-10-29T09:35:55Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "tool-use",
+        "planning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.24949",
+      "title": "SCOUT: A Lightweight Framework for Scenario Coverage Assessment in Autonomous Driving",
+      "authors": [
+        "Anil Yildiz",
+        "Sarah M. Thornton",
+        "Carl Hildebrandt",
+        "Sreeja Roy-Singh",
+        "Mykel J. Kochenderfer"
+      ],
+      "publishedDate": "2025-10-28T20:31:19Z",
+      "categories": [
+        "agents",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.24645",
+      "title": "FunReason-MT Technical Report: Advanced Data Synthesis Solution for Real-world Multi-Turn Tool-use",
+      "authors": [
+        "Zengzhuang Xu",
+        "Bingguang Hao",
+        "Zechuan Wang",
+        "Yuntao Wen",
+        "Xinyi Xu",
+        "Yang Liu",
+        "Long Chen",
+        "Dong Wang",
+        "Maolin Wang",
+        "Tong Zhao",
+        "Yicheng Chen",
+        "Cunyin Peng",
+        "Jinjie Gu",
+        "Leilei Gan",
+        "Xiangyu Zhao",
+        "Chenyi Zhuang",
+        "Shi Gu"
+      ],
+      "publishedDate": "2025-10-28T17:15:26Z",
+      "categories": [
+        "tool-use",
+        "agents",
+        "reasoning",
+        "multi-agent",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.23824",
+      "title": "Decentralized Multi-Agent Goal Assignment for Path Planning using Large Language Models",
+      "authors": [
+        "Murad Ismayilov",
+        "Edwin Meriaux",
+        "Shuo Wen",
+        "Gregory Dudek"
+      ],
+      "publishedDate": "2025-10-27T20:05:56Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "robotics",
+        "reasoning",
+        "planning",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.23682",
+      "title": "Beyond Prompt Engineering: Neuro-Symbolic-Causal Architecture for Robust Multi-Objective AI Agents",
+      "authors": [
+        "Gokturk Aytug Akarlar"
+      ],
+      "publishedDate": "2025-10-27T15:25:35Z",
+      "categories": [
+        "agents",
+        "prompting",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.23182",
+      "title": "SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations",
+      "authors": [
+        "Shuai Huang",
+        "Wenxuan Zhao",
+        "Jun Gao"
+      ],
+      "publishedDate": "2025-10-27T10:21:46Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.20333",
+      "title": "GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?",
+      "authors": [
+        "Chiyu Chen",
+        "Xinhao Song",
+        "Yunkai Chai",
+        "Yang Yao",
+        "Haodong Zhao",
+        "Lijun Li",
+        "Jie Li",
+        "Yan Teng",
+        "Gongshen Liu",
+        "Yingchun Wang"
+      ],
+      "publishedDate": "2025-10-23T08:33:24Z",
+      "categories": [
+        "agents",
+        "prompting",
+        "evaluation",
+        "reasoning",
+        "robotics"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.19747",
+      "title": "Review of Tools for Zero-Code LLM Based Application Development",
+      "authors": [
+        "Priyaranjan Pattnayak",
+        "Hussain Bohra"
+      ],
+      "publishedDate": "2025-10-22T16:41:16Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "tool-use",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.20849",
+      "title": "Cultural Alien Sampler: Open-ended art generation balancing originality and coherence",
+      "authors": [
+        "Alejandro H. Artiles",
+        "Hiromu Yakura",
+        "Levin Brinkmann",
+        "Mar Canet Sola",
+        "Hassan Abu Alhaija",
+        "Ignacio Serna",
+        "Nasim Rahaman",
+        "Bernhard Schölkopf",
+        "Iyad Rahwan"
+      ],
+      "publishedDate": "2025-10-21T09:32:46Z",
+      "categories": [
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.16492",
+      "title": "Check Yourself Before You Wreck Yourself: Selectively Quitting Improves LLM Agent Safety",
+      "authors": [
+        "Vamshi Krishna Bonagiri",
+        "Ponnurangam Kumaragurum",
+        "Khanh Nguyen",
+        "Benjamin Plaut"
+      ],
+      "publishedDate": "2025-10-18T13:22:19Z",
+      "categories": [
+        "agents",
+        "prompting",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.16381",
+      "title": "ATA: A Neuro-Symbolic Approach to Implement Autonomous and Trustworthy Agents",
+      "authors": [
+        "David Peer",
+        "Sebastian Stabinger"
+      ],
+      "publishedDate": "2025-10-18T07:35:54Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "rag",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.15863",
+      "title": "PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction",
+      "authors": [
+        "Simon Yu",
+        "Gang Li",
+        "Weiyan Shi",
+        "Peng Qi"
+      ],
+      "publishedDate": "2025-10-17T17:56:00Z",
+      "categories": [
+        "agents",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.16051",
+      "title": "GUIrilla: A Scalable Framework for Automated Desktop UI Exploration",
+      "authors": [
+        "Sofiya Garkot",
+        "Maksym Shamrai",
+        "Ivan Synytsia",
+        "Mariya Hirna"
+      ],
+      "publishedDate": "2025-10-16T19:03:45Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "rag",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.14881",
+      "title": "The Gatekeeper Knows Enough",
+      "authors": [
+        "Fikresilase Wondmeneh Abebayew"
+      ],
+      "publishedDate": "2025-10-16T17:00:42Z",
+      "categories": [
+        "agents",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.14703",
+      "title": "ToolPRM: Fine-Grained Inference Scaling of Structured Outputs for Function Calling",
+      "authors": [
+        "Jianghao Lin",
+        "Yuanyuan Shi",
+        "Xin Peng",
+        "Renjie Ding",
+        "Hairui Wang",
+        "Yuxuan Peng",
+        "Bizhe Bai",
+        "Weixi Song",
+        "Fengshuo Bai",
+        "Huacan Chai",
+        "Weinan Zhang",
+        "Fei Huang",
+        "Ying Wen"
+      ],
+      "publishedDate": "2025-10-16T14:06:03Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.14133",
+      "title": "Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems",
+      "authors": [
+        "Edoardo Allegrini",
+        "Ananth Shreekumar",
+        "Z. Berkay Celik"
+      ],
+      "publishedDate": "2025-10-15T22:02:30Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "reasoning",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.12864",
+      "title": "From Literal to Liberal: A Meta-Prompting Framework for Eliciting Human-Aligned Exception Handling in Large Language Models",
+      "authors": [
+        "Imran Khan"
+      ],
+      "publishedDate": "2025-10-14T16:42:52Z",
+      "categories": [
+        "prompting",
+        "agents",
+        "reasoning",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.10991",
+      "title": "A Survey on Agentic Multimodal Large Language Models",
+      "authors": [
+        "Huanjin Yao",
+        "Ruifei Zhang",
+        "Jiaxing Huang",
+        "Jingyi Zhang",
+        "Yibo Wang",
+        "Bo Fang",
+        "Ruolin Zhu",
+        "Yongcheng Jing",
+        "Shunyu Liu",
+        "Guanbin Li",
+        "Dacheng Tao"
+      ],
+      "publishedDate": "2025-10-13T04:07:01Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "planning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.10461",
+      "title": "MedCoAct: Confidence-Aware Multi-Agent Collaboration for Complete Clinical Decision",
+      "authors": [
+        "Hongjie Zheng",
+        "Zesheng Shi",
+        "Ping Yi"
+      ],
+      "publishedDate": "2025-10-12T05:52:31Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "reasoning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.10049",
+      "title": "ALLOY: Generating Reusable Agent Workflows from User Demonstration",
+      "authors": [
+        "Jiawen Li",
+        "Zheng Ning",
+        "Yuan Tian",
+        "Toby Jia-jun Li"
+      ],
+      "publishedDate": "2025-10-11T06:30:34Z",
+      "categories": [
+        "agents",
+        "planning",
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.09901",
+      "title": "Autonomous Agents for Scientific Discovery: Orchestrating Scientists, Language, Code, and Physics",
+      "authors": [
+        "Lianhao Zhou",
+        "Hongyi Ling",
+        "Cong Fu",
+        "Yepeng Huang",
+        "Michael Sun",
+        "Wendi Yu",
+        "Xiaoxuan Wang",
+        "Xiner Li",
+        "Xingyu Su",
+        "Junkai Zhang",
+        "Xiusi Chen",
+        "Chenxing Liang",
+        "Xiaofeng Qian",
+        "Heng Ji",
+        "Wei Wang",
+        "Marinka Zitnik",
+        "Shuiwang Ji"
+      ],
+      "publishedDate": "2025-10-10T22:26:26Z",
+      "categories": [
+        "agents",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.09608",
+      "title": "StreamingVLM: Real-Time Understanding for Infinite Video Streams",
+      "authors": [
+        "Ruyi Xu",
+        "Guangxuan Xiao",
+        "Yukang Chen",
+        "Liuning He",
+        "Kelly Peng",
+        "Yao Lu",
+        "Song Han"
+      ],
+      "publishedDate": "2025-10-10T17:59:58Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.09721",
+      "title": "A Comprehensive Survey on Benchmarks and Solutions in Software Engineering of LLM-Empowered Agentic System",
+      "authors": [
+        "Jiale Guo",
+        "Suizhi Huang",
+        "Mei Li",
+        "Dong Huang",
+        "Xingsheng Chen",
+        "Regina Zhang",
+        "Zhijiang Guo",
+        "Han Yu",
+        "Siu-Ming Yiu",
+        "Pietro Lio",
+        "Kwok-Yan Lam"
+      ],
+      "publishedDate": "2025-10-10T06:56:50Z",
+      "categories": [
+        "multi-agent",
+        "code-generation",
+        "agents",
+        "prompting",
+        "evaluation",
+        "reasoning",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.08255",
+      "title": "Opponent Shaping in LLM Agents",
+      "authors": [
+        "Marta Emili Garcia Segura",
+        "Stephen Hailes",
+        "Mirco Musolesi"
+      ],
+      "publishedDate": "2025-10-09T14:13:24Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "tool-use"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.06903",
+      "title": "When Machines Meet Each Other: Network Effects and the Strategic Role of History in Multi-Agent AI",
+      "authors": [
+        "Yu Liu",
+        "Wenwen Li",
+        "Yifan Dou",
+        "Guangnan Ye"
+      ],
+      "publishedDate": "2025-10-08T11:39:16Z",
+      "categories": [
+        "agents",
+        "multi-agent"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.05596",
+      "title": "From Agentification to Self-Evolving Agentic AI for Wireless Networks: Concepts, Approaches, and Future Research Directions",
+      "authors": [
+        "Changyuan Zhao",
+        "Ruichen Zhang",
+        "Jiacheng Wang",
+        "Dusit Niyato",
+        "Geng Sun",
+        "Xianbin Wang",
+        "Shiwen Mao",
+        "Abbas Jamalipour"
+      ],
+      "publishedDate": "2025-10-07T05:45:25Z",
+      "categories": [
+        "agents",
+        "multi-agent",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.05414",
+      "title": "A Lightweight Large Language Model-Based Multi-Agent System for 2D Frame Structural Analysis",
+      "authors": [
+        "Ziheng Geng",
+        "Jiachen Liu",
+        "Ran Cao",
+        "Lu Cheng",
+        "Haifeng Wang",
+        "Minghui Cheng"
+      ],
+      "publishedDate": "2025-10-06T22:12:52Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "reasoning",
+        "multi-agent",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.02209",
+      "title": "StockBench: Can LLM Agents Trade Stocks Profitably In Real-world Markets?",
+      "authors": [
+        "Yanxu Chen",
+        "Zijun Yao",
+        "Yantao Liu",
+        "Jin Ye",
+        "Jianing Yu",
+        "Lei Hou",
+        "Juanzi Li"
+      ],
+      "publishedDate": "2025-10-02T16:54:57Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "tool-use",
+        "reasoning",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.01869",
+      "title": "TACOS: Task Agnostic COordinator of a multi-drone System",
+      "authors": [
+        "Alessandro Nazzari",
+        "Roberto Rubinacci",
+        "Marco Lovera"
+      ],
+      "publishedDate": "2025-10-02T10:21:35Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "reasoning",
+        "planning",
+        "multi-agent",
+        "robotics"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.01645",
+      "title": "Position: Privacy Is Not Just Memorization!",
+      "authors": [
+        "Niloofar Mireshghallah",
+        "Tianshi Li"
+      ],
+      "publishedDate": "2025-10-02T04:02:06Z",
+      "categories": [
+        "agents"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.00857",
+      "title": "ManagerBench: Evaluating the Safety-Pragmatism Trade-off in Autonomous LLMs",
+      "authors": [
+        "Adi Simhi",
+        "Jonathan Herzig",
+        "Martin Tutek",
+        "Itay Itzhak",
+        "Idan Szpektor",
+        "Yonatan Belinkov"
+      ],
+      "publishedDate": "2025-10-01T13:08:33Z",
+      "categories": [
+        "agents",
+        "evaluation",
+        "rag",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.01295",
+      "title": "The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation",
+      "authors": [
+        "Zarreen Reza"
+      ],
+      "publishedDate": "2025-10-01T07:10:28Z",
+      "categories": [
+        "evaluation",
+        "agents",
+        "tool-use",
+        "multi-agent",
+        "prompting",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.00510",
+      "title": "JoyAgent-JDGenie: Technical Report on the GAIA",
+      "authors": [
+        "Jiarun Liu",
+        "Shiyue Xu",
+        "Shangkun Liu",
+        "Yang Li",
+        "Wen Liu",
+        "Min Liu",
+        "Xiaoqing Zhou",
+        "Hanmin Wang",
+        "Shilin Jia",
+        "zhen Wang",
+        "Shaohua Tian",
+        "Hanhao Li",
+        "Junbo Zhang",
+        "Yongli Yu",
+        "Peng Cao",
+        "Haofen Wang"
+      ],
+      "publishedDate": "2025-10-01T04:41:58Z",
+      "categories": [
+        "agents",
+        "planning",
+        "multi-agent",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.25873",
+      "title": "Lita: Light Agent Uncovers the Agentic Coding Capabilities of LLMs",
+      "authors": [
+        "Hankun Dai",
+        "Maoquan Wang",
+        "Mengnan Qi",
+        "Yikai Zhang",
+        "Zijian Jin",
+        "Yongqiang Yao",
+        "Yufan Huang",
+        "Shengyu Fu",
+        "Elsie Nallipogu"
+      ],
+      "publishedDate": "2025-09-30T07:07:32Z",
+      "categories": [
+        "code-generation",
+        "agents",
+        "evaluation",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.24923",
+      "title": "When Greedy Wins: Emergent Exploitation Bias in Meta-Bandit LLM Training",
+      "authors": [
+        "Sanxing Chen",
+        "Xiaoyin Chen",
+        "Yukun Huang",
+        "Roy Xie",
+        "Bhuwan Dhingra"
+      ],
+      "publishedDate": "2025-09-29T15:25:42Z",
+      "categories": [
+        "agents",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.03253",
+      "title": "Solving the Granularity Mismatch: Hierarchical Preference Learning for Long-Horizon LLM Agents",
+      "authors": [
+        "Heyang Gao",
+        "Zexu Sun",
+        "Erxue Min",
+        "Hengyi Cai",
+        "Shuaiqiang Wang",
+        "Dawei Yin",
+        "Xu Chen"
+      ],
+      "publishedDate": "2025-09-26T08:43:39Z",
+      "categories": [
+        "agents",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.21981",
+      "title": "CoBel-World: Harnessing LLM Reasoning to Build a Collaborative Belief World for Optimizing Embodied Multi-Agent Collaboration",
+      "authors": [
+        "Zhimin Wang",
+        "Shaokang He",
+        "Duo Wu",
+        "Jinghe Wang",
+        "Linjia Kang",
+        "Jing Yu",
+        "Zhi Wang"
+      ],
+      "publishedDate": "2025-09-26T07:03:52Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "reasoning",
+        "planning",
+        "prompting",
+        "robotics",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.20616",
+      "title": "Training Task Reasoning LLM Agents for Multi-turn Task Planning via Single-turn Reinforcement Learning",
+      "authors": [
+        "Hanjiang Hu",
+        "Changliu Liu",
+        "Na Li",
+        "Yebin Wang"
+      ],
+      "publishedDate": "2025-09-24T23:47:36Z",
+      "categories": [
+        "agents",
+        "planning",
+        "evaluation",
+        "tool-use",
+        "reasoning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2510.05107",
+      "title": "Structured Cognitive Loop for Behavioral Intelligence in Large Language Model Agents",
+      "authors": [
+        "Myung Ho Kim"
+      ],
+      "publishedDate": "2025-09-23T17:43:17Z",
+      "categories": [
+        "agents",
+        "planning",
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.19199",
+      "title": "Agentic Reinforcement Learning with Implicit Step Rewards",
+      "authors": [
+        "Xiaoqian Liu",
+        "Ke Wang",
+        "Yuchuan Wu",
+        "Fei Huang",
+        "Yongbin Li",
+        "Junge Zhang",
+        "Jianbin Jiao"
+      ],
+      "publishedDate": "2025-09-23T16:15:42Z",
+      "categories": [
+        "agents",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.17567",
+      "title": "LIMI: Less is More for Agency",
+      "authors": [
+        "Yang Xiao",
+        "Mohan Jiang",
+        "Jie Sun",
+        "Keyu Li",
+        "Jifan Lin",
+        "Yumin Zhuang",
+        "Ji Zeng",
+        "Shijie Xia",
+        "Qishuo Hua",
+        "Xuefeng Li",
+        "Xiaojie Cai",
+        "Tongyu Wang",
+        "Yue Zhang",
+        "Liming Liu",
+        "Xia Wu",
+        "Jinlong Hou",
+        "Yuan Cheng",
+        "Wenjie Li",
+        "Xiang Wang",
+        "Dequan Wang",
+        "Pengfei Liu"
+      ],
+      "publishedDate": "2025-09-22T10:59:32Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "code-generation",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.17328",
+      "title": "UIPro: Unleashing Superior Interaction Capability For GUI Agents",
+      "authors": [
+        "Hongxin Li",
+        "Jingran Su",
+        "Jingfan Chen",
+        "Zheng Ju",
+        "Yuntao Chen",
+        "Qing Li",
+        "Zhaoxiang Zhang"
+      ],
+      "publishedDate": "2025-09-22T03:04:53Z",
+      "categories": [
+        "agents",
+        "planning",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.16736",
+      "title": "Towards Transparent and Incentive-Compatible Collaboration in Decentralized LLM Multi-Agent Systems: A Blockchain-Driven Approach",
+      "authors": [
+        "Minfeng Qi",
+        "Tianqing Zhu",
+        "Lefeng Zhang",
+        "Ningran Li",
+        "Wanlei Zhou"
+      ],
+      "publishedDate": "2025-09-20T16:00:24Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "tool-use",
+        "reasoning",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.12987",
+      "title": "Toward PDDL Planning Copilot",
+      "authors": [
+        "Yarin Benyamin",
+        "Argaman Mordoch",
+        "Shahaf S. Shperberg",
+        "Roni Stern"
+      ],
+      "publishedDate": "2025-09-16T11:51:07Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "planning",
+        "rag",
+        "prompting"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.11943",
+      "title": "Agentic System with Modal Logic for Autonomous Diagnostics",
+      "authors": [
+        "Antonin Sulc",
+        "Thorsten Hellert"
+      ],
+      "publishedDate": "2025-09-15T14:03:06Z",
+      "categories": [
+        "agents",
+        "reasoning",
+        "multi-agent",
+        "code-generation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.09906",
+      "title": "Tackling One Health Risks: How Large Language Models are leveraged for Risk Negotiation and Consensus-building",
+      "authors": [
+        "Alexandra Fetsch",
+        "Iurii Savvateev",
+        "Racem Ben Romdhane",
+        "Martin Wiedmann",
+        "Artemiy Dimov",
+        "Maciej Durkalec",
+        "Josef Teichmann",
+        "Jakob Zinsstag",
+        "Konstantinos Koutsoumanis",
+        "Andreja Rajkovic",
+        "Jason Mann",
+        "Mauro Tonolla",
+        "Monika Ehling-Schulz",
+        "Matthias Filter",
+        "Sophia Johler"
+      ],
+      "publishedDate": "2025-09-12T00:25:20Z",
+      "categories": [
+        "agents",
+        "rag"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.09356",
+      "title": "Curriculum-Based Multi-Tier Semantic Exploration via Deep Reinforcement Learning",
+      "authors": [
+        "Abdel Hakim Drid",
+        "Vincenzo Suriani",
+        "Daniele Nardi",
+        "Abderrezzak Debilou"
+      ],
+      "publishedDate": "2025-09-11T11:10:08Z",
+      "categories": [
+        "robotics",
+        "agents",
+        "reasoning",
+        "prompting",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.09215",
+      "title": "Enabling Regulatory Multi-Agent Collaboration: Architecture, Challenges, and Solutions",
+      "authors": [
+        "Qinnan Hu",
+        "Yuntao Wang",
+        "Yuan Gao",
+        "Zhou Su",
+        "Linkang Du"
+      ],
+      "publishedDate": "2025-09-11T07:46:00Z",
+      "categories": [
+        "multi-agent",
+        "agents",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.08380",
+      "title": "Co-Investigator AI: The Rise of Agentic AI for Smarter, Trustworthy AML Compliance Narratives",
+      "authors": [
+        "Prathamesh Vasudeo Naik",
+        "Naresh Kumar Dintakurthi",
+        "Zhanghao Hu",
+        "Yue Wang",
+        "Robby Qiu"
+      ],
+      "publishedDate": "2025-09-10T08:16:04Z",
+      "categories": [
+        "agents",
+        "planning"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2509.08088",
+      "title": "EnvX: Agentize Everything with Agentic AI",
+      "authors": [
+        "Linyao Chen",
+        "Zimian Peng",
+        "Yingxuan Yang",
+        "Yikun Wang",
+        "Wenzheng Tom Tang",
+        "Hiroki H. Kobayashi",
+        "Weinan Zhang"
+      ],
+      "publishedDate": "2025-09-09T18:51:36Z",
+      "categories": [
+        "code-generation",
+        "agents",
+        "tool-use",
+        "multi-agent",
+        "rag",
+        "evaluation"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "2412.12345",
+      "title": "Sample LLM Agent Paper: Task Planning with Large Language Models",
+      "authors": [
+        "John Doe",
+        "Jane Smith"
+      ],
+      "publishedDate": "2024-12-15T00:00:00Z",
+      "categories": [
+        "agents",
+        "planning",
+        "reasoning"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "2411.98765",
+      "title": "Retrieval-Augmented Generation for Domain-Specific Applications",
+      "authors": [
+        "Alice Johnson",
+        "Bob Williams"
+      ],
+      "publishedDate": "2024-11-20T00:00:00Z",
+      "categories": [
+        "rag",
+        "prompting"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "2410.55555",
+      "title": "Multi-Agent Systems for Code Generation with LLMs",
+      "authors": [
+        "Charlie Brown"
+      ],
+      "publishedDate": "2024-10-10T00:00:00Z",
+      "categories": [
+        "multi-agent",
+        "code-generation",
+        "agents"
+      ],
+      "year": 2024
+    }
+  ]
+}

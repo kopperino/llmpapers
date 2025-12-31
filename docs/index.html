@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Comprehensive collection of research papers on Large Language Model applications and agents from arXiv">
+  <meta name="keywords" content="LLM, Large Language Models, AI Agents, arXiv, Research Papers">
+  <title>LLM Papers Collection - arXiv Research Database</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="title">LLM Papers Collection</h1>
+      <p class="subtitle">Comprehensive arXiv research on Large Language Model applications & agents</p>
+      <div class="stats">
+        <span class="stat">
+          <strong id="total-papers">0</strong> papers
+        </span>
+        <span class="stat-divider">|</span>
+        <span class="stat">
+          Last updated: <strong id="last-updated">Loading...</strong>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <aside class="sidebar">
+        <div class="filter-section">
+          <h2 class="filter-title">Search</h2>
+          <div class="search-box">
+            <input
+              type="text"
+              id="search-input"
+              class="search-input"
+              placeholder="Search papers by title, authors, or keywords..."
+              autocomplete="off"
+            >
+            <button id="clear-search" class="clear-search" title="Clear search">×</button>
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <h2 class="filter-title">Sort By</h2>
+          <select id="sort-select" class="sort-select">
+            <option value="date-desc">Newest First</option>
+            <option value="date-asc">Oldest First</option>
+            <option value="relevance">Relevance (when searching)</option>
+          </select>
+        </div>
+
+        <div class="filter-section">
+          <h2 class="filter-title">Categories</h2>
+          <div id="category-filters" class="filter-checkboxes">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <h2 class="filter-title">Year</h2>
+          <div id="year-filters" class="filter-checkboxes">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <button id="reset-filters" class="reset-button">Reset All Filters</button>
+        </div>
+
+        <div class="filter-section blocklist-section">
+          <h2 class="filter-title">Blocklist</h2>
+          <p class="filter-description">
+            Removed papers: <strong id="blocklist-count">0</strong>
+          </p>
+          <button id="export-blocklist" class="export-button">Export Blocklist</button>
+          <button id="clear-blocklist" class="clear-button">Clear Blocklist</button>
+        </div>
+      </aside>
+
+      <section class="content">
+        <div class="results-header">
+          <div class="results-info">
+            Showing <strong id="results-count">0</strong> papers
+          </div>
+        </div>
+
+        <div id="loading" class="loading">
+          <div class="loading-spinner"></div>
+          <p>Loading papers...</p>
+        </div>
+
+        <div id="papers-container" class="papers-grid">
+          <!-- Papers rendered here by JavaScript -->
+        </div>
+
+        <div id="no-results" class="no-results" style="display: none;">
+          <p>No papers found matching your criteria.</p>
+          <p>Try adjusting your filters or search terms.</p>
+        </div>
+
+        <div id="pagination" class="pagination">
+          <!-- Pagination controls rendered here -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Data from <a href="https://arxiv.org" target="_blank" rel="noopener">arXiv.org</a> |
+        Updated daily via GitHub Actions |
+        <a href="https://github.com/yourusername/llmpapers" target="_blank" rel="noopener">View on GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="lib/fuse.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

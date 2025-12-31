@@ -1,0 +1,77 @@
+{
+  "year": 2024,
+  "count": 3,
+  "papers": [
+    {
+      "id": "2412.12345",
+      "title": "Sample LLM Agent Paper: Task Planning with Large Language Models",
+      "authors": [
+        {"name": "John Doe", "affiliation": null},
+        {"name": "Jane Smith", "affiliation": null}
+      ],
+      "abstract": "This paper presents a novel approach to task planning using large language models. We demonstrate that LLM agents can effectively decompose complex tasks into manageable subtasks through chain-of-thought reasoning.",
+      "publishedDate": "2024-12-15T00:00:00Z",
+      "updatedDate": "2024-12-15T00:00:00Z",
+      "categories": ["agents", "planning", "reasoning"],
+      "primaryCategory": "cs.AI",
+      "arxivCategories": ["cs.AI", "cs.CL"],
+      "pdfUrl": "https://arxiv.org/pdf/2412.12345.pdf",
+      "arxivUrl": "https://arxiv.org/abs/2412.12345",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "tags": {
+        "auto": ["agents", "planning", "reasoning"],
+        "manual": []
+      },
+      "fetchedAt": "2025-12-31T16:00:00Z"
+    },
+    {
+      "id": "2411.98765",
+      "title": "Retrieval-Augmented Generation for Domain-Specific Applications",
+      "authors": [
+        {"name": "Alice Johnson", "affiliation": null},
+        {"name": "Bob Williams", "affiliation": null}
+      ],
+      "abstract": "We explore the use of retrieval-augmented generation (RAG) systems for improving large language model performance on domain-specific tasks. Our approach combines dense retrieval with prompting strategies.",
+      "publishedDate": "2024-11-20T00:00:00Z",
+      "updatedDate": "2024-11-20T00:00:00Z",
+      "categories": ["rag", "prompting"],
+      "primaryCategory": "cs.CL",
+      "arxivCategories": ["cs.CL", "cs.AI"],
+      "pdfUrl": "https://arxiv.org/pdf/2411.98765.pdf",
+      "arxivUrl": "https://arxiv.org/abs/2411.98765",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "tags": {
+        "auto": ["rag", "prompting"],
+        "manual": []
+      },
+      "fetchedAt": "2025-12-31T16:00:00Z"
+    },
+    {
+      "id": "2410.55555",
+      "title": "Multi-Agent Systems for Code Generation with LLMs",
+      "authors": [
+        {"name": "Charlie Brown", "affiliation": null}
+      ],
+      "abstract": "This work investigates multi-agent collaboration for automated code generation. We show that multiple LLM agents working together can produce higher quality code than single-agent systems.",
+      "publishedDate": "2024-10-10T00:00:00Z",
+      "updatedDate": "2024-10-10T00:00:00Z",
+      "categories": ["multi-agent", "code-generation", "agents"],
+      "primaryCategory": "cs.SE",
+      "arxivCategories": ["cs.SE", "cs.AI"],
+      "pdfUrl": "https://arxiv.org/pdf/2410.55555.pdf",
+      "arxivUrl": "https://arxiv.org/abs/2410.55555",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "tags": {
+        "auto": ["multi-agent", "code-generation", "agents"],
+        "manual": []
+      },
+      "fetchedAt": "2025-12-31T16:00:00Z"
+    }
+  ]
+}

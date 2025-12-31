@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "id": "agents",
+      "name": "LLM Agents",
+      "description": "Papers about autonomous agents powered by LLMs",
+      "keywords": ["agent", "autonomous", "task planning", "decision making", "llm agent", "language model agent"],
+      "color": "#3B82F6"
+    },
+    {
+      "id": "tool-use",
+      "name": "Tool Use & Function Calling",
+      "description": "LLMs using external tools and APIs",
+      "keywords": ["tool use", "tool usage", "function calling", "API", "external tools", "tool learning", "tool integration"],
+      "color": "#10B981"
+    },
+    {
+      "id": "reasoning",
+      "name": "Reasoning",
+      "description": "LLM reasoning capabilities and methods",
+      "keywords": ["reasoning", "chain of thought", "CoT", "step by step", "logical reasoning", "multi-step reasoning"],
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "planning",
+      "name": "Planning",
+      "description": "LLM planning and task decomposition",
+      "keywords": ["planning", "task planning", "plan generation", "task decomposition", "goal planning"],
+      "color": "#EC4899"
+    },
+    {
+      "id": "rag",
+      "name": "RAG & Retrieval",
+      "description": "Retrieval-augmented generation systems",
+      "keywords": ["retrieval", "RAG", "retrieval augmented", "knowledge base", "retrieval augmented generation", "document retrieval"],
+      "color": "#F59E0B"
+    },
+    {
+      "id": "multi-agent",
+      "name": "Multi-Agent Systems",
+      "description": "Multiple LLM agents collaborating",
+      "keywords": ["multi-agent", "multi agent", "collaboration", "coordination", "agent collaboration", "agent communication"],
+      "color": "#EF4444"
+    },
+    {
+      "id": "prompting",
+      "name": "Prompt Engineering",
+      "description": "Prompt design and engineering techniques",
+      "keywords": ["prompt", "prompting", "instruction", "few-shot", "prompt engineering", "prompt design", "in-context learning", "zero-shot", "few shot"],
+      "color": "#06B6D4"
+    },
+    {
+      "id": "code-generation",
+      "name": "Code Generation",
+      "description": "LLMs for coding and software development",
+      "keywords": ["code", "coding", "programming", "software", "code generation", "program synthesis", "code synthesis"],
+      "color": "#84CC16"
+    },
+    {
+      "id": "robotics",
+      "name": "Robotics",
+      "description": "LLMs in robotics and embodied AI",
+      "keywords": ["robot", "robotics", "embodied", "embodied ai", "robotic control", "robot planning"],
+      "color": "#F97316"
+    },
+    {
+      "id": "evaluation",
+      "name": "Evaluation & Benchmarks",
+      "description": "Benchmarks and evaluation methods for LLM applications",
+      "keywords": ["benchmark", "evaluation", "metric", "assessment", "benchmarking", "performance evaluation"],
+      "color": "#A855F7"
+    }
+  ]
+}
