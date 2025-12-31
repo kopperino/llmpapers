@@ -248,15 +248,18 @@ class App {
     const toggleIcon = button.querySelector('.toggle-icon');
     const toggleText = button.querySelector('span:last-child');
 
+    if (!this.categories) {
+      showToast('Loading categories...', 'info');
+      return;
+    }
+
     if (legend.style.display === 'none') {
       legend.style.display = 'block';
       toggleIcon.textContent = '▼';
       toggleText.textContent = 'Hide Legend';
 
-      // Render the legend if not already rendered
-      if (!legend.hasChildNodes()) {
-        this.renderLegend();
-      }
+      // Always re-render the legend to ensure it's up to date
+      this.renderLegend();
     } else {
       legend.style.display = 'none';
       toggleIcon.textContent = '▶';
