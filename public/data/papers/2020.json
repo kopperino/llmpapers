@@ -1,0 +1,1314 @@
+{
+  "year": "2020",
+  "count": 25,
+  "papers": [
+    {
+      "id": "2010.02903",
+      "title": "Keep CALM and Explore: Language Models for Action Generation in Text-based Games",
+      "authors": [
+        {
+          "name": "Shunyu Yao",
+          "affiliation": null
+        },
+        {
+          "name": "Rohan Rao",
+          "affiliation": null
+        },
+        {
+          "name": "Matthew Hausknecht",
+          "affiliation": null
+        },
+        {
+          "name": "Karthik Narasimhan",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Text-based games present a unique challenge for autonomous agents to operate in natural language and handle enormous action spaces. In this paper, we propose the Contextual Action Language Model (CALM) to generate a compact set of action candidates at each game state. Our key insight is to train language models on human gameplay, where people demonstrate linguistic priors and a general game sense for promising actions conditioned on game history. We combine CALM with a reinforcement learning agent which re-ranks the generated action candidates to maximize in-game rewards. We evaluate our approach using the Jericho benchmark, on games unseen by CALM during training. Our method obtains a 69% relative improvement in average game score over the previous state-of-the-art model. Surprisingly, on half of these games, CALM is competitive with or better than other models that have access to ground truth admissible actions. Code and data are available at https://github.com/princeton-nlp/calm-textgame.",
+      "publishedDate": "2020-10-06T17:36:29Z",
+      "updatedDate": "2020-10-06T17:36:29Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2010.02903v1",
+      "arxivUrl": "https://arxiv.org/abs/2010.02903",
+      "comment": "EMNLP 2020",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "agents",
+        "rag",
+        "code-generation",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "agents",
+          "rag",
+          "code-generation",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2009.09870",
+      "title": "Content Planning for Neural Story Generation with Aristotelian Rescoring",
+      "authors": [
+        {
+          "name": "Seraphina Goldfarb-Tarrant",
+          "affiliation": null
+        },
+        {
+          "name": "Tuhin Chakrabarty",
+          "affiliation": null
+        },
+        {
+          "name": "Ralph Weischedel",
+          "affiliation": null
+        },
+        {
+          "name": "Nanyun Peng",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Long-form narrative text generated from large language models manages a fluent impersonation of human writing, but only at the local sentence level, and lacks structure or global cohesion. We posit that many of the problems of story generation can be addressed via high-quality content planning, and present a system that focuses on how to learn good plot structures to guide story generation. We utilize a plot-generation language model along with an ensemble of rescoring models that each implement an aspect of good story-writing as detailed in Aristotle's Poetics. We find that stories written with our more principled plot-structure are both more relevant to a given prompt and higher quality than baselines that do not content plan, or that plan in an unprincipled way.",
+      "publishedDate": "2020-09-21T13:41:32Z",
+      "updatedDate": "2020-10-09T16:28:23Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2009.09870v2",
+      "arxivUrl": "https://arxiv.org/abs/2009.09870",
+      "comment": "EMNLP 2020, 9 pages",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "planning",
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "planning",
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2005.07064",
+      "title": "Multi-agent Communication meets Natural Language: Synergies between Functional and Structural Language Learning",
+      "authors": [
+        {
+          "name": "Angeliki Lazaridou",
+          "affiliation": null
+        },
+        {
+          "name": "Anna Potapenko",
+          "affiliation": null
+        },
+        {
+          "name": "Olivier Tieleman",
+          "affiliation": null
+        }
+      ],
+      "abstract": "We present a method for combining multi-agent communication and traditional data-driven approaches to natural language learning, with an end goal of teaching agents to communicate with humans in natural language. Our starting point is a language model that has been trained on generic, not task-specific language data. We then place this model in a multi-agent self-play environment that generates task-specific rewards used to adapt or modulate the model, turning it into a task-conditional language model. We introduce a new way for combining the two types of learning based on the idea of reranking language model samples, and show that this method outperforms others in communicating with humans in a visual referential communication task. Finally, we present a taxonomy of different types of language drift that can occur alongside a set of measures to detect them.",
+      "publishedDate": "2020-05-14T15:32:23Z",
+      "updatedDate": "2020-05-14T15:32:23Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2005.07064v1",
+      "arxivUrl": "https://arxiv.org/abs/2005.07064",
+      "comment": "to appear at ACL 2020",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "multi-agent",
+        "agents"
+      ],
+      "tags": {
+        "auto": [
+          "multi-agent",
+          "agents"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2005.02794",
+      "title": "Token Manipulation Generative Adversarial Network for Text Generation",
+      "authors": [
+        {
+          "name": "DaeJin Jo",
+          "affiliation": null
+        }
+      ],
+      "abstract": "MaskGAN opens the query for the conditional language model by filling in the blanks between the given tokens. In this paper, we focus on addressing the limitations caused by having to specify blanks to be filled. We decompose conditional text generation problem into two tasks, make-a-blank and fill-in-the-blank, and extend the former to handle more complex manipulations on the given tokens. We cast these tasks as a hierarchical multi agent RL problem and introduce a conditional adversarial learning that allows the agents to reach a goal, producing realistic texts, in cooperative setting. We show that the proposed model not only addresses the limitations but also provides good results without compromising the performance in terms of quality and diversity.",
+      "publishedDate": "2020-05-06T13:10:43Z",
+      "updatedDate": "2020-05-11T12:17:28Z",
+      "primaryCategory": "stat.ML",
+      "arxivCategories": [
+        "stat.ML",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2005.02794v2",
+      "arxivUrl": "https://arxiv.org/abs/2005.02794",
+      "comment": "5 pages, 2 figures",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "agents",
+        "multi-agent"
+      ],
+      "tags": {
+        "auto": [
+          "agents",
+          "multi-agent"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2007.15864",
+      "title": "RoboTed: a case study in Ethical Risk Assessment",
+      "authors": [
+        {
+          "name": "Alan F. T. Winfield",
+          "affiliation": null
+        },
+        {
+          "name": "Katie Winkle",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Risk Assessment is a well known and powerful method for discovering and mitigating risks, and hence improving safety. Ethical Risk Assessment uses the same approach but extends the envelope of risk to cover ethical risks in addition to safety risks. In this paper we outline Ethical Risk Assessment (ERA) and set ERA within the broader framework of Responsible Robotics. We then illustrate ERA with a case study of a hypothetical smart robot toy teddy bear: RoboTed. The case study shows the value of ERA and how consideration of ethical risks can prompt design changes, resulting in a more ethical and sustainable robot.",
+      "publishedDate": "2020-07-31T06:35:18Z",
+      "updatedDate": "2020-09-29T13:15:39Z",
+      "primaryCategory": "cs.RO",
+      "arxivCategories": [
+        "cs.RO",
+        "cs.CY"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2007.15864v2",
+      "arxivUrl": "https://arxiv.org/abs/2007.15864",
+      "comment": "Revised version following review, presented at ICRES 2020, 28 September 2020",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting",
+        "robotics",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "prompting",
+          "robotics",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2012.15723",
+      "title": "Making Pre-trained Language Models Better Few-shot Learners",
+      "authors": [
+        {
+          "name": "Tianyu Gao",
+          "affiliation": null
+        },
+        {
+          "name": "Adam Fisch",
+          "affiliation": null
+        },
+        {
+          "name": "Danqi Chen",
+          "affiliation": null
+        }
+      ],
+      "abstract": "The recent GPT-3 model (Brown et al., 2020) achieves remarkable few-shot performance solely by leveraging a natural-language prompt and a few task demonstrations as input context. Inspired by their findings, we study few-shot learning in a more practical scenario, where we use smaller language models for which fine-tuning is computationally efficient. We present LM-BFF--better few-shot fine-tuning of language models--a suite of simple and complementary techniques for fine-tuning language models on a small number of annotated examples. Our approach includes (1) prompt-based fine-tuning together with a novel pipeline for automating prompt generation; and (2) a refined strategy for dynamically and selectively incorporating demonstrations into each context. Finally, we present a systematic evaluation for analyzing few-shot performance on a range of NLP tasks, including classification and regression. Our experiments demonstrate that our methods combine to dramatically outperform standard fine-tuning procedures in this low resource setting, achieving up to 30% absolute improvement, and 11% on average across all tasks. Our approach makes minimal assumptions on task resources and domain expertise, and hence constitutes a strong task-agnostic method for few-shot learning.",
+      "publishedDate": "2020-12-31T17:21:26Z",
+      "updatedDate": "2021-06-02T12:41:36Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2012.15723v2",
+      "arxivUrl": "https://arxiv.org/abs/2012.15723",
+      "comment": "Accepted to ACL 2021. The code is publicly available at https://github.com/princeton-nlp/LM-BFF",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting",
+        "rag",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "prompting",
+          "rag",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2012.14978",
+      "title": "Few-Shot Named Entity Recognition: A Comprehensive Study",
+      "authors": [
+        {
+          "name": "Jiaxin Huang",
+          "affiliation": null
+        },
+        {
+          "name": "Chunyuan Li",
+          "affiliation": null
+        },
+        {
+          "name": "Krishan Subudhi",
+          "affiliation": null
+        },
+        {
+          "name": "Damien Jose",
+          "affiliation": null
+        },
+        {
+          "name": "Shobana Balakrishnan",
+          "affiliation": null
+        },
+        {
+          "name": "Weizhu Chen",
+          "affiliation": null
+        },
+        {
+          "name": "Baolin Peng",
+          "affiliation": null
+        },
+        {
+          "name": "Jianfeng Gao",
+          "affiliation": null
+        },
+        {
+          "name": "Jiawei Han",
+          "affiliation": null
+        }
+      ],
+      "abstract": "This paper presents a comprehensive study to efficiently build named entity recognition (NER) systems when a small number of in-domain labeled data is available. Based upon recent Transformer-based self-supervised pre-trained language models (PLMs), we investigate three orthogonal schemes to improve the model generalization ability for few-shot settings: (1) meta-learning to construct prototypes for different entity types, (2) supervised pre-training on noisy web data to extract entity-related generic representations and (3) self-training to leverage unlabeled in-domain data. Different combinations of these schemes are also considered. We perform extensive empirical comparisons on 10 public NER datasets with various proportions of labeled data, suggesting useful insights for future research. Our experiments show that (i) in the few-shot learning setting, the proposed NER schemes significantly improve or outperform the commonly used baseline, a PLM-based linear classifier fine-tuned on domain labels; (ii) We create new state-of-the-art results on both few-shot and training-free settings compared with existing methods. We will release our code and pre-trained models for reproducible research.",
+      "publishedDate": "2020-12-29T23:43:16Z",
+      "updatedDate": "2020-12-29T23:43:16Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2012.14978v1",
+      "arxivUrl": "https://arxiv.org/abs/2012.14978",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "rag",
+        "prompting",
+        "code-generation"
+      ],
+      "tags": {
+        "auto": [
+          "rag",
+          "prompting",
+          "code-generation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2011.01580",
+      "title": "CMT in TREC-COVID Round 2: Mitigating the Generalization Gaps from Web to Special Domain Search",
+      "authors": [
+        {
+          "name": "Chenyan Xiong",
+          "affiliation": null
+        },
+        {
+          "name": "Zhenghao Liu",
+          "affiliation": null
+        },
+        {
+          "name": "Si Sun",
+          "affiliation": null
+        },
+        {
+          "name": "Zhuyun Dai",
+          "affiliation": null
+        },
+        {
+          "name": "Kaitao Zhang",
+          "affiliation": null
+        },
+        {
+          "name": "Shi Yu",
+          "affiliation": null
+        },
+        {
+          "name": "Zhiyuan Liu",
+          "affiliation": null
+        },
+        {
+          "name": "Hoifung Poon",
+          "affiliation": null
+        },
+        {
+          "name": "Jianfeng Gao",
+          "affiliation": null
+        },
+        {
+          "name": "Paul Bennett",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Neural rankers based on deep pretrained language models (LMs) have been shown to improve many information retrieval benchmarks. However, these methods are affected by their the correlation between pretraining domain and target domain and rely on massive fine-tuning relevance labels. Directly applying pretraining methods to specific domains may result in suboptimal search quality because specific domains may have domain adaption problems, such as the COVID domain. This paper presents a search system to alleviate the special domain adaption problem. The system utilizes the domain-adaptive pretraining and few-shot learning technologies to help neural rankers mitigate the domain discrepancy and label scarcity problems. Besides, we also integrate dense retrieval to alleviate traditional sparse retrieval's vocabulary mismatch obstacle. Our system performs the best among the non-manual runs in Round 2 of the TREC-COVID task, which aims to retrieve useful information from scientific literature related to COVID-19. Our code is publicly available at https://github.com/thunlp/OpenMatch.",
+      "publishedDate": "2020-11-03T09:10:48Z",
+      "updatedDate": "2020-11-03T09:10:48Z",
+      "primaryCategory": "cs.IR",
+      "arxivCategories": [
+        "cs.IR",
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2011.01580v1",
+      "arxivUrl": "https://arxiv.org/abs/2011.01580",
+      "comment": "5 pages, 3 figures, 2 tables",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "rag",
+        "prompting",
+        "code-generation",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "rag",
+          "prompting",
+          "code-generation",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2011.01403",
+      "title": "Supervised Contrastive Learning for Pre-trained Language Model Fine-tuning",
+      "authors": [
+        {
+          "name": "Beliz Gunel",
+          "affiliation": null
+        },
+        {
+          "name": "Jingfei Du",
+          "affiliation": null
+        },
+        {
+          "name": "Alexis Conneau",
+          "affiliation": null
+        },
+        {
+          "name": "Ves Stoyanov",
+          "affiliation": null
+        }
+      ],
+      "abstract": "State-of-the-art natural language understanding classification models follow two-stages: pre-training a large language model on an auxiliary task, and then fine-tuning the model on a task-specific labeled dataset using cross-entropy loss. However, the cross-entropy loss has several shortcomings that can lead to sub-optimal generalization and instability. Driven by the intuition that good generalization requires capturing the similarity between examples in one class and contrasting them with examples in other classes, we propose a supervised contrastive learning (SCL) objective for the fine-tuning stage. Combined with cross-entropy, our proposed SCL loss obtains significant improvements over a strong RoBERTa-Large baseline on multiple datasets of the GLUE benchmark in few-shot learning settings, without requiring specialized architecture, data augmentations, memory banks, or additional unsupervised data. Our proposed fine-tuning objective leads to models that are more robust to different levels of noise in the fine-tuning training data, and can generalize better to related tasks with limited labeled data.",
+      "publishedDate": "2020-11-03T01:10:39Z",
+      "updatedDate": "2021-04-02T20:27:44Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2011.01403v3",
+      "arxivUrl": "https://arxiv.org/abs/2011.01403",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "prompting",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2010.13870",
+      "title": "Word Frequency Does Not Predict Grammatical Knowledge in Language Models",
+      "authors": [
+        {
+          "name": "Charles Yu",
+          "affiliation": null
+        },
+        {
+          "name": "Ryan Sie",
+          "affiliation": null
+        },
+        {
+          "name": "Nico Tedeschi",
+          "affiliation": null
+        },
+        {
+          "name": "Leon Bergen",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Neural language models learn, to varying degrees of accuracy, the grammatical properties of natural languages. In this work, we investigate whether there are systematic sources of variation in the language models' accuracy. Focusing on subject-verb agreement and reflexive anaphora, we find that certain nouns are systematically understood better than others, an effect which is robust across grammatical tasks and different language models. Surprisingly, we find that across four orders of magnitude, corpus frequency is unrelated to a noun's performance on grammatical tasks. Finally, we find that a novel noun's grammatical properties can be few-shot learned from various types of training data. The results present a paradox: there should be less variation in grammatical performance than is actually observed.",
+      "publishedDate": "2020-10-26T19:51:36Z",
+      "updatedDate": "2020-10-26T19:51:36Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2010.13870v1",
+      "arxivUrl": "https://arxiv.org/abs/2010.13870",
+      "comment": "EMNLP 2020",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2010.05725",
+      "title": "Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models",
+      "authors": [
+        {
+          "name": "Ethan Wilcox",
+          "affiliation": null
+        },
+        {
+          "name": "Peng Qian",
+          "affiliation": null
+        },
+        {
+          "name": "Richard Futrell",
+          "affiliation": null
+        },
+        {
+          "name": "Ryosuke Kohita",
+          "affiliation": null
+        },
+        {
+          "name": "Roger Levy",
+          "affiliation": null
+        },
+        {
+          "name": "Miguel Ballesteros",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Humans can learn structural properties about a word from minimal experience, and deploy their learned syntactic representations uniformly in different grammatical contexts. We assess the ability of modern neural language models to reproduce this behavior in English and evaluate the effect of structural supervision on learning outcomes. First, we assess few-shot learning capabilities by developing controlled experiments that probe models' syntactic nominal number and verbal argument structure generalizations for tokens seen as few as two times during training. Second, we assess invariance properties of learned representation: the ability of a model to transfer syntactic generalizations from a base context (e.g., a simple declarative active-voice sentence) to a transformed context (e.g., an interrogative sentence). We test four models trained on the same dataset: an n-gram baseline, an LSTM, and two LSTM-variants trained with explicit structural supervision (Dyer et al.,2016; Charniak et al., 2016). We find that in most cases, the neural models are able to induce the proper syntactic generalizations after minimal exposure, often from just two examples during training, and that the two structurally supervised models generalize more accurately than the LSTM model. All neural models are able to leverage information learned in base contexts to drive expectations in transformed contexts, indicating that they have learned some invariance properties of syntax.",
+      "publishedDate": "2020-10-12T14:12:37Z",
+      "updatedDate": "2020-10-12T14:12:37Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2010.05725v1",
+      "arxivUrl": "https://arxiv.org/abs/2010.05725",
+      "comment": "To appear at EMNLP 2020",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "rag",
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "rag",
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2008.06239",
+      "title": "Language Models as Few-Shot Learner for Task-Oriented Dialogue Systems",
+      "authors": [
+        {
+          "name": "Andrea Madotto",
+          "affiliation": null
+        },
+        {
+          "name": "Zihan Liu",
+          "affiliation": null
+        },
+        {
+          "name": "Zhaojiang Lin",
+          "affiliation": null
+        },
+        {
+          "name": "Pascale Fung",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Task-oriented dialogue systems use four connected modules, namely, Natural Language Understanding (NLU), a Dialogue State Tracking (DST), Dialogue Policy (DP) and Natural Language Generation (NLG). A research challenge is to learn each module with the least amount of samples (i.e., few-shots) given the high cost related to the data collection. The most common and effective technique to solve this problem is transfer learning, where large language models, either pre-trained on text or task-specific data, are fine-tuned on the few samples. These methods require fine-tuning steps and a set of parameters for each task. Differently, language models, such as GPT-2 (Radford et al., 2019) and GPT-3 (Brown et al., 2020), allow few-shot learning by priming the model with few examples. In this paper, we evaluate the priming few-shot ability of language models in the NLU, DST, DP and NLG tasks. Importantly, we highlight the current limitations of this approach, and we discuss the possible implication for future work.",
+      "publishedDate": "2020-08-14T08:23:21Z",
+      "updatedDate": "2020-08-20T10:56:47Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2008.06239v2",
+      "arxivUrl": "https://arxiv.org/abs/2008.06239",
+      "comment": "Blog (https://andreamad8.github.io/few-shot-gpt/), Medium (https://medium.com/@madottoandrea/language-model-as-few-shot-learner-for-task-oriented-dialogue-systems-db4765796744) and Code (https://github.com/andreamad8/TASK-ORIENTED-LM-FEWSHOT)",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2008.02496",
+      "title": "ConvBERT: Improving BERT with Span-based Dynamic Convolution",
+      "authors": [
+        {
+          "name": "Zihang Jiang",
+          "affiliation": null
+        },
+        {
+          "name": "Weihao Yu",
+          "affiliation": null
+        },
+        {
+          "name": "Daquan Zhou",
+          "affiliation": null
+        },
+        {
+          "name": "Yunpeng Chen",
+          "affiliation": null
+        },
+        {
+          "name": "Jiashi Feng",
+          "affiliation": null
+        },
+        {
+          "name": "Shuicheng Yan",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Pre-trained language models like BERT and its variants have recently achieved impressive performance in various natural language understanding tasks. However, BERT heavily relies on the global self-attention block and thus suffers large memory footprint and computation cost. Although all its attention heads query on the whole input sequence for generating the attention map from a global perspective, we observe some heads only need to learn local dependencies, which means the existence of computation redundancy. We therefore propose a novel span-based dynamic convolution to replace these self-attention heads to directly model local dependencies. The novel convolution heads, together with the rest self-attention heads, form a new mixed attention block that is more efficient at both global and local context learning. We equip BERT with this mixed attention design and build a ConvBERT model. Experiments have shown that ConvBERT significantly outperforms BERT and its variants in various downstream tasks, with lower training cost and fewer model parameters. Remarkably, ConvBERTbase model achieves 86.4 GLUE score, 0.7 higher than ELECTRAbase, while using less than 1/4 training cost. Code and pre-trained models will be released.",
+      "publishedDate": "2020-08-06T07:43:19Z",
+      "updatedDate": "2021-02-02T11:11:28Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2008.02496v3",
+      "arxivUrl": "https://arxiv.org/abs/2008.02496",
+      "comment": "17 pages",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "code-generation"
+      ],
+      "tags": {
+        "auto": [
+          "code-generation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2005.14165",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": [
+        {
+          "name": "Tom B. Brown",
+          "affiliation": null
+        },
+        {
+          "name": "Benjamin Mann",
+          "affiliation": null
+        },
+        {
+          "name": "Nick Ryder",
+          "affiliation": null
+        },
+        {
+          "name": "Melanie Subbiah",
+          "affiliation": null
+        },
+        {
+          "name": "Jared Kaplan",
+          "affiliation": null
+        },
+        {
+          "name": "Prafulla Dhariwal",
+          "affiliation": null
+        },
+        {
+          "name": "Arvind Neelakantan",
+          "affiliation": null
+        },
+        {
+          "name": "Pranav Shyam",
+          "affiliation": null
+        },
+        {
+          "name": "Girish Sastry",
+          "affiliation": null
+        },
+        {
+          "name": "Amanda Askell",
+          "affiliation": null
+        },
+        {
+          "name": "Sandhini Agarwal",
+          "affiliation": null
+        },
+        {
+          "name": "Ariel Herbert-Voss",
+          "affiliation": null
+        },
+        {
+          "name": "Gretchen Krueger",
+          "affiliation": null
+        },
+        {
+          "name": "Tom Henighan",
+          "affiliation": null
+        },
+        {
+          "name": "Rewon Child",
+          "affiliation": null
+        },
+        {
+          "name": "Aditya Ramesh",
+          "affiliation": null
+        },
+        {
+          "name": "Daniel M. Ziegler",
+          "affiliation": null
+        },
+        {
+          "name": "Jeffrey Wu",
+          "affiliation": null
+        },
+        {
+          "name": "Clemens Winter",
+          "affiliation": null
+        },
+        {
+          "name": "Christopher Hesse",
+          "affiliation": null
+        },
+        {
+          "name": "Mark Chen",
+          "affiliation": null
+        },
+        {
+          "name": "Eric Sigler",
+          "affiliation": null
+        },
+        {
+          "name": "Mateusz Litwin",
+          "affiliation": null
+        },
+        {
+          "name": "Scott Gray",
+          "affiliation": null
+        },
+        {
+          "name": "Benjamin Chess",
+          "affiliation": null
+        },
+        {
+          "name": "Jack Clark",
+          "affiliation": null
+        },
+        {
+          "name": "Christopher Berner",
+          "affiliation": null
+        },
+        {
+          "name": "Sam McCandlish",
+          "affiliation": null
+        },
+        {
+          "name": "Alec Radford",
+          "affiliation": null
+        },
+        {
+          "name": "Ilya Sutskever",
+          "affiliation": null
+        },
+        {
+          "name": "Dario Amodei",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.",
+      "publishedDate": "2020-05-28T17:29:03Z",
+      "updatedDate": "2020-07-22T19:47:17Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2005.14165v4",
+      "arxivUrl": "https://arxiv.org/abs/2005.14165",
+      "comment": "40+32 pages",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting",
+        "reasoning",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "prompting",
+          "reasoning",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2004.14884",
+      "title": "Few-Shot Learning for Opinion Summarization",
+      "authors": [
+        {
+          "name": "Arthur Bražinskas",
+          "affiliation": null
+        },
+        {
+          "name": "Mirella Lapata",
+          "affiliation": null
+        },
+        {
+          "name": "Ivan Titov",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Opinion summarization is the automatic creation of text reflecting subjective information expressed in multiple documents, such as user reviews of a product. The task is practically important and has attracted a lot of attention. However, due to the high cost of summary production, datasets large enough for training supervised models are lacking. Instead, the task has been traditionally approached with extractive methods that learn to select text fragments in an unsupervised or weakly-supervised way. Recently, it has been shown that abstractive summaries, potentially more fluent and better at reflecting conflicting information, can also be produced in an unsupervised fashion. However, these models, not being exposed to actual summaries, fail to capture their essential properties. In this work, we show that even a handful of summaries is sufficient to bootstrap generation of the summary text with all expected properties, such as writing style, informativeness, fluency, and sentiment preservation. We start by training a conditional Transformer language model to generate a new product review given other available reviews of the product. The model is also conditioned on review properties that are directly related to summaries; the properties are derived from reviews with no manual effort. In the second stage, we fine-tune a plug-in module that learns to predict property values on a handful of summaries. This lets us switch the generator to the summarization mode. We show on Amazon and Yelp datasets that our approach substantially outperforms previous extractive and abstractive methods in automatic and human evaluation.",
+      "publishedDate": "2020-04-30T15:37:38Z",
+      "updatedDate": "2020-10-10T06:30:38Z",
+      "primaryCategory": "cs.LG",
+      "arxivCategories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.NE",
+        "stat.ML"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2004.14884v3",
+      "arxivUrl": "https://arxiv.org/abs/2004.14884",
+      "comment": "EMNLP 2020",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "rag",
+        "prompting",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "rag",
+          "prompting",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2004.10793",
+      "title": "Learning to Classify Intents and Slot Labels Given a Handful of Examples",
+      "authors": [
+        {
+          "name": "Jason Krone",
+          "affiliation": null
+        },
+        {
+          "name": "Yi Zhang",
+          "affiliation": null
+        },
+        {
+          "name": "Mona Diab",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Intent classification (IC) and slot filling (SF) are core components in most goal-oriented dialogue systems. Current IC/SF models perform poorly when the number of training examples per class is small. We propose a new few-shot learning task, few-shot IC/SF, to study and improve the performance of IC and SF models on classes not seen at training time in ultra low resource scenarios. We establish a few-shot IC/SF benchmark by defining few-shot splits for three public IC/SF datasets, ATIS, TOP, and Snips. We show that two popular few-shot learning algorithms, model agnostic meta learning (MAML) and prototypical networks, outperform a fine-tuning baseline on this benchmark. Prototypical networks achieves significant gains in IC performance on the ATIS and TOP datasets, while both prototypical networks and MAML outperform the baseline with respect to SF on all three datasets. In addition, we demonstrate that joint training as well as the use of pre-trained language models, ELMo and BERT in our case, are complementary to these few-shot learning methods and yield further gains.",
+      "publishedDate": "2020-04-22T18:54:38Z",
+      "updatedDate": "2020-04-22T18:54:38Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2004.10793v1",
+      "arxivUrl": "https://arxiv.org/abs/2004.10793",
+      "comment": "8 pages, 2 figures",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "prompting",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2004.13850",
+      "title": "Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL",
+      "authors": [
+        {
+          "name": "Lukas Stappen",
+          "affiliation": null
+        },
+        {
+          "name": "Fabian Brunn",
+          "affiliation": null
+        },
+        {
+          "name": "Björn Schuller",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Detecting hate speech, especially in low-resource languages, is a non-trivial challenge. To tackle this, we developed a tailored architecture based on frozen, pre-trained Transformers to examine cross-lingual zero-shot and few-shot learning, in addition to uni-lingual learning, on the HatEval challenge data set. With our novel attention-based classification block AXEL, we demonstrate highly competitive results on the English and Spanish subsets. We also re-sample the English subset, enabling additional, meaningful comparisons in the future.",
+      "publishedDate": "2020-04-13T09:58:33Z",
+      "updatedDate": "2020-04-13T09:58:33Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2004.13850v1",
+      "arxivUrl": "https://arxiv.org/abs/2004.13850",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2003.13003",
+      "title": "Meta Fine-Tuning Neural Language Models for Multi-Domain Text Mining",
+      "authors": [
+        {
+          "name": "Chengyu Wang",
+          "affiliation": null
+        },
+        {
+          "name": "Minghui Qiu",
+          "affiliation": null
+        },
+        {
+          "name": "Jun Huang",
+          "affiliation": null
+        },
+        {
+          "name": "Xiaofeng He",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Pre-trained neural language models bring significant improvement for various NLP tasks, by fine-tuning the models on task-specific training sets. During fine-tuning, the parameters are initialized from pre-trained models directly, which ignores how the learning process of similar NLP tasks in different domains is correlated and mutually reinforced. In this paper, we propose an effective learning procedure named Meta Fine-Tuning (MFT), served as a meta-learner to solve a group of similar NLP tasks for neural language models. Instead of simply multi-task training over all the datasets, MFT only learns from typical instances of various domains to acquire highly transferable knowledge. It further encourages the language model to encode domain-invariant representations by optimizing a series of novel domain corruption loss functions. After MFT, the model can be fine-tuned for each domain with better parameter initializations and higher generalization ability. We implement MFT upon BERT to solve several multi-domain text mining tasks. Experimental results confirm the effectiveness of MFT and its usefulness for few-shot learning.",
+      "publishedDate": "2020-03-29T11:27:10Z",
+      "updatedDate": "2020-09-16T15:00:14Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2003.13003v2",
+      "arxivUrl": "https://arxiv.org/abs/2003.13003",
+      "comment": "accepted by emnlp 2020",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "rag",
+        "prompting",
+        "code-generation"
+      ],
+      "tags": {
+        "auto": [
+          "rag",
+          "prompting",
+          "code-generation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2009.14259",
+      "title": "Visually-Grounded Planning without Vision: Language Models Infer Detailed Plans from High-level Instructions",
+      "authors": [
+        {
+          "name": "Peter A. Jansen",
+          "affiliation": null
+        }
+      ],
+      "abstract": "The recently proposed ALFRED challenge task aims for a virtual robotic agent to complete complex multi-step everyday tasks in a virtual home environment from high-level natural language directives, such as \"put a hot piece of bread on a plate\". Currently, the best-performing models are able to complete less than 5% of these tasks successfully. In this work we focus on modeling the translation problem of converting natural language directives into detailed multi-step sequences of actions that accomplish those goals in the virtual environment. We empirically demonstrate that it is possible to generate gold multi-step plans from language directives alone without any visual input in 26% of unseen cases. When a small amount of visual information is incorporated, namely the starting location in the virtual environment, our best-performing GPT-2 model successfully generates gold command sequences in 58% of cases. Our results suggest that contextualized language models may provide strong visual semantic planning modules for grounded virtual agents.",
+      "publishedDate": "2020-09-29T18:52:39Z",
+      "updatedDate": "2020-10-26T19:16:00Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2009.14259v2",
+      "arxivUrl": "https://arxiv.org/abs/2009.14259",
+      "comment": "Accepted to Findings of EMNLP. V2: corrected typo Table 1; margins Table 3",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "agents",
+        "planning",
+        "prompting",
+        "robotics"
+      ],
+      "tags": {
+        "auto": [
+          "agents",
+          "planning",
+          "prompting",
+          "robotics"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2009.05349",
+      "title": "Alfie: An Interactive Robot with a Moral Compass",
+      "authors": [
+        {
+          "name": "Cigdem Turan",
+          "affiliation": null
+        },
+        {
+          "name": "Patrick Schramowski",
+          "affiliation": null
+        },
+        {
+          "name": "Constantin Rothkopf",
+          "affiliation": null
+        },
+        {
+          "name": "Kristian Kersting",
+          "affiliation": null
+        }
+      ],
+      "abstract": "This work introduces Alfie, an interactive robot that is capable of answering moral (deontological) questions of a user. The interaction of Alfie is designed in a way in which the user can offer an alternative answer when the user disagrees with the given answer so that Alfie can learn from its interactions. Alfie's answers are based on a sentence embedding model that uses state-of-the-art language models, e.g. Universal Sentence Encoder and BERT. Alfie is implemented on a Furhat Robot, which provides a customizable user interface to design a social robot.",
+      "publishedDate": "2020-09-11T11:28:53Z",
+      "updatedDate": "2020-09-11T11:28:53Z",
+      "primaryCategory": "cs.HC",
+      "arxivCategories": [
+        "cs.HC"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2009.05349v1",
+      "arxivUrl": "https://arxiv.org/abs/2009.05349",
+      "comment": null,
+      "journalRef": null,
+      "doi": "10.1145/3382507.3421163",
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "code-generation",
+        "robotics"
+      ],
+      "tags": {
+        "auto": [
+          "code-generation",
+          "robotics"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2007.13928",
+      "title": "Variants of BERT, Random Forests and SVM approach for Multimodal Emotion-Target Sub-challenge",
+      "authors": [
+        {
+          "name": "Hoang Manh Hung",
+          "affiliation": null
+        },
+        {
+          "name": "Hyung-Jeong Yang",
+          "affiliation": null
+        },
+        {
+          "name": "Soo-Hyung Kim",
+          "affiliation": null
+        },
+        {
+          "name": "Guee-Sang Lee",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Emotion recognition has become a major problem in computer vision in recent years that made a lot of effort by researchers to overcome the difficulties in this task. In the field of affective computing, emotion recognition has a wide range of applications, such as healthcare, robotics, human-computer interaction. Due to its practical importance for other tasks, many techniques and approaches have been investigated for different problems and various data sources. Nevertheless, comprehensive fusion of the audio-visual and language modalities to get the benefits from them is still a problem to solve. In this paper, we present and discuss our classification methodology for MuSe-Topic Sub-challenge, as well as the data and results. For the topic classification, we ensemble two language models which are ALBERT and RoBERTa to predict 10 classes of topics. Moreover, for the classification of valence and arousal, SVM and Random forests are employed in conjunction with feature selection to enhance the performance.",
+      "publishedDate": "2020-07-28T01:15:50Z",
+      "updatedDate": "2020-07-28T01:15:50Z",
+      "primaryCategory": "cs.CV",
+      "arxivCategories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2007.13928v1",
+      "arxivUrl": "https://arxiv.org/abs/2007.13928",
+      "comment": "3 pages, 2 figures",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "robotics"
+      ],
+      "tags": {
+        "auto": [
+          "robotics"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2005.09382",
+      "title": "Human Instruction-Following with Deep Reinforcement Learning via Transfer-Learning from Text",
+      "authors": [
+        {
+          "name": "Felix Hill",
+          "affiliation": null
+        },
+        {
+          "name": "Sona Mokra",
+          "affiliation": null
+        },
+        {
+          "name": "Nathaniel Wong",
+          "affiliation": null
+        },
+        {
+          "name": "Tim Harley",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Recent work has described neural-network-based agents that are trained with reinforcement learning (RL) to execute language-like commands in simulated worlds, as a step towards an intelligent agent or robot that can be instructed by human users. However, the optimisation of multi-goal motor policies via deep RL from scratch requires many episodes of experience. Consequently, instruction-following with deep RL typically involves language generated from templates (by an environment simulator), which does not reflect the varied or ambiguous expressions of real users. Here, we propose a conceptually simple method for training instruction-following agents with deep RL that are robust to natural human instructions. By applying our method with a state-of-the-art pre-trained text-based language model (BERT), on tasks requiring agents to identify and position everyday objects relative to other objects in a naturalistic 3D simulated room, we demonstrate substantially-above-chance zero-shot transfer from synthetic template commands to natural instructions given by humans. Our approach is a general recipe for training any deep RL-based system to interface with human users, and bridges the gap between two research directions of notable recent success: agent-centric motor behavior and text-based representation learning.",
+      "publishedDate": "2020-05-19T12:16:58Z",
+      "updatedDate": "2020-05-19T12:16:58Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2005.09382v1",
+      "arxivUrl": "https://arxiv.org/abs/2005.09382",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "prompting",
+        "agents",
+        "robotics"
+      ],
+      "tags": {
+        "auto": [
+          "prompting",
+          "agents",
+          "robotics"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2005.07648",
+      "title": "Language Conditioned Imitation Learning over Unstructured Data",
+      "authors": [
+        {
+          "name": "Corey Lynch",
+          "affiliation": null
+        },
+        {
+          "name": "Pierre Sermanet",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Natural language is perhaps the most flexible and intuitive way for humans to communicate tasks to a robot. Prior work in imitation learning typically requires each task be specified with a task id or goal image -- something that is often impractical in open-world environments. On the other hand, previous approaches in instruction following allow agent behavior to be guided by language, but typically assume structure in the observations, actuators, or language that limit their applicability to complex settings like robotics. In this work, we present a method for incorporating free-form natural language conditioning into imitation learning. Our approach learns perception from pixels, natural language understanding, and multitask continuous control end-to-end as a single neural network. Unlike prior work in imitation learning, our method is able to incorporate unlabeled and unstructured demonstration data (i.e. no task or language labels). We show this dramatically improves language conditioned performance, while reducing the cost of language annotation to less than 1% of total data. At test time, a single language conditioned visuomotor policy trained with our method can perform a wide variety of robotic manipulation skills in a 3D environment, specified only with natural language descriptions of each task (e.g. \"open the drawer...now pick up the block...now press the green button...\"). To scale up the number of instructions an agent can follow, we propose combining text conditioned policies with large pretrained neural language models. We find this allows a policy to be robust to many out-of-distribution synonym instructions, without requiring new demonstrations. See videos of a human typing live text commands to our agent at language-play.github.io",
+      "publishedDate": "2020-05-15T17:08:50Z",
+      "updatedDate": "2021-07-07T23:43:24Z",
+      "primaryCategory": "cs.RO",
+      "arxivCategories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2005.07648v2",
+      "arxivUrl": "https://arxiv.org/abs/2005.07648",
+      "comment": "Published at RSS 2021",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "robotics",
+        "agents",
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "robotics",
+          "agents",
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2003.01163",
+      "title": "Understanding Contexts Inside Robot and Human Manipulation Tasks through a Vision-Language Model and Ontology System in a Video Stream",
+      "authors": [
+        {
+          "name": "Chen Jiang",
+          "affiliation": null
+        },
+        {
+          "name": "Masood Dehghan",
+          "affiliation": null
+        },
+        {
+          "name": "Martin Jagersand",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Manipulation tasks in daily life, such as pouring water, unfold intentionally under specialized manipulation contexts. Being able to process contextual knowledge in these Activities of Daily Living (ADLs) over time can help us understand manipulation intentions, which are essential for an intelligent robot to transition smoothly between various manipulation actions. In this paper, to model the intended concepts of manipulation, we present a vision dataset under a strictly constrained knowledge domain for both robot and human manipulations, where manipulation concepts and relations are stored by an ontology system in a taxonomic manner. Furthermore, we propose a scheme to generate a combination of visual attentions and an evolving knowledge graph filled with commonsense knowledge. Our scheme works with real-world camera streams and fuses an attention-based Vision-Language model with the ontology system. The experimental results demonstrate that the proposed scheme can successfully represent the evolution of an intended object manipulation procedure for both robots and humans. The proposed scheme allows the robot to mimic human-like intentional behaviors by watching real-time videos. We aim to develop this scheme further for real-world robot intelligence in Human-Robot Interaction.",
+      "publishedDate": "2020-03-02T19:48:59Z",
+      "updatedDate": "2020-03-02T19:48:59Z",
+      "primaryCategory": "cs.CV",
+      "arxivCategories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2003.01163v1",
+      "arxivUrl": "https://arxiv.org/abs/2003.01163",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "robotics"
+      ],
+      "tags": {
+        "auto": [
+          "robotics"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2001.01243",
+      "title": "Automatic Business Process Structure Discovery using Ordered Neurons LSTM: A Preliminary Study",
+      "authors": [
+        {
+          "name": "Xue Han",
+          "affiliation": null
+        },
+        {
+          "name": "Lianxue Hu",
+          "affiliation": null
+        },
+        {
+          "name": "Yabin Dang",
+          "affiliation": null
+        },
+        {
+          "name": "Shivali Agarwal",
+          "affiliation": null
+        },
+        {
+          "name": "Lijun Mei",
+          "affiliation": null
+        },
+        {
+          "name": "Shaochun Li",
+          "affiliation": null
+        },
+        {
+          "name": "Xin Zhou",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Automatic process discovery from textual process documentations is highly desirable to reduce time and cost of Business Process Management (BPM) implementation in organizations. However, existing automatic process discovery approaches mainly focus on identifying activities out of the documentations. Deriving the structural relationships between activities, which is important in the whole process discovery scope, is still a challenge. In fact, a business process has latent semantic hierarchical structure which defines different levels of detail to reflect the complex business logic. Recent findings in neural machine learning area show that the meaningful linguistic structure can be induced by joint language modeling and structure learning. Inspired by these findings, we propose to retrieve the latent hierarchical structure present in the textual business process documents by building a neural network that leverages a novel recurrent architecture, Ordered Neurons LSTM (ON-LSTM), with process-level language model objective. We tested the proposed approach on data set of Process Description Documents (PDD) from our practical Robotic Process Automation (RPA) projects. Preliminary experiments showed promising results.",
+      "publishedDate": "2020-01-05T14:19:11Z",
+      "updatedDate": "2020-01-05T14:19:11Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2001.01243v1",
+      "arxivUrl": "https://arxiv.org/abs/2001.01243",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-01T03:46:09.234Z",
+      "categories": [
+        "rag",
+        "robotics"
+      ],
+      "tags": {
+        "auto": [
+          "rag",
+          "robotics"
+        ],
+        "manual": []
+      }
+    }
+  ]
+}
