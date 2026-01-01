@@ -19,8 +19,8 @@ export function applySearchFilter(papers, filters) {
   } else if (viewMode === 'removed') {
     filtered = filtered.filter(p => blocklist.has(p.id));
   } else {
-    // Default 'all' mode - exclude blocklist
-    filtered = filtered.filter(p => !blocklist.has(p.id));
+    // Default 'all' mode - exclude both savedlist and blocklist
+    filtered = filtered.filter(p => !blocklist.has(p.id) && !savedlist.has(p.id));
   }
 
   // Apply category filters

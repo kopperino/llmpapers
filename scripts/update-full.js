@@ -213,7 +213,9 @@ if (endDateArg) {
 }
 
 // If running this script directly
-if (import.meta.url === `file://${process.argv[1]}`.replace(/\\/g, '/')) {
+const scriptPath = import.meta.url;
+const argPath = `file:///${process.argv[1].replace(/\\/g, '/')}`;
+if (scriptPath === argPath || scriptPath.endsWith('update-full.js')) {
   updateFull(options);
 }
 
