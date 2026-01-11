@@ -2478,18 +2478,18 @@
       ],
       "abstract": "As large language model (LLM) assistants become increasingly integrated into enterprise workflows, their ability to generate accurate, semantically aligned, and executable outputs is critical. However, current conversational business analytics (CBA) systems often lack built-in verification mechanisms, leaving users to manually validate potentially flawed results. This paper introduces two complementary verification techniques: Q*, which performs reverse translation and semantic matching between code and user intent, and Feedback+, which incorporates execution feedback to guide code refinement. Embedded within a generator-discriminator framework, these mechanisms shift validation responsibilities from users to the system. Evaluations on three benchmark datasets, Spider, Bird, and GSM8K, demonstrate that both Q* and Feedback+ reduce error rates and task completion time. The study also identifies reverse translation as a key bottleneck, highlighting opportunities for future improvement. Overall, this work contributes a design-oriented framework for building more reliable, enterprise-grade GenAI systems capable of trustworthy decision support.",
       "publishedDate": "2026-01-01T06:10:06Z",
-      "updatedDate": "2026-01-01T06:10:06Z",
+      "updatedDate": "2026-01-07T15:49:16Z",
       "primaryCategory": "cs.CL",
       "arxivCategories": [
         "cs.CL",
         "cs.SE"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.00224v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.00224v2",
       "arxivUrl": "https://arxiv.org/abs/2601.00224",
-      "comment": null,
+      "comment": "WITS 2025 (Workshop on Information Technologies and Systems 2025)",
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-05T03:50:02.658Z",
+      "fetchedAt": "2026-01-11T04:11:33.599Z",
       "categories": [
         "evaluation",
         "code-generation"
