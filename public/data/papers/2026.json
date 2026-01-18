@@ -1,6 +1,6 @@
 {
   "year": "2026",
-  "count": 1047,
+  "count": 1062,
   "papers": [
     {
       "id": "2601.00791",
@@ -1973,17 +1973,17 @@
       ],
       "abstract": "This perspective explores the evolution of materials informatics, from its foundational roots in physics and information theory to its maturation through artificial intelligence (AI). We trace the field's trajectory from early milestones to the transformative impact of the Materials Genome Initiative and the recent advent of large language models (LLMs). Rather than a mere toolkit, we present materials informatics as an evolving ecosystem, reviewing key methodologies such as Bayesian Optimization, Reinforcement Learning, and Transformers that drive inverse design and autonomous self-driving laboratories. We specifically address the practical challenges of LLM integration, comparing specialist versus generalist models and discussing solutions for uncertainty quantification. Looking forward, we assess the transition of AI from a predictive tool to a collaborative research partner. By leveraging active learning and retrieval-augmented generation (RAG), the field is moving toward a new era of autonomous materials science, increasingly characterized by \"human-out-of-the-loop\" discovery processes.",
       "publishedDate": "2026-01-02T16:53:19Z",
-      "updatedDate": "2026-01-02T16:53:19Z",
+      "updatedDate": "2026-01-09T15:24:00Z",
       "primaryCategory": "physics.comp-ph",
       "arxivCategories": [
         "physics.comp-ph"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.00742v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.00742v2",
       "arxivUrl": "https://arxiv.org/abs/2601.00742",
       "comment": "44 pages, 14 figures",
       "journalRef": null,
-      "doi": null,
-      "fetchedAt": "2026-01-05T03:50:02.658Z",
+      "doi": "10.1002/adma.202515941",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "rag",
         "agents"
@@ -3423,10 +3423,6 @@
           "affiliation": null
         },
         {
-          "name": "Xingjun Ma",
-          "affiliation": null
-        },
-        {
           "name": "Yingchun Wang",
           "affiliation": null
         },
@@ -3437,18 +3433,18 @@
       ],
       "abstract": "The rapid integration of Multimodal Large Language Models (MLLMs) into critical applications is increasingly hindered by persistent safety vulnerabilities. However, existing red-teaming benchmarks are often fragmented, limited to single-turn text interactions, and lack the scalability required for systematic evaluation. To address this, we introduce OpenRT, a unified, modular, and high-throughput red-teaming framework designed for comprehensive MLLM safety evaluation. At its core, OpenRT architects a paradigm shift in automated red-teaming by introducing an adversarial kernel that enables modular separation across five critical dimensions: model integration, dataset management, attack strategies, judging methods, and evaluation metrics. By standardizing attack interfaces, it decouples adversarial logic from a high-throughput asynchronous runtime, enabling systematic scaling across diverse models. Our framework integrates 37 diverse attack methodologies, spanning white-box gradients, multi-modal perturbations, and sophisticated multi-agent evolutionary strategies. Through an extensive empirical study on 20 advanced models (including GPT-5.2, Claude 4.5, and Gemini 3 Pro), we expose critical safety gaps: even frontier models fail to generalize across attack paradigms, with leading models exhibiting average Attack Success Rates as high as 49.14%. Notably, our findings reveal that reasoning models do not inherently possess superior robustness against complex, multi-turn jailbreaks. By open-sourcing OpenRT, we provide a sustainable, extensible, and continuously maintained infrastructure that accelerates the development and standardization of AI safety.",
       "publishedDate": "2026-01-04T16:41:33Z",
-      "updatedDate": "2026-01-04T16:41:33Z",
+      "updatedDate": "2026-01-10T16:23:49Z",
       "primaryCategory": "cs.CR",
       "arxivCategories": [
         "cs.CR",
         "cs.CV"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.01592v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.01592v2",
       "arxivUrl": "https://arxiv.org/abs/2601.01592",
       "comment": null,
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-06T03:24:26.988Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "evaluation",
         "agents",
@@ -8458,19 +8454,19 @@
       ],
       "abstract": "The INTERSPEECH 2025 Challenge on Multilingual Conversational Speech Language Models (MLC-SLM) promotes multilingual conversational ASR with large language models (LLMs). Our previous SHNU-mASR system adopted a competitive parallel-speech-encoder architecture that integrated Whisper and mHuBERT with an LLM. However, it faced two challenges: simple feature concatenation may not fully exploit complementary information, and the performance gap between LLM-based ASR and end-to-end(E2E) encoder-decoder ASR remained unexplored. In this work, we present an enhanced LLM-based ASR framework that combines fine-tuned Whisper and mHuBERT encoders with an LLM to enrich speech representations. We first evaluate E2E Whisper models with LoRA and full fine-tuning on the MLC-SLM ASR task, and then propose cross-attention-based fusion mechanisms for the parallel-speech-encoder. On the official evaluation set of the MLC-SLM Challenge, our system achieves a CER/WER of 10.69%, ranking on par with the top-ranked Track 1 systems, even though it uses only 1,500 hours of baseline training data compared with their large-scale training sets. Nonetheless, we find that our final LLM-based ASR still does not match the performance of a fine-tuned E2E Whisper model, providing valuable empirical guidance for future Speech-LLM design. Our code is publicly available at https://github.com/1535176727/MLC-SLM.",
       "publishedDate": "2026-01-04T10:08:53Z",
-      "updatedDate": "2026-01-04T10:08:53Z",
+      "updatedDate": "2026-01-15T08:38:42Z",
       "primaryCategory": "cs.CL",
       "arxivCategories": [
         "cs.CL",
         "cs.SD",
         "eess.AS"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.01461v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.01461v2",
       "arxivUrl": "https://arxiv.org/abs/2601.01461",
       "comment": "5 pages, 1 figure",
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-06T03:24:26.988Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "code-generation",
         "evaluation"
@@ -9116,6 +9112,14 @@
       "title": "DatBench: Discriminative, Faithful, and Efficient VLM Evaluations",
       "authors": [
         {
+          "name": "DatologyAI",
+          "affiliation": null
+        },
+        {
+          "name": ":",
+          "affiliation": null
+        },
+        {
           "name": "Siddharth Joshi",
           "affiliation": null
         },
@@ -9242,18 +9246,18 @@
       ],
       "abstract": "Empirical evaluation serves as the primary compass guiding research progress in foundation models. Despite a large body of work focused on training frontier vision-language models (VLMs), approaches to their evaluation remain nascent. To guide their maturation, we propose three desiderata that evaluations should satisfy: (1) faithfulness to the modality and application, (2) discriminability between models of varying quality, and (3) efficiency in compute. Through this lens, we identify critical failure modes that violate faithfulness and discriminability, misrepresenting model capabilities: (i) multiple-choice formats reward guessing, poorly reflect downstream use cases, and saturate early as models improve; (ii) blindly solvable questions, which can be answered without images, constitute up to 70% of some evaluations; and (iii) mislabeled or ambiguous samples compromise up to 42% of examples in certain datasets. Regarding efficiency, the computational burden of evaluating frontier models has become prohibitive: by some accounts, nearly 20% of development compute is devoted to evaluation alone. Rather than discarding existing benchmarks, we curate them via transformation and filtering to maximize fidelity and discriminability. We find that converting multiple-choice questions to generative tasks reveals sharp capability drops of up to 35%. In addition, filtering blindly solvable and mislabeled samples improves discriminative power while simultaneously reducing computational cost. We release DatBench-Full, a cleaned evaluation suite of 33 datasets spanning nine VLM capabilities, and DatBench, a discriminative subset that achieves 13x average speedup (up to 50x) while closely matching the discriminative power of the original datasets. Our work outlines a path toward evaluation practices that are both rigorous and sustainable as VLMs continue to scale.",
       "publishedDate": "2026-01-05T18:07:51Z",
-      "updatedDate": "2026-01-05T18:07:51Z",
+      "updatedDate": "2026-01-14T06:10:23Z",
       "primaryCategory": "cs.LG",
       "arxivCategories": [
         "cs.LG",
         "cs.AI"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.02316v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.02316v2",
       "arxivUrl": "https://arxiv.org/abs/2601.02316",
       "comment": null,
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-06T03:24:26.988Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "evaluation",
         "rag"
@@ -10818,18 +10822,18 @@
       ],
       "abstract": "We introduce LongDA, a data analysis benchmark for evaluating LLM-based agents under documentation-intensive analytical workflows. In contrast to existing benchmarks that assume well-specified schemas and inputs, LongDA targets real-world settings in which navigating long documentation and complex data is the primary bottleneck. To this end, we manually curate raw data files, long and heterogeneous documentation, and expert-written publications from 17 publicly available U.S. national surveys, from which we extract 505 analytical queries grounded in real analytical practice. Solving these queries requires agents to first retrieve and integrate key information from multiple unstructured documents, before performing multi-step computations and writing executable code, which remains challenging for existing data analysis agents. To support the systematic evaluation under this setting, we develop LongTA, a tool-augmented agent framework that enables document access, retrieval, and code execution, and evaluate a range of proprietary and open-source models. Our experiments reveal substantial performance gaps even among state-of-the-art models, highlighting the challenges researchers should consider before applying LLM agents for decision support in real-world, high-stakes analytical settings.",
       "publishedDate": "2026-01-05T23:23:16Z",
-      "updatedDate": "2026-01-05T23:23:16Z",
+      "updatedDate": "2026-01-11T22:21:22Z",
       "primaryCategory": "cs.DL",
       "arxivCategories": [
         "cs.DL",
         "cs.AI"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.02598v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.02598v2",
       "arxivUrl": "https://arxiv.org/abs/2601.02598",
       "comment": null,
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-07T03:24:26.131Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "evaluation",
         "agents",
@@ -11762,19 +11766,19 @@
       ],
       "abstract": "Large language models (LLMs) demonstrate strong capabilities across a wide range of complex tasks and are increasingly deployed at scale, placing significant demands on inference efficiency. Prior work typically decomposes inference into prefill and decode stages, with the decode stage dominating total latency. To reduce time and memory complexity in the decode stage, a line of work introduces sparse-attention algorithms. In this paper, we show, both empirically and theoretically, that sparse attention can paradoxically increase end-to-end complexity: information loss often induces significantly longer sequences, a phenomenon we term ``Less is Less'' (Lil). To mitigate the Lil problem, we propose an early-stopping algorithm that detects the threshold where information loss exceeds information gain during sparse decoding. Our early-stopping algorithm reduces token consumption by up to 90% with a marginal accuracy degradation of less than 2% across reasoning-intensive benchmarks.",
       "publishedDate": "2026-01-06T14:23:58Z",
-      "updatedDate": "2026-01-06T14:23:58Z",
+      "updatedDate": "2026-01-15T11:59:09Z",
       "primaryCategory": "cs.CL",
       "arxivCategories": [
         "cs.CL",
         "cs.AI",
         "cs.LG"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.03043v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.03043v2",
       "arxivUrl": "https://arxiv.org/abs/2601.03043",
       "comment": null,
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-07T03:24:26.131Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "code-generation",
         "reasoning",
@@ -12499,19 +12503,19 @@
           "affiliation": null
         }
       ],
-      "abstract": "Image Quality Assessment (IQA) is a long-standing problem in computer vision. Previous methods typically focus on predicting numerical scores without explanation or provide low-level descriptions lacking precise scores. Recent reasoning-based vision language models (VLMs) have shown strong potential for IQA, enabling joint generation of quality descriptions and scores. However, we notice that existing VLM-based IQA methods tend to exhibit unreliable reasoning due to their limited capability of integrating visual and textual cues. In this work, we introduce Zoom-IQA, a VLM-based IQA model to explicitly emulate key cognitive behaviors: uncertainty awareness, region reasoning, and iterative refinement. Specifically, we present a two-stage training pipeline: 1) supervised fine-tuning (SFT) on our Grounded-Rationale-IQA (GR-IQA) dataset to teach the model to ground its assessments in key regions; and 2) reinforcement learning (RL) for dynamic policy exploration, primarily stabilized by our KL-Coverage regularizer to prevent reasoning and scoring diversity collapse, and supported by a Progressive Re-sampling Strategy to mitigate annotation bias. Extensive experiments show that Zoom-IQA achieves improved robustness, explainability, and generalization. The application to downstream tasks, such as image restoration, further demonstrates the effectiveness of Zoom-IQA.",
+      "abstract": "Image Quality Assessment (IQA) is a long-standing problem in computer vision. Previous methods typically focus on predicting numerical scores without explanation or providing low-level descriptions lacking precise scores. Recent reasoning-based vision language models (VLMs) have shown strong potential for IQA by jointly generating quality descriptions and scores. However, existing VLM-based IQA methods often suffer from unreliable reasoning due to their limited capability of integrating visual and textual cues. In this work, we introduce Zoom-IQA, a VLM-based IQA model to explicitly emulate key cognitive behaviors: uncertainty awareness, region reasoning, and iterative refinement. Specifically, we present a two-stage training pipeline: 1) supervised fine-tuning (SFT) on our Grounded-Rationale-IQA (GR-IQA) dataset to teach the model to ground its assessments in key regions, and 2) reinforcement learning (RL) for dynamic policy exploration, stabilized by our KL-Coverage regularizer to prevent reasoning and scoring diversity collapse, with a Progressive Re-sampling Strategy for mitigating annotation bias. Extensive experiments show that Zoom-IQA achieves improved robustness, explainability, and generalization. The application to downstream tasks, such as image restoration, further demonstrates the effectiveness of Zoom-IQA.",
       "publishedDate": "2026-01-06T11:00:17Z",
-      "updatedDate": "2026-01-06T11:00:17Z",
+      "updatedDate": "2026-01-15T14:19:47Z",
       "primaryCategory": "cs.CV",
       "arxivCategories": [
         "cs.CV"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.02918v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.02918v2",
       "arxivUrl": "https://arxiv.org/abs/2601.02918",
       "comment": "Project Page: https://ethanliang99.github.io/ZOOMIQA-Projectpage",
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-07T03:24:26.131Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "reasoning",
         "rag",
@@ -12901,17 +12905,17 @@
       ],
       "abstract": "While Multimodal Large Language Models (MLLMs) have demonstrated remarkable proficiency in tasks such as abnormality detection and report generation for anatomical modalities, their capability in functional imaging remains largely unexplored. In this work, we identify and quantify a fundamental functional perception gap: the inability of current vision encoders to decode functional tracer biodistribution independent of morphological priors. Identifying Positron Emission Tomography (PET) as the quintessential modality to investigate this disconnect, we introduce PET-Bench, the first large-scale functional imaging benchmark comprising 52,308 hierarchical QA pairs from 9,732 multi-site, multi-tracer PET studies. Extensive evaluation of 19 state-of-the-art MLLMs reveals a critical safety hazard termed the Chain-of-Thought (CoT) hallucination trap. We observe that standard CoT prompting, widely considered to enhance reasoning, paradoxically decouples linguistic generation from visual evidence in PET, producing clinically fluent but factually ungrounded diagnoses. To resolve this, we propose Atomic Visual Alignment (AVA), a simple fine-tuning strategy that enforces the mastery of low-level functional perception prior to high-level diagnostic reasoning. Our results demonstrate that AVA effectively bridges the perception gap, transforming CoT from a source of hallucination into a robust inference tool and improving diagnostic accuracy by up to 14.83%. Code and data are available at https://github.com/yezanting/PET-Bench.",
       "publishedDate": "2026-01-06T05:58:50Z",
-      "updatedDate": "2026-01-06T05:58:50Z",
+      "updatedDate": "2026-01-15T06:08:23Z",
       "primaryCategory": "cs.CV",
       "arxivCategories": [
         "cs.CV"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.02737v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.02737v2",
       "arxivUrl": "https://arxiv.org/abs/2601.02737",
       "comment": "9 pages, 6 figures, 6 tables",
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-07T03:24:26.131Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "reasoning",
         "prompting",
@@ -13642,11 +13646,7 @@
       "title": "On the Effectiveness of Proposed Techniques to Reduce Energy Consumption in RAG Systems: A Controlled Experiment",
       "authors": [
         {
-          "name": "Zhinuan",
-          "affiliation": null
-        },
-        {
-          "name": "Guo",
+          "name": "Zhinuan Guo",
           "affiliation": null
         },
         {
@@ -13660,17 +13660,17 @@
       ],
       "abstract": "The rising energy demands of machine learning (ML), e.g., implemented in popular variants like retrieval-augmented generation (RAG) systems, have raised significant concerns about their environmental sustainability. While previous research has proposed green tactics for ML-enabled systems, their empirical evaluation within RAG systems remains largely unexplored. This study presents a controlled experiment investigating five practical techniques aimed at reducing energy consumption in RAG systems. Using a production-like RAG system developed at our collaboration partner, the Software Improvement Group, we evaluated the impact of these techniques on energy consumption, latency, and accuracy. Through a total of 9 configurations spanning over 200 hours of trials using the CRAG dataset, we reveal that techniques such as increasing similarity retrieval thresholds, reducing embedding sizes, applying vector indexing, and using a BM25S reranker can significantly reduce energy usage, up to 60% in some cases. However, several techniques also led to unacceptable accuracy decreases, e.g., by up to 30% for the indexing strategies. Notably, finding an optimal retrieval threshold and reducing embedding size substantially reduced energy consumption and latency with no loss in accuracy, making these two techniques truly energy-efficient. We present the first comprehensive, empirical study on energy-efficient design techniques for RAG systems, providing guidance for developers and researchers aiming to build sustainable RAG applications.",
       "publishedDate": "2026-01-05T19:50:49Z",
-      "updatedDate": "2026-01-05T19:50:49Z",
+      "updatedDate": "2026-01-11T14:57:22Z",
       "primaryCategory": "cs.SE",
       "arxivCategories": [
         "cs.SE"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.02522v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.02522v2",
       "arxivUrl": "https://arxiv.org/abs/2601.02522",
       "comment": "Accepted for publication at the 2026 International Conference on Software Engineering: Software Engineering in Society (ICSE-SEIS'26)",
       "journalRef": null,
       "doi": "10.1145/3786581.3786932",
-      "fetchedAt": "2026-01-07T03:24:26.131Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "rag",
         "multi-agent",
@@ -14435,7 +14435,7 @@
       ],
       "abstract": "Large Language Models (LLMs) have demonstrated exceptional code generation capabilities, yet their token-level mechanisms remain underexplored, particularly in compressed models. Through systematic analysis of programming language token representations, we characterize how programming languages are encoded in LLM tokenizers by analyzing their vocabulary distribution and keyword coverage patterns. We introduce a novel cold-start probability analysis method that provides insights into model behavior without requiring explicit prompts. Additionally, we present a comprehensive evaluation of how different model optimization techniques - including quantization, distillation, model scaling, and task-specific fine-tuning - affect token-level representations and code generation quality. Our experiments, supported by comprehensive probability distribution analysis and evaluation metrics, reveal critical insights into token-level behavior and provide empirically-validated guidelines for maintaining code generation quality under various optimization constraints. These findings advance both theoretical understanding of LLM code generation and practical implementation of optimized models in production environments.",
       "publishedDate": "2026-01-05T21:32:47Z",
-      "updatedDate": "2026-01-05T21:32:47Z",
+      "updatedDate": "2026-01-10T09:04:51Z",
       "primaryCategory": "cs.SE",
       "arxivCategories": [
         "cs.SE",
@@ -14443,12 +14443,12 @@
         "cs.LG",
         "cs.PL"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.02563v1",
+      "pdfUrl": "https://arxiv.org/pdf/2601.02563v2",
       "arxivUrl": "https://arxiv.org/abs/2601.02563",
       "comment": "18 pages, 1 figure and 6 tables",
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-07T03:24:26.131Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "code-generation",
         "evaluation",
@@ -26211,19 +26211,19 @@
       ],
       "abstract": "Retrieval-Augmented Generation (RAG) has emerged as an important means of enhancing the performance of large language models (LLMs) in knowledge-intensive tasks. However, most existing RAG strategies treat retrieved passages in a flat and unstructured way, which prevents the model from capturing structural cues and constrains its ability to synthesize knowledge from dispersed evidence across documents. To overcome these limitations, we propose Disco-RAG, a discourse-aware framework that explicitly injects discourse signals into the generation process. Our method constructs intra-chunk discourse trees to capture local hierarchies and builds inter-chunk rhetorical graphs to model cross-passage coherence. These structures are jointly integrated into a planning blueprint that conditions the generation. Experiments on question answering and long-document summarization benchmarks show the efficacy of our approach. Disco-RAG achieves state-of-the-art results on the benchmarks without fine-tuning. These findings underscore the important role of discourse structure in advancing RAG systems.",
       "publishedDate": "2026-01-07T20:32:50Z",
-      "updatedDate": "2026-01-10T18:27:54Z",
+      "updatedDate": "2026-01-15T09:06:14Z",
       "primaryCategory": "cs.CL",
       "arxivCategories": [
         "cs.CL",
         "cs.AI",
         "cs.LG"
       ],
-      "pdfUrl": "https://arxiv.org/pdf/2601.04377v2",
+      "pdfUrl": "https://arxiv.org/pdf/2601.04377v3",
       "arxivUrl": "https://arxiv.org/abs/2601.04377",
       "comment": null,
       "journalRef": null,
       "doi": null,
-      "fetchedAt": "2026-01-13T03:23:47.378Z",
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
       "categories": [
         "rag",
         "planning",
@@ -60717,6 +60717,687 @@
       "tags": {
         "auto": [
           "agents",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06112",
+      "title": "ReliabilityBench: Evaluating LLM Agent Reliability Under Production-Like Stress Conditions",
+      "authors": [
+        {
+          "name": "Aayush Gupta",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Existing benchmarks for tool-using LLM agents primarily report single-run success rates and miss reliability properties required in production. We introduce \\textbf{ReliabilityBench}, a benchmark for evaluating agent reliability across three dimensions: (i) consistency under repeated execution using $\\mathrm{pass}^k$, (ii) robustness to semantically equivalent task perturbations at intensity $ε$, and (iii) fault tolerance under controlled tool/API failures at intensity $λ$. ReliabilityBench contributes a unified reliability surface $R(k,ε,λ)$, \\textit{action metamorphic relations} that define correctness via end-state equivalence rather than text similarity, and a chaos-engineering-style fault injection framework (timeouts, rate limits, partial responses, schema drift). We evaluate two models (Gemini 2.0 Flash, GPT-4o) and two agent architectures (ReAct, Reflexion) across four domains (scheduling, travel, customer support, e-commerce) over 1,280 episodes. Perturbations alone reduce success from 96.9% at $ε=0$ to 88.1% at $ε=0.2$. Rate limiting is the most damaging fault in ablations. ReAct is more robust than Reflexion under combined stress, and Gemini 2.0 Flash achieves comparable reliability to GPT-4o at much lower cost. ReliabilityBench provides a systematic framework for assessing production readiness of LLM agents.",
+      "publishedDate": "2026-01-03T13:41:33Z",
+      "updatedDate": "2026-01-03T13:41:33Z",
+      "primaryCategory": "cs.AI",
+      "arxivCategories": [
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06112v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06112",
+      "comment": "18 pages, 5 figures, 8 tables. Evaluates ReAct vs Reflexion across four tool-using domains with perturbation (epsilon) and fault-injection (lambda) stress testing; 1,280 total episodes",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "agents",
+        "tool-use",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "agents",
+          "tool-use",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06098",
+      "title": "Automatic Question Generation for Intuitive Learning Utilizing Causal Graph Guided Chain of Thought Reasoning",
+      "authors": [
+        {
+          "name": "Nicholas X. Wang",
+          "affiliation": null
+        },
+        {
+          "name": "Neel V. Parpia",
+          "affiliation": null
+        },
+        {
+          "name": "Aaryan D. Parikh",
+          "affiliation": null
+        },
+        {
+          "name": "Aggelos K. Katsaggelos",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Intuitive learning is crucial for developing deep conceptual understanding, especially in STEM education, where students often struggle with abstract and interconnected concepts. Automatic question generation has become an effective strategy for personalized and adaptive learning. However, its effectiveness is hindered by hallucinations in large language models (LLMs), which may generate factually incorrect, ambiguous, or pedagogically inconsistent questions. To address this issue, we propose a novel framework that combines causal-graph-guided Chain-of-Thought (CoT) reasoning with a multi-agent LLM architecture. This approach ensures the generation of accurate, meaningful, and curriculum-aligned questions. Causal graphs provide an explicit representation of domain knowledge, while CoT reasoning facilitates a structured, step-by-step traversal of related concepts. Dedicated LLM agents are assigned specific tasks such as graph pathfinding, reasoning, validation, and output, all working within domain constraints. A dual validation mechanism-at both the conceptual and output stages-greatly reduces hallucinations. Experimental results demonstrate up to a 70% improvement in quality compared to reference methods and yielded highly favorable outcomes in subjective evaluations.",
+      "publishedDate": "2026-01-02T08:49:58Z",
+      "updatedDate": "2026-01-02T08:49:58Z",
+      "primaryCategory": "cs.AI",
+      "arxivCategories": [
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06098v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06098",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "reasoning",
+        "agents",
+        "multi-agent",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "reasoning",
+          "agents",
+          "multi-agent",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.08856",
+      "title": "LAUDE: LLM-Assisted Unit Test Generation and Debugging of Hardware DEsigns",
+      "authors": [
+        {
+          "name": "Deeksha Nandal",
+          "affiliation": null
+        },
+        {
+          "name": "Riccardo Revalor",
+          "affiliation": null
+        },
+        {
+          "name": "Soham Dan",
+          "affiliation": null
+        },
+        {
+          "name": "Debjit Pal",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Unit tests are critical in the hardware design lifecycle to ensure that component design modules are functionally correct and conform to the specification before they are integrated at the system level. Thus developing unit tests targeting various design features requires deep understanding of the design functionality and creativity. When one or more unit tests expose a design failure, the debugging engineer needs to diagnose, localize, and debug the failure to ensure design correctness, which is often a painstaking and intense process. In this work, we introduce LAUDE, a unified unit-test generation and debugging framework for hardware designs that cross-pollinates the semantic understanding of the design source code with the Chain-of-Thought (CoT) reasoning capabilities of foundational Large-Language Models (LLMs). LAUDE integrates prompt engineering and design execution information to enhance its unit test generation accuracy and code debuggability. We apply LAUDE with closed- and open-source LLMs to a large corpus of buggy hardware design codes derived from the VerilogEval dataset, where generated unit tests detected bugs in up to 100% and 93% of combinational and sequential designs and debugged up to 93% and 84% of combinational and sequential designs, respectively.",
+      "publishedDate": "2026-01-06T04:00:07Z",
+      "updatedDate": "2026-01-06T04:00:07Z",
+      "primaryCategory": "cs.SE",
+      "arxivCategories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.08856v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.08856",
+      "comment": "18 Pages, 21 Figures, Submitted to ARR Review",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "reasoning",
+        "prompting",
+        "code-generation"
+      ],
+      "tags": {
+        "auto": [
+          "reasoning",
+          "prompting",
+          "code-generation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06126",
+      "title": "NL2Dashboard: A Lightweight and Controllable Framework for Generating Dashboards with LLMs",
+      "authors": [
+        {
+          "name": "Boshen Shi",
+          "affiliation": null
+        },
+        {
+          "name": "Kexin Yang",
+          "affiliation": null
+        },
+        {
+          "name": "Yuanbo Yang",
+          "affiliation": null
+        },
+        {
+          "name": "Guanguang Chang",
+          "affiliation": null
+        },
+        {
+          "name": "Ce Chi",
+          "affiliation": null
+        },
+        {
+          "name": "Zhendong Wang",
+          "affiliation": null
+        },
+        {
+          "name": "Xing Wang",
+          "affiliation": null
+        },
+        {
+          "name": "Junlan Feng",
+          "affiliation": null
+        }
+      ],
+      "abstract": "While Large Language Models (LLMs) have demonstrated remarkable proficiency in generating standalone charts, synthesizing comprehensive dashboards remains a formidable challenge. Existing end-to-end paradigms, which typically treat dashboard generation as a direct code generation task (e.g., raw HTML), suffer from two fundamental limitations: representation redundancy due to massive tokens spent on visual rendering, and low controllability caused by the entanglement of analytical reasoning and presentation. To address these challenges, we propose NL2Dashboard, a lightweight framework grounded in the principle of Analysis-Presentation Decoupling. We introduce a structured intermediate representation (IR) that encapsulates the dashboard's content, layout, and visual elements. Therefore, it confines the LLM's role to data analysis and intent translation, while offloading visual synthesis to a deterministic rendering engine. Building upon this framework, we develop a multi-agent system in which the IR-driven algorithm is instantiated as a suite of tools. Comprehensive experiments conducted with this system demonstrate that NL2Dashboard significantly outperforms state-of-the-art baselines across diverse domains, achieving superior visual quality, significantly higher token efficiency, and precise controllability in both generation and modification tasks.",
+      "publishedDate": "2026-01-04T13:26:04Z",
+      "updatedDate": "2026-01-04T13:26:04Z",
+      "primaryCategory": "cs.AI",
+      "arxivCategories": [
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06126v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06126",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "code-generation",
+        "agents",
+        "reasoning",
+        "multi-agent"
+      ],
+      "tags": {
+        "auto": [
+          "code-generation",
+          "agents",
+          "reasoning",
+          "multi-agent"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06122",
+      "title": "COVR:Collaborative Optimization of VLMs and RL Agent for Visual-Based Control",
+      "authors": [
+        {
+          "name": "Canming Xia",
+          "affiliation": null
+        },
+        {
+          "name": "Peixi Peng",
+          "affiliation": null
+        },
+        {
+          "name": "Guang Tan",
+          "affiliation": null
+        },
+        {
+          "name": "Zhan Su",
+          "affiliation": null
+        },
+        {
+          "name": "Haoran Xu",
+          "affiliation": null
+        },
+        {
+          "name": "Zhenxian Liu",
+          "affiliation": null
+        },
+        {
+          "name": "Luntong Li",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Visual reinforcement learning (RL) suffers from poor sample efficiency due to high-dimensional observations in complex tasks. While existing works have shown that vision-language models (VLMs) can assist RL, they often focus on knowledge distillation from the VLM to RL, overlooking the potential of RL-generated interaction data to enhance the VLM. To address this, we propose COVR, a collaborative optimization framework that enables the mutual enhancement of the VLM and RL policies. Specifically, COVR fine-tunes the VLM with RL-generated data to enhance the semantic reasoning ability consistent with the target task, and uses the enhanced VLM to further guide policy learning via action priors. To improve fine-tuning efficiency, we introduce two key modules: (1) an Exploration-Driven Dynamic Filter module that preserves valuable exploration samples using adaptive thresholds based on the degree of exploration, and (2) a Return-Aware Adaptive Loss Weight module that improves the stability of training by quantifying the inconsistency of sampling actions via return signals of RL. We further design a progressive fine-tuning strategy to reduce resource consumption. Extensive experiments show that COVR achieves strong performance across various challenging visual control tasks.",
+      "publishedDate": "2026-01-04T03:53:05Z",
+      "updatedDate": "2026-01-04T03:53:05Z",
+      "primaryCategory": "cs.CV",
+      "arxivCategories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06122v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06122",
+      "comment": "The paper was accepted by the Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "agents",
+        "reasoning"
+      ],
+      "tags": {
+        "auto": [
+          "agents",
+          "reasoning"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06097",
+      "title": "Semantic Event Graphs for Long-Form Video Question Answering",
+      "authors": [
+        {
+          "name": "Aradhya Dixit",
+          "affiliation": null
+        },
+        {
+          "name": "Tianxi Liang",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Long-form video question answering remains challenging for modern vision-language models, which struggle to reason over hour-scale footage without exceeding practical token and compute budgets. Existing systems typically downsample frames or feed dense visual embeddings to large-context language models, trading off temporal coverage against cost. We propose Semantic Event Graphs (SEG), a lightweight symbolic interface between video and language that replaces raw frames with compact temporal interaction logs. Our pipeline detects and tracks objects with YOLOv11, converts proximity patterns into START/END human-object events, and organizes them into a Temporal Scene Graph (TSG). At inference time, a query-aware pruning module identifies anchor entities and lexically relevant events, returning only a small subgraph which is verbalized and passed to Gemini 2.5 Flash for answer generation. On five YouTube videos (300-500 interactions each) and 120 automatically generated long-horizon questions, SEG achieves 65.0% accuracy using only 3.47k tokens per query, closely matching a full-log baseline (62.5% at 40.39k tokens) while reducing token usage by 91.4%. A short-context baseline restricted to the last 30 seconds collapses to 2.5% accuracy, underscoring the need for explicit temporal memory. These results show that symbolic temporal graphs can serve as an effective, plug-and-play memory layer for off-the-shelf vision-language models, preserving long-range reasoning ability while making long-form video question answering substantially more token- and cost-efficient. Code, logs, and event-extraction tools will be released for reproducibility.",
+      "publishedDate": "2026-01-02T00:11:03Z",
+      "updatedDate": "2026-01-02T00:11:03Z",
+      "primaryCategory": "cs.CV",
+      "arxivCategories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06097v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06097",
+      "comment": "7 pages, 6 figures",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "reasoning",
+        "rag",
+        "code-generation"
+      ],
+      "tags": {
+        "auto": [
+          "reasoning",
+          "rag",
+          "code-generation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06141",
+      "title": "An LLM -Powered Assessment Retrieval-Augmented Generation (RAG) For Higher Education",
+      "authors": [
+        {
+          "name": "Reza Vatankhah Barenji",
+          "affiliation": null
+        },
+        {
+          "name": "Nazila Salimi",
+          "affiliation": null
+        },
+        {
+          "name": "Sina Khoshgoftar",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Providing timely, consistent, and high-quality feedback in large-scale higher education courses remains a persistent challenge, often constrained by instructor workload and resource limitations. This study presents an LLM-powered, agentic assessment system built on a Retrieval-Augmented Generation (RAG) architecture to address these challenges. The system integrates a large language model with a structured retrieval mechanism that accesses rubric criteria, exemplar essays, and instructor feedback to generate contextually grounded grades and formative comments. A mixed-methods evaluation was conducted using 701 student essays, combining quantitative analyses of inter-rater reliability, scoring alignment, and consistency with instructor assessments, alongside qualitative evaluation of feedback quality, pedagogical relevance, and student support. Results demonstrate that the RAG system can produce reliable, rubric-aligned feedback at scale, achieving 94--99% agreement with human evaluators, while also enhancing students' opportunities for self-regulated learning and engagement with assessment criteria. The discussion highlights both pedagogical limitations, including potential constraints on originality and feedback dialogue, and the transformative potential of RAG systems to augment instructors' capabilities, streamline assessment workflows, and support scalable, adaptive learning environments. This research contributes empirical evidence for the application of agentic AI in higher education, offering a scalable and pedagogically informed model for enhancing feedback accessibility, consistency, and quality.",
+      "publishedDate": "2026-01-05T15:13:00Z",
+      "updatedDate": "2026-01-05T15:13:00Z",
+      "primaryCategory": "cs.CY",
+      "arxivCategories": [
+        "cs.CY"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06141v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06141",
+      "comment": "19 Pages",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "rag",
+        "evaluation",
+        "agents"
+      ],
+      "tags": {
+        "auto": [
+          "rag",
+          "evaluation",
+          "agents"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06121",
+      "title": "Prompt Engineering for Responsible Generative AI Use in African Education: A Report from a Three-Day Training Series",
+      "authors": [
+        {
+          "name": "Benjamin Quarshie",
+          "affiliation": null
+        },
+        {
+          "name": "Vanessa Willemse",
+          "affiliation": null
+        },
+        {
+          "name": "Macharious Nabang",
+          "affiliation": null
+        },
+        {
+          "name": "Bismark Nyaaba Akanzire",
+          "affiliation": null
+        },
+        {
+          "name": "Patrick Kyeremeh",
+          "affiliation": null
+        },
+        {
+          "name": "Saeed Maigari",
+          "affiliation": null
+        },
+        {
+          "name": "Dorcas Adomina",
+          "affiliation": null
+        },
+        {
+          "name": "Ellen Kwarteng",
+          "affiliation": null
+        },
+        {
+          "name": "Eric Kojo Majialuwe",
+          "affiliation": null
+        },
+        {
+          "name": "Craig Gibbs",
+          "affiliation": null
+        },
+        {
+          "name": "Jerry Etornam Kudaya",
+          "affiliation": null
+        },
+        {
+          "name": "Sechaba Koma",
+          "affiliation": null
+        },
+        {
+          "name": "Matthew Nyaaba Matthew Nyaaba",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Generative artificial intelligence (GenAI) tools are increasingly adopted in education, yet many educators lack structured guidance on responsible and context sensitive prompt engineering, particularly in African and other resource constrained settings. This case report documents a three day online professional development programme organised by Generative AI for Education and Research in Africa (GenAI-ERA), designed to strengthen educators and researchers capacity to apply prompt engineering ethically for academic writing, teaching, and research. The programme engaged 468 participants across multiple African countries, including university educators, postgraduate students, and researchers. The training followed a scaffolded progression from foundational prompt design to applied and ethical strategies, including persona guided interactions. Data sources comprised registration surveys, webinar interaction records, facilitator observations, and session transcripts, analysed using descriptive statistics and computationally supported qualitative techniques. Findings indicate that participants increasingly conceptualised prompt engineering as a form of AI literacy requiring ethical awareness, contextual sensitivity, and pedagogical judgement rather than technical skill alone. The case highlights persistent challenges related to access, locally relevant training materials, and institutional support. The report recommends sustained professional development and the integration of prompt literacy into curricula to support responsible GenAI use in African education systems.",
+      "publishedDate": "2026-01-04T00:18:57Z",
+      "updatedDate": "2026-01-04T00:18:57Z",
+      "primaryCategory": "cs.CY",
+      "arxivCategories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06121v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06121",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.08219",
+      "title": "A Preliminary Agentic Framework for Matrix Deflation",
+      "authors": [
+        {
+          "name": "Paimon Goulart",
+          "affiliation": null
+        },
+        {
+          "name": "Evangelos E. Papalexakis",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Can a small team of agents peel a matrix apart, one rank-1 slice at a time? We propose an agentic approach to matrix deflation in which a solver Large Language Model (LLM) generates rank-1 Singular Value Decomposition (SVD) updates and a Vision Language Model (VLM) accepts or rejects each update and decides when to stop, eliminating fixed norm thresholds. Solver stability is improved through in-context learning (ICL) and types of row/column permutations that expose visually coherent structure. We evaluate on Digits ($8{\\times}8$), CIFAR-10 ($32{\\times}32$ grayscale), and synthetic ($16{\\times}16$) matrices with and without Gaussian noise. In the synthetic noisy case, where the true construction rank $k$ is known, numerical deflation provides the noise target and our best agentic configuration differs by only $1.75$ RMSE of the target. For Digits and CIFAR-10, targets are defined by deflating until the Frobenius norm reaches $10\\%$ of the original. Across all settings, our agent achieves competitive results, suggesting that fully agentic, threshold-free deflation is a viable alternative to classical numerical algorithms.",
+      "publishedDate": "2026-01-06T23:59:18Z",
+      "updatedDate": "2026-01-06T23:59:18Z",
+      "primaryCategory": "cs.LG",
+      "arxivCategories": [
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.08219v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.08219",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "agents",
+        "prompting"
+      ],
+      "tags": {
+        "auto": [
+          "agents",
+          "prompting"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06100",
+      "title": "Filtering Beats Fine Tuning: A Bayesian Kalman View of In Context Learning in LLMs",
+      "authors": [
+        {
+          "name": "Andrew Kiruluta",
+          "affiliation": null
+        }
+      ],
+      "abstract": "We present a theory-first framework that interprets inference-time adaptation in large language models (LLMs) as online Bayesian state estimation. Rather than modeling rapid adaptation as implicit optimization or meta-learning, we formulate task- and context-specific learning as the sequential inference of a low-dimensional latent adaptation state governed by a linearized state-space model. Under Gaussian assumptions, adaptation follows a Kalman recursion with closed-form updates for both the posterior mean and covariance. This perspective elevates epistemic uncertainty to an explicit dynamical variable. We show that inference-time learning is driven by covariance collapse, i.e., rapid contraction of posterior uncertainty induced by informative tokens, which typically precedes convergence of the posterior mean. Using observability conditions on token-level Jacobians, we establish stability of the Bayesian filter, prove exponential covariance contraction rates, and derive mean-square error bounds. Gradient descent, natural-gradient methods, and meta-learning updates arise as singular, noise-free limits of the filtering dynamics, positioning optimization-based adaptation as a degenerate approximation of Bayesian inference. The resulting theory provides a unified probabilistic account of in-context learning, parameter-efficient adaptation, and test-time learning without parameter updates. It yields explicit guarantees on stability and sample efficiency, offers a principled interpretation of prompt informativeness via information accumulation, and clarifies the role of uncertainty dynamics absent from existing accounts. Minimal illustrative experiments corroborate the qualitative predictions of the theory.",
+      "publishedDate": "2026-01-02T21:18:48Z",
+      "updatedDate": "2026-01-02T21:18:48Z",
+      "primaryCategory": "cs.LG",
+      "arxivCategories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.IT"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06100v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06100",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "prompting",
+        "tool-use"
+      ],
+      "tags": {
+        "auto": [
+          "prompting",
+          "tool-use"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.08857",
+      "title": "Revisiting Software Engineering Education in the Era of Large Language Models: A Curriculum Adaptation and Academic Integrity Framework",
+      "authors": [
+        {
+          "name": "Mustafa Degerli",
+          "affiliation": null
+        }
+      ],
+      "abstract": "The integration of Large Language Models (LLMs), such as ChatGPT and GitHub Copilot, into professional workflows is increasingly reshaping software engineering practices. These tools have lowered the cost of code generation, explanation, and testing, while introducing new forms of automation into routine development tasks. In contrast, most of the software engineering and computer engineering curricula remain closely aligned with pedagogical models that equate manual syntax production with technical competence. This growing misalignment raises concerns regarding assessment validity, learning outcomes, and the development of foundational skills. Adopting a conceptual research approach, this paper proposes a theoretical framework for analyzing how generative AI alters core software engineering competencies and introduces a pedagogical design model for LLM-integrated education. Attention is given to computer engineering programs in Turkey, where centralized regulation, large class sizes, and exam-oriented assessment practices amplify these challenges. The framework delineates how problem analysis, design, implementation, and testing increasingly shift from construction toward critique, validation, and human-AI stewardship. In addition, the paper argues that traditional plagiarism-centric integrity mechanisms are becoming insufficient, motivating a transition toward a process transparency model. While this work provides a structured proposal for curriculum adaptation, it remains a theoretical contribution; the paper concludes by outlining the need for longitudinal empirical studies to evaluate these interventions and their long-term impacts on learning.",
+      "publishedDate": "2026-01-06T22:41:47Z",
+      "updatedDate": "2026-01-06T22:41:47Z",
+      "primaryCategory": "cs.SE",
+      "arxivCategories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.08857v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.08857",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "code-generation",
+        "tool-use",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "code-generation",
+          "tool-use",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06142",
+      "title": "Is Sanskrit the most token-efficient language? A quantitative study using GPT, Gemini, and SentencePiece",
+      "authors": [
+        {
+          "name": "Anshul Kumar",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Tokens are the basic units of Large Language Models (LLMs). LLMs rely on tokenizers to segment text into these tokens, and tokenization is the primary determinant of computational and inference cost. Sanskrit, one of the oldest languages, is hypothesized to express more meaning per token due to its morphology and grammar rules; however, no prior work has quantified this. We use a dataset of 701 parallel verses of the Bhagavad Gita, which comprises three languages-Sanskrit, English, and Hindi along with transliteration of Sanskrit into English. We test tokenizers including SentencePiece (SPM), older GPT models, and the latest generation tokenizers from Gemini and GPT. We use metrics of token count, characters per token (token efficiency), and tokens per character (token cost). Results show a ~2x difference in token counts between Sanskrit and English/Hindi under the unbiased SPM baseline. English/Hindi translations of Sanskrit commentary resulted in an approximately 20x increase in token count. GPT o200k base (latest, used by GPT-4o) and Gemini (latest) reduce bias by a significant degree compared to GPT cl100k base (used until GPT-4), but still fail to fully capture Sanskrit's compactness. This matters because there might be a penalty bias for non-English users, which inflates the token count. This research provides a foundation for improving future tokenizer design and shows the potential of Sanskrit for highly compact encoding, saving on cost while speeding up training and inference. The code and dataset are available at https://github.com/anshulkr713/sanskrit-token-efficiency",
+      "publishedDate": "2026-01-05T15:23:50Z",
+      "updatedDate": "2026-01-05T15:23:50Z",
+      "primaryCategory": "cs.CL",
+      "arxivCategories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06142v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06142",
+      "comment": "9 pages, 4 figures. Code and dataset available at: https://github.com/anshulkr713/sanskrit-token-efficiency",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "code-generation",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "code-generation",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06113",
+      "title": "Towards Infinite Length Extrapolation: A Unified Approach",
+      "authors": [
+        {
+          "name": "Nitin Vetcha",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Large language models (LLMs) have revolutionized natural language processing, but their ability to process long sequences is fundamentally limited by the context window size during training. Existing length extrapolation methods often suffer from performance degradation or computational inefficiencies. We thereby use a unified framework that reinterprets positional encoding methods as a decomposition of the attention score into a multiplicative transformation and an additive bias. This perspective not only subsumes popular approaches such as relative position embeddings and attention-bias moderated approaches but also exposes their inherent limitations in handling long-range dependencies. To address these shortcomings, motivated by our framework, we introduce Adaptive Positional Encoding (APE), which leverages adaptive frequency modulation and an intricately designed decay bias that incorporates linear, logarithmic, and square-root terms. Our theoretical analysis establishes conditions for infinite-context extrapolation, ensuring that the softmax normalization remains well-defined over unbounded sequences while preserving long-distance correlations, entropy boundedness and gradient positional sensitivity. We substantiate our claims with an experimental case study on TinyStories dataset as well as a new synthetic dataset, \\emph{Long Tiny Stories} featuring stories up to 32,000 words. Relevant code, dataset and model weights are available at https://anonymous.4open.science/r/Check-2DAD/.",
+      "publishedDate": "2026-01-03T14:10:23Z",
+      "updatedDate": "2026-01-03T14:10:23Z",
+      "primaryCategory": "cs.AI",
+      "arxivCategories": [
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06113v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06113",
+      "comment": "14 pages, 7 figures",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "code-generation",
+        "rag"
+      ],
+      "tags": {
+        "auto": [
+          "code-generation",
+          "rag"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.06103",
+      "title": "The Impact of Post-training on Data Contamination",
+      "authors": [
+        {
+          "name": "Muhammed Yusuf Kocyigit",
+          "affiliation": null
+        },
+        {
+          "name": "Caglar Yildirim",
+          "affiliation": null
+        }
+      ],
+      "abstract": "We present a controlled study of how dataset contamination interacts with the post-training stages now standard in large language model training pipelines. Starting from clean checkpoints of Qwen2.5 (0.5B/1.5B) and Gemma3 (1B/4B), we inject five copies of GSM8K and MBPP test items into the first 2B tokens of an otherwise 25B token extended pre-training dataset. We then compare the contaminated and clean models both immediately after pre-training and again after two popular post-training methods: supervised fine-tuning (SFT) and reinforcement learning (RL) with group relative policy optimization (GRPO). The applied post-training steps do not have any contamination. Across math and coding benchmarks, we find three consistent patterns: (i) Contamination causes performance spikes that are gradually diminished with continued pre-training. After even 25B tokens the apparent performance inflation of contamination can become close to zero. (ii) Both SFT and GRPO resurface the leaked information, but with different external validity: SFT inflates scores only on the contaminated tasks, whereas GRPO also inflates performance on uncontaminated counterparts (GSMPlus, HumanEval). (iii) Model scale amplifies these tendencies, larger Supervised Fine Tuned models memorize more, while larger GRPO models translate leakage into more generalizable capabilities. Our results underscore the need for contamination audits \\emph{after} post-training and suggest that RL-based post-training, although not immune, can help alleviate contamination-related over-estimation problems.",
+      "publishedDate": "2026-01-03T00:21:39Z",
+      "updatedDate": "2026-01-03T00:21:39Z",
+      "primaryCategory": "cs.LG",
+      "arxivCategories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.06103v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.06103",
+      "comment": null,
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "code-generation",
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
+          "code-generation",
+          "evaluation"
+        ],
+        "manual": []
+      }
+    },
+    {
+      "id": "2601.08858",
+      "title": "Adaptive Trust Metrics for Multi-LLM Systems: Enhancing Reliability in Regulated Industries",
+      "authors": [
+        {
+          "name": "Tejaswini Bollikonda",
+          "affiliation": null
+        }
+      ],
+      "abstract": "Large Language Models (LLMs) are increasingly deployed in sensitive domains such as healthcare, finance, and law, yet their integration raises pressing concerns around trust, accountability, and reliability. This paper explores adaptive trust metrics for multi LLM ecosystems, proposing a framework for quantifying and improving model reliability under regulated constraints. By analyzing system behaviors, evaluating uncertainty across multiple LLMs, and implementing dynamic monitoring pipelines, the study demonstrates practical pathways for operational trustworthiness. Case studies from financial compliance and healthcare diagnostics illustrate the applicability of adaptive trust metrics in real world settings. The findings position adaptive trust measurement as a foundational enabler for safe and scalable AI adoption in regulated industries.",
+      "publishedDate": "2026-01-07T01:50:10Z",
+      "updatedDate": "2026-01-07T01:50:10Z",
+      "primaryCategory": "cs.SE",
+      "arxivCategories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "pdfUrl": "https://arxiv.org/pdf/2601.08858v1",
+      "arxivUrl": "https://arxiv.org/abs/2601.08858",
+      "comment": "8 pages, 8 figures",
+      "journalRef": null,
+      "doi": null,
+      "fetchedAt": "2026-01-18T04:08:00.465Z",
+      "categories": [
+        "evaluation"
+      ],
+      "tags": {
+        "auto": [
           "evaluation"
         ],
         "manual": []
